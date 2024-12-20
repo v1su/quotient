@@ -43,7 +43,7 @@ def create_quote_image(quote_text):
     gradient_end = (125, 185, 232)  # Light Blue
 
     # Font settings
-    font_path = "./assets/fonts/font.otf"  # Path to your provided font
+    font_path = "./assets/fonts/Roboto-Regular.ttf"  # Path to your provided font
     quote_font_size = 120  # Adjusted font size for quote
     signature_font_size = 100  # Same size for signature as well
 
