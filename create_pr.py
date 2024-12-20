@@ -103,8 +103,8 @@ def create_pull_request_with_reviewer():
         pr_url = pr_response["html_url"]
         print("Pull request created successfully:", pr_url)
 
-        # Output PR URL to GitHub Actions
-        print(f"::set-output name=pr_url::{pr_url}")  # This will pass the PR URL as an output in GitHub Actions
+        # Print PR URL for debugging or further use
+        print(f"PR URL: {pr_url}")
 
         # Assign a reviewer
         pr_number = pr_response["number"]
@@ -116,12 +116,8 @@ def create_pull_request_with_reviewer():
 
         if review_response.status_code == 201:
             print("Reviewer assigned successfully.")
-            # Output reviewer status to GitHub Actions
-            print(f"::set-output name=reviewer_status::Reviewer assigned successfully.")
         else:
             print("Failed to assign reviewer:", review_response.json())
-            # Output error to GitHub Actions
-            print(f"::set-output name=reviewer_status::Failed to assign reviewer.")
 
         # Assign the "New Content Level" label to the pull request
         label_payload = {"labels": ["new content"]}
@@ -133,16 +129,10 @@ def create_pull_request_with_reviewer():
 
         if label_response.status_code == 200:
             print('Label "New Content Level" added successfully.')
-            # Output label status to GitHub Actions
-            print(f"::set-output name=label_status::Label 'New Content Level' added successfully.")
         else:
             print('Failed to add label:', label_response.json())
-            # Output error to GitHub Actions
-            print(f"::set-output name=label_status::Failed to add label.")
     else:
         print("Failed to create pull request:", pr_response)
-        # Output failure to GitHub Actions
-        print(f"::set-output name=pr_creation_status::Failed to create pull request.")
 
 # Run the script
 if __name__ == "__main__":
