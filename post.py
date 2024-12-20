@@ -115,7 +115,7 @@ async def post_to_telegram():
             # Remove backticks from caption and replace with double quotes
             caption = f"`{quote_text}\n\n✍🏻 Join @QuotientOfLife for your daily dose of inspiration and wisdom!`"
       #      caption = caption.replace("`", "")  # Ensure backticks are replaced by double quotes in caption
-            await bot.send_photo(chat_id=CHAT_ID, photo=photo, caption=caption)
+            await bot.send_photo(chat_id=CHAT_ID, photo=photo, caption=caption, parse_mode="MarkdownV2")
         print("Quote posted successfully!")
     except Exception as e:
         print(f"Error posting quote to Telegram: {e}")
