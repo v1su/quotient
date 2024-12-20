@@ -34,7 +34,10 @@ jobs:
           cp assets/fonts/font.otf ~/.fonts/font.otf
           fc-cache -f -v  # Refresh the font cache
 
-      # Run the post.py script to generate the quote image and post it to Telegram
-      - name: Run post script to generate and send quote image
+      # Run the script and pass secrets as environment variables
+      - name: Run script to generate quote image
         run: |
           python post.py  # Make sure 'post.py' is the name of the script
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
