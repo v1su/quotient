@@ -44,16 +44,14 @@ def create_quote_image(quote_text):
 
     # Font settings
     font_path = "./assets/fonts/font.otf"  # Path to your provided font
-    quote_font_size = 100
-    signature_font_size = 60
+    quote_font_size = 100  # Adjusted font size for quote
+    signature_font_size = 100  # Same size for signature as well
 
     try:
         quote_font = ImageFont.truetype(font_path, quote_font_size)
     except IOError:
         print(f"Font file not found at {font_path}. Using default font.")
         quote_font = ImageFont.load_default()
-
-    signature_font = ImageFont.load_default()
 
     # Create a blank image with gradient background
     image = Image.new("RGB", (width, height))
@@ -92,13 +90,13 @@ def create_quote_image(quote_text):
         draw.text((x, y), line, fill=text_color, font=quote_font)
         y += line_height
 
-    # Add signature below the quote
+    # Add signature below the quote with the same font
     signature_text = "✍🏻 @QuotientOfLife"  # Signature remains as provided
-    bbox = draw.textbbox((0, 0), signature_text, font=signature_font)
+    bbox = draw.textbbox((0, 0), signature_text, font=quote_font)
     signature_width = bbox[2] - bbox[0]
     signature_x = (width - signature_width) // 2
     signature_y = y + 50
-    draw.text((signature_x, signature_y), signature_text, fill=text_color, font=signature_font)
+    draw.text((signature_x, signature_y), signature_text, fill=text_color, font=quote_font)
 
     return image
 
