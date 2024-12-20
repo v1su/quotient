@@ -39,23 +39,11 @@ jobs:
           python fetch_quotes.py
         env:
           SESSION_STRING: ${{ secrets.SESSION_STRING }}  # Pass session string from secrets
-        continue-on-error: true  # Prevents the job from failing if the script fails
-
-      - name: Check for errors in fetch step
-        run: |
-          if [ $? -ne 0 ]; then
-            echo "Error: Fetch quotes step failed" >> $GITHUB_ENV
-            curl -X POST \
-              "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage" \
-              -d chat_id="${{ secrets.OWNER_ID }}" \
-              -d text="Error: The fetch_quotes.py script failed. Please check the logs for details."
-          fi
 
       - name: Create Pull Request
         id: pr_creation
         run: |
           pr_response=$(python create_pr.py)
-        continue-on-error: true  # Prevents the job from failing if PR creation fails
 
       - name: Send Telegram notification for Pull Request creation
         run: |
@@ -67,7 +55,6 @@ jobs:
               -d chat_id="${{ secrets.OWNER_ID }}" \
               -d text="Error: Pull Request creation failed. Please check the logs for details."
           fi
-        continue-on-error: true  # Prevents the job from failing if notification fails
 
   review-and-merge:
     runs-on: ubuntu-latest
@@ -84,4 +71,3 @@ jobs:
             "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage" \
             -d chat_id="${{ secrets.OWNER_ID }}" \
             -d text="The pull request is ready for your review. Please check and merge manually."
-        continue-on-error: true  # Prevents the job from failing if notification fails
