@@ -3,6 +3,7 @@ import json
 from datetime import datetime
 from PIL import Image, ImageDraw, ImageFont
 from telegram import Bot
+import asyncio
 
 # Load environment variables for bot token and chat ID
 BOT_TOKEN = os.getenv("BOT_TOKEN")
@@ -36,11 +37,11 @@ def create_quote_image(quote_text):
     width, height = 1080, 1080
     background_color = "#1E1E2C"
     text_color = "#FFFFFF"
-    
+
     # Set the font path to the .otf file uploaded to the repo
-    font_path = "/assets/fonts/font.otf"  # Ensure this is the correct path
+    font_path = "./assets/fonts/font.otf"  # Ensure this is the correct path
     font_size = 60  # Set a larger font size
-    
+
     try:
         font = ImageFont.truetype(font_path, font_size)  # Use the custom .otf font
     except IOError:
@@ -88,11 +89,15 @@ quote_image.save(image_path)
 
 print(f"Quote image created: {image_path}")
 
-# Post to Telegram
-try:
-    bot = Bot(token=BOT_TOKEN)
-    with open(image_path, "rb") as photo:
-        bot.send_photo(chat_id=CHAT_ID, photo=photo, caption="Quote of the Day")
-    print("Quote posted successfully!")
-except Exception as e:
-    print(f"Error posting quote to Telegram: {e}")
+# Post to Telegram asynchronously
+async def post_to_telegram():
+    try:
+        bot = Bot(token=BOT_TOKEN)
+        with open(image_path, "rb") as photo:
+            await bot.send_photo(chat_id=CHAT_ID, photo=photo, caption="Quote of the Day")
+        print("Quote posted successfully!")
+    except Exception as e:
+        print(f"Error posting quote to Telegram: {e}")
+
+# Run the async function
+asyncio.run(post_to_telegram())
