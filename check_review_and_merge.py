@@ -3,7 +3,7 @@ import time
 import requests
 
 # Get the environment variables
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GH_TOKEN = os.getenv("GH_TOKEN")
 REPO_OWNER = os.getenv("REPO_OWNER")
 REPO_NAME = os.getenv("REPO_NAME")
 PR_NUMBER = os.getenv("PR_NUMBER")  # The PR number to check
@@ -11,7 +11,7 @@ REVIEWER = "ankit-chaubey"  # The GitHub username of the reviewer to look for
 
 # GitHub API headers
 headers = {
-    "Authorization": f"Bearer {GITHUB_TOKEN}",
+    "Authorization": f"Bearer {GH_TOKEN}",
     "Accept": "application/vnd.github.v3+json"
 }
 
