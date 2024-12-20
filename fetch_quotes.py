@@ -50,19 +50,21 @@ async def fetch_last_7_posts(client, channel_username):
         print(f"Error: {e}")
         return []
 
-# Function to get the dates for the next week, starting from Sunday
+# Function to get the dates for the next week, starting from the previous Sunday
 def get_next_week_dates():
     # Get the current date
     today = datetime.today()
+
     # Calculate how many days to subtract to get to the previous Sunday
     days_to_subtract = today.weekday() + 1  # Monday = 0, Sunday = 6
-    start_of_week = today - timedelta(days=days_to_subtract)
-    
+    start_of_previous_week = today - timedelta(days=days_to_subtract)
+
+    # Generate the next week's dates starting from the next Sunday after the previous Sunday
     next_week_dates = []
     for i in range(7):
-        next_day = start_of_week + timedelta(days=i)
+        next_day = start_of_previous_week + timedelta(days=(i + 7))  # Shift by 7 days for the next week
         next_week_dates.append(next_day.strftime("%Y-%m-%d"))
-    
+
     return next_week_dates
 
 # Function to update the quotes file with messages for the next week
@@ -70,7 +72,7 @@ async def update_quotes_file():
     # Fetch the last 7 posts from the Telegram channel
     messages = await fetch_last_7_posts(client, CHANNEL_USERNAME)
     
-    # Get the dates for the next week, starting from Sunday
+    # Get the dates for the next week, starting from the previous Sunday
     next_week_dates = get_next_week_dates()
 
     # Prepare the data to save
