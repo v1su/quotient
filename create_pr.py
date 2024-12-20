@@ -21,6 +21,29 @@ def get_week_dates():
 
     return start_of_week, today
 
+# Function to make a safe API request
+def make_request(url, method="GET", headers=None, data=None):
+    try:
+        if method == "GET":
+            response = requests.get(url, headers=headers)
+        elif method == "POST":
+            response = requests.post(url, headers=headers, json=data)
+        
+        # Check if the response was successful
+        response.raise_for_status()
+        
+        # Attempt to parse the response as JSON
+        try:
+            return response.json()
+        except ValueError:
+            print(f"Error: Invalid JSON response from {url}")
+            return None
+    except requests.exceptions.HTTPError as http_err:
+        print(f"HTTP error occurred: {http_err}")
+    except Exception as err:
+        print(f"Other error occurred: {err}")
+    return None
+
 # Function to create a pull request and assign a reviewer
 def create_pull_request_with_reviewer():
     headers = {
@@ -41,52 +64,82 @@ def create_pull_request_with_reviewer():
 
     # Create a new branch
     branch_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/git/refs"
-    main_ref = requests.get(f"{branch_url}/heads/main", headers=headers).json()
+    main_ref = make_request(f"{branch_url}/heads/main", headers=headers)
+
+    if not main_ref or "object" not in main_ref:
+        print("Error: Failed to get SHA of the main branch.")
+        return
+
     sha = main_ref["object"]["sha"]
 
     branch_payload = {"ref": f"refs/heads/{BRANCH_NAME}", "sha": sha}
-    requests.post(branch_url, headers=headers, json=branch_payload)
+    branch_response = make_request(branch_url, method="POST", headers=headers, data=branch_payload)
+    if not branch_response:
+        print("Error: Failed to create the new branch.")
+        return
 
     # Commit the changes
     with open(QUOTES_FILE, "r") as file:
         quotes_content = file.read()
 
-    blob_response = requests.post(
+    blob_response = make_request(
         f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/git/blobs",
+        method="POST",
         headers=headers,
-        json={"content": quotes_content, "encoding": "utf-8"}
-    ).json()
+        data={"content": quotes_content, "encoding": "utf-8"}
+    )
+    
+    if not blob_response:
+        print("Error: Failed to create a new blob.")
+        return
 
-    tree_response = requests.post(
+    tree_response = make_request(
         f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/git/trees",
+        method="POST",
         headers=headers,
-        json={
+        data={
             "base_tree": sha,
             "tree": [{"path": QUOTES_FILE, "mode": "100644", "type": "blob", "sha": blob_response["sha"]}]
         }
-    ).json()
+    )
 
-    commit_response = requests.post(
+    if not tree_response:
+        print("Error: Failed to create tree.")
+        return
+
+    commit_response = make_request(
         f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/git/commits",
+        method="POST",
         headers=headers,
-        json={
+        data={
             "message": f"Update quotes.json for {start_of_week_day_name} ({start_of_week_str}) to {current_day_name} ({current_day_str})",
             "tree": tree_response["sha"],
             "parents": [sha]
         }
-    ).json()
-
-    requests.patch(
-        f"{branch_url}/heads/{BRANCH_NAME}",
-        headers=headers,
-        json={"sha": commit_response["sha"]}
     )
 
-    # Create a pull request with the updated title and message
-    pr_response = requests.post(
-        f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/pulls",
+    if not commit_response:
+        print("Error: Failed to create commit.")
+        return
+
+    commit_sha = commit_response["sha"]
+    patch_response = make_request(
+        f"{branch_url}/heads/{BRANCH_NAME}",
+        method="PATCH",
         headers=headers,
-        json={
+        data={"sha": commit_sha}
+    )
+
+    if not patch_response:
+        print("Error: Failed to update the branch with the commit.")
+        return
+
+    # Create a pull request with the updated title and message
+    pr_response = make_request(
+        f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/pulls",
+        method="POST",
+        headers=headers,
+        data={
             "title": f"Update quotes.json for {start_of_week_day_name} ({start_of_week_str}) to {current_day_name} ({current_day_str})",
             "head": BRANCH_NAME,
             "base": "main",
@@ -97,36 +150,38 @@ def create_pull_request_with_reviewer():
                 f"Please review and update it."
             )
         }
-    ).json()
+    )
 
-    if "html_url" in pr_response:
+    if pr_response and "html_url" in pr_response:
         print("Pull request created successfully:", pr_response["html_url"])
 
         # Assign a reviewer
         pr_number = pr_response["number"]
-        review_response = requests.post(
+        review_response = make_request(
             f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/pulls/{pr_number}/requested_reviewers",
+            method="POST",
             headers=headers,
-            json={"reviewers": ["ankit-chaubey"]}  # Replace with actual GitHub username
+            data={"reviewers": ["ankit-chaubey"]}  # Replace with actual GitHub username
         )
 
-        if review_response.status_code == 201:
+        if review_response and review_response.get("status_code") == 201:
             print("Reviewer assigned successfully.")
         else:
-            print("Failed to assign reviewer:", review_response.json())
+            print("Failed to assign reviewer:", review_response)
 
         # Assign the "New Content Level" label to the pull request
-        label_payload = {"labels": ["New Content Level"]}
-        label_response = requests.post(
+        label_payload = {"labels": ["new content"]}
+        label_response = make_request(
             f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/issues/{pr_number}/labels",
+            method="POST",
             headers=headers,
-            json=label_payload
+            data=label_payload
         )
 
-        if label_response.status_code == 200:
+        if label_response and label_response.get("status_code") == 200:
             print('Label "New Content Level" added successfully.')
         else:
-            print('Failed to add label:', label_response.json())
+            print('Failed to add label:', label_response)
     else:
         print("Failed to create pull request:", pr_response)
 
