@@ -53,14 +53,10 @@ jobs:
           echo "PR URL: $pr_url"
           echo "PR Title: $pr_title"
 
-          # Set the output for use in subsequent steps
-          echo "pr_url=$pr_url" >> $GITHUB_ENV
-          echo "pr_title=$pr_title" >> $GITHUB_ENV
-
       - name: Send Telegram notification for Pull Request creation
         run: |
-          if [ -n "${{ env.pr_url }}" ] && [ -n "${{ env.pr_title }}" ]; then
-            python notify.py "${{ env.pr_title }}" "${{ env.pr_url }}"
+          if [ -n "$pr_url" ] && [ -n "$pr_title" ]; then
+            python notify.py "$pr_title" "$pr_url"
           else
             curl -X POST \
               "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage" \
