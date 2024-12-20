@@ -33,7 +33,7 @@ jobs:
 
       - name: Run the script to update quotes
         run: |
-          python update_quotes.py
+          python featch_quotes.py
         env:
           TELETHON_SESSION_STRING: ${{ secrets.TELETHON_SESSION_STRING }}  # Pass session string from secrets
 
