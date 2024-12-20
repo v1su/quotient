@@ -24,7 +24,7 @@ client = TelegramClient(StringSession(SESSION_STRING), api_id=API_ID, api_hash=A
 # Improved English placeholder quote
 PLACEHOLDER_QUOTE = "`I didn't find anything in my author's diary! I'm still waiting for his thoughts on this day.`"
 
-async def fetch_quotes_from_telegram():    
+async def fetch_quotes_from_telegram():
     try:
         # Start the client
         await client.start()
@@ -35,15 +35,20 @@ async def fetch_quotes_from_telegram():
         # Fetch messages (quotes) from the channel, adjust the limit as needed
         messages = await client.get_messages(channel, limit=50)  # You may need to fetch more messages
 
-        # Get today's date and calculate the start of the current week (Sunday)
+        # Get today's date and determine the start of the week (Sunday)
         today = datetime.today()
-        start_of_week = today - timedelta(days=today.weekday() + 1)  # Start of the current week (Sunday)
+
+        # Find the most recent Sunday (start of the week)
+        start_of_week = today - timedelta(days=today.weekday() + 1)  # Sunday of this week
+
+        # End of the week is today
+        end_of_week = today
 
         # Initialize an empty list for quotes
         quotes = []
 
-        # Loop through the current week (Sunday to Saturday)
-        for i in range(7):
+        # Loop through the days of the current week (Sunday to today)
+        for i in range((end_of_week - start_of_week).days + 1):
             target_date = start_of_week + timedelta(days=i)
             # Search for a message that corresponds to the target date
             found_quote = False
