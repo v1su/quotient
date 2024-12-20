@@ -4,6 +4,7 @@ from telethon import TelegramClient
 from telethon.sessions import StringSession
 from telethon.errors import ChannelInvalidError
 from datetime import datetime, timedelta
+import asyncio
 
 # Telegram configuration from environment variables
 API_ID = os.getenv('API_ID')  # API ID of your Telegram application
@@ -20,7 +21,6 @@ if not all([API_ID, API_HASH, SESSION_STRING, CHANNEL_USERNAME]):
 QUOTES_FILE = "quotes.json"
 
 client = TelegramClient(StringSession(SESSION_STRING), api_id=API_ID, api_hash=API_HASH)
-client.start()
 
 # Improved English placeholder quote
 PLACEHOLDER_QUOTE = "`I didn't find anything in my author's diary! I'm still waiting for his thoughts on this day.`"
@@ -28,16 +28,26 @@ PLACEHOLDER_QUOTE = "`I didn't find anything in my author's diary! I'm still wai
 # Function to fetch the last 7 posts from the channel
 async def fetch_last_7_posts(client, channel_username):
     try:
+        # Ensure the client is connected before fetching messages
+        if not client.is_connected():
+            await client.connect()
+        
         # Ensure the channel exists by getting its entity using the username
         entity = await client.get_entity(channel_username)
         messages = await client.get_messages(entity, limit=7)
+        
+        # Collect the messages
         quotes = []
         for msg in messages:
             if msg.text:
                 quotes.append({"quote": msg.text, "date": None})
+        
         return quotes[::-1]  # Reverse to maintain chronological order
     except ChannelInvalidError:
         print(f"Error: Channel with username {channel_username} is invalid or does not exist.")
+        return []
+    except Exception as e:
+        print(f"Error: {e}")
         return []
 
 # Function to get the dates for the next week, starting from Sunday
@@ -79,7 +89,7 @@ async def update_quotes_file():
 
     print(f"Updated quotes for the next week and saved to {QUOTES_FILE}")
 
-# Run the script
+# Run the script with proper event loop management
 if __name__ == "__main__":
-    import asyncio
-    asyncio.run(update_quotes_file())
+    loop = asyncio.get_event_loop()  # Get the existing event loop
+    loop.run_until_complete(update_quotes_file())  # Run the asynchronous function
