@@ -41,7 +41,7 @@ def create_quote_image(quote_text):
 
     # Font settings
     font_path = "./assets/fonts/font.otf"  # Ensure this is the correct path
-    quote_font_size = 180  # 3x the previous size
+    quote_font_size = 120  # 3x the previous size
     signature_font_size = 50
 
     try:
