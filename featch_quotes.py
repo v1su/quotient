@@ -1,12 +1,13 @@
 import os
 import json
 from telethon.sync import TelegramClient
+from telethon.sessions import StringSession
 from telethon.tl.types import PeerChannel
 
 # Telegram configuration from environment variables
 API_ID = os.getenv('API_ID')  # API ID of your Telegram application
 API_HASH = os.getenv('API_HASH')  # API Hash of your Telegram application
-SESSION_STRING = os.getenv('TELETHON_SESSION_STRING')  # Telethon session string
+SESSION_STRING = os.getenv('SESSION_STRING')  # Telethon session string
 CHANNEL_USERNAME = os.getenv('CHANNEL_USERNAME')  # Username of your Telegram channel
 
 # Define the output file for the quotes
@@ -15,7 +16,7 @@ QUOTES_FILE = "quotes.json"
 # Function to fetch quotes from Telegram channel
 def fetch_quotes_from_telegram():
     # Initialize the Telethon client
-    client = TelegramClient(session=SESSION_STRING, api_id=API_ID, api_hash=API_HASH)
+    client = TelegramClient(StringSession(SESSION_STRING), api_id=API_ID, api_hash=API_HASH)
     
     async def main():
         await client.start()
