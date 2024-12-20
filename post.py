@@ -1,7 +1,7 @@
-from PIL import Image, ImageDraw, ImageFont
 import os
 import json
 from datetime import datetime
+from PIL import Image, ImageDraw, ImageFont
 from telegram import Bot
 
 # Load environment variables for bot token and chat ID
@@ -37,12 +37,12 @@ def create_quote_image(quote_text):
     background_color = "#1E1E2C"
     text_color = "#FFFFFF"
     
-    # Path to the font file (change this path to where your font is saved)
-    font_path = "font.otf"  # Replace with actual path
-
-    # Load the font
+    # Set the font path to the .otf file uploaded to the repo
+    font_path = "assets/fonts/font.otf"  # Ensure this is the correct path
+    font_size = 60  # Set a larger font size
+    
     try:
-        font = ImageFont.truetype(font_path, 60)  # Use the custom font with the desired size
+        font = ImageFont.truetype(font_path, font_size)  # Use the custom .otf font
     except IOError:
         print(f"Font file not found at {font_path}. Using default font.")
         font = ImageFont.load_default()
