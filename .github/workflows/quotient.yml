@@ -46,10 +46,11 @@ jobs:
           pr_response=$(python create_pr.py)
           echo "PR Response: $pr_response"  # This will print the string response
 
-      - name: Send Pull Request created and review message to Telegram using curl
+      - name: Send Pull Request creation and review message to Telegram using curl
         run: |
-          echo "Sending Pull Request creation and review notification to Telegram"
           curl -X POST \
             "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage" \
             -d chat_id="${{ secrets.OWNER_ID }}" \
             -d text="A pull request has been successfully created and is awaiting your review. Please review and merge it."
+          
+          echo "Message sent successfully."
