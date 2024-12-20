@@ -33,21 +33,18 @@ async def fetch_quotes_from_telegram():
         channel = await client.get_entity(CHANNEL_USERNAME)
 
         # Fetch messages (quotes) from the channel, adjust the limit as needed
-        messages = await client.get_messages(channel, limit=7)  # Adjust the limit based on how many quotes you need
+        messages = await client.get_messages(channel, limit=7)  # You may need to fetch more messages
 
         # Get today's date and calculate the start of the current week (Sunday)
         today = datetime.today()
-        start_of_week = today - timedelta(days=today.weekday() + 1)  # Sunday of the current week
+        start_of_week = today - timedelta(days=today.weekday() + 1)  # Start of the current week (Sunday)
 
         # Initialize an empty list for quotes
         quotes = []
 
-        # Calculate the next Sunday starting from the start of the week
-        next_sunday = start_of_week + timedelta(days=7)
-
-        # Loop through the upcoming 7 days starting from next Sunday
+        # Loop through the current week (Sunday to Saturday)
         for i in range(7):
-            target_date = next_sunday + timedelta(days=i)
+            target_date = start_of_week + timedelta(days=i)
             # Search for a message that corresponds to the target date
             found_quote = False
             for message in messages:
@@ -58,7 +55,7 @@ async def fetch_quotes_from_telegram():
                     })
                     found_quote = True
                     break
-            
+
             # If no post was found for the day, add a placeholder quote with improved English
             if not found_quote:
                 quotes.append({
@@ -66,11 +63,17 @@ async def fetch_quotes_from_telegram():
                     "date": target_date.strftime("%Y-%m-%d")
                 })
 
+        # Adjust dates by adding 7 days to each date (shift to the next week)
+        for quote in quotes:
+            original_date = datetime.strptime(quote["date"], "%Y-%m-%d")
+            new_date = original_date + timedelta(days=7)
+            quote["date"] = new_date.strftime("%Y-%m-%d")
+
         # Save quotes to a JSON file
         with open(QUOTES_FILE, "w", encoding="utf-8") as f:
             json.dump(quotes, f, ensure_ascii=False, indent=4)
 
-        print(f"Fetched and saved {len(quotes)} quotes.")
+        print(f"Fetched and saved {len(quotes)} quotes for the next week.")
 
     except ChannelInvalidError:
         print(f"Error: Channel {CHANNEL_USERNAME} does not exist or is invalid.")
