@@ -35,29 +35,40 @@ if not quote_of_the_day:
 def create_quote_image(quote_text):
     # Image settings
     width, height = 1080, 1080
-    background_color = "#1E1E2C"
     text_color = "#FFFFFF"
+    gradient_start = (30, 87, 153)  # Blue
+    gradient_end = (125, 185, 232)  # Light Blue
 
-    # Set the font path to the .otf file uploaded to the repo
+    # Font settings
     font_path = "./assets/fonts/font.otf"  # Ensure this is the correct path
-    font_size = 60  # Set a larger font size
+    quote_font_size = 180  # 3x the previous size
+    signature_font_size = 50
 
     try:
-        font = ImageFont.truetype(font_path, font_size)  # Use the custom .otf font
+        quote_font = ImageFont.truetype(font_path, quote_font_size)
+        signature_font = ImageFont.truetype(font_path, signature_font_size)
     except IOError:
         print(f"Font file not found at {font_path}. Using default font.")
-        font = ImageFont.load_default()
+        quote_font = ImageFont.load_default()
+        signature_font = ImageFont.load_default()
 
-    # Create a blank image
-    image = Image.new("RGB", (width, height), color=background_color)
+    # Create a blank image with gradient background
+    image = Image.new("RGB", (width, height))
+    for y in range(height):
+        r = gradient_start[0] + (gradient_end[0] - gradient_start[0]) * y // height
+        g = gradient_start[1] + (gradient_end[1] - gradient_start[1]) * y // height
+        b = gradient_start[2] + (gradient_end[2] - gradient_start[2]) * y // height
+        for x in range(width):
+            image.putpixel((x, y), (r, g, b))
+
     draw = ImageDraw.Draw(image)
 
-    # Text wrapping
+    # Text wrapping for the quote
     lines = []
     words = quote_text.split(" ")
     line = ""
     for word in words:
-        bbox = draw.textbbox((0, 0), line + word, font=font)
+        bbox = draw.textbbox((0, 0), line + word, font=quote_font)
         if bbox[2] < width - 100:  # 50px padding on each side
             line += word + " "
         else:
@@ -65,20 +76,26 @@ def create_quote_image(quote_text):
             line = word + " "
     lines.append(line)
 
-    # Adjust the line height for bigger spacing
-    line_height = 70  # Adjust the line spacing (increase this value)
-
     # Calculate total text height
+    line_height = 200  # Adjusted for the larger font size
     text_height = len(lines) * line_height
 
     # Position text in the center
-    y = (height - text_height) // 2
+    y = (height - text_height) // 2 - 50
     for line in lines:
-        bbox = draw.textbbox((0, 0), line, font=font)
+        bbox = draw.textbbox((0, 0), line, font=quote_font)
         text_width = bbox[2] - bbox[0]
         x = (width - text_width) // 2
-        draw.text((x, y), line, fill=text_color, font=font)
-        y += line_height  # Add more space between lines
+        draw.text((x, y), line, fill=text_color, font=quote_font)
+        y += line_height
+
+    # Add signature below the quote
+    signature_text = "✍🏻 @QuotientOfLife"
+    bbox = draw.textbbox((0, 0), signature_text, font=signature_font)
+    signature_width = bbox[2] - bbox[0]
+    signature_x = (width - signature_width) // 2
+    signature_y = y + 50
+    draw.text((signature_x, signature_y), signature_text, fill=text_color, font=signature_font)
 
     return image
 
@@ -94,7 +111,8 @@ async def post_to_telegram():
     try:
         bot = Bot(token=BOT_TOKEN)
         with open(image_path, "rb") as photo:
-            await bot.send_photo(chat_id=CHAT_ID, photo=photo, caption="Quote of the Day")
+            caption = f"{quote_of_the_day['quote']}\n\n✍🏻 @QuotientOfLife"
+            await bot.send_photo(chat_id=CHAT_ID, photo=photo, caption=caption)
         print("Quote posted successfully!")
     except Exception as e:
         print(f"Error posting quote to Telegram: {e}")
