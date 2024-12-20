@@ -33,7 +33,7 @@ async def fetch_quotes_from_telegram():
         channel = await client.get_entity(CHANNEL_USERNAME)
 
         # Fetch messages (quotes) from the channel, adjust the limit as needed
-        messages = await client.get_messages(channel, limit=7)  # You may need to fetch more messages
+        messages = await client.get_messages(channel, limit=50)  # You may need to fetch more messages
 
         # Get today's date and calculate the start of the current week (Sunday)
         today = datetime.today()
@@ -48,6 +48,9 @@ async def fetch_quotes_from_telegram():
             # Search for a message that corresponds to the target date
             found_quote = False
             for message in messages:
+                # Debug print to check the message date
+                print(f"Checking message: {message.date} for target date: {target_date}")
+
                 if message.date.date() == target_date.date() and message.text:
                     quotes.append({
                         "quote": message.text,
