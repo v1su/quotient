@@ -38,7 +38,7 @@ def create_quote_image(quote_text):
     text_color = "#FFFFFF"
     
     # Set the font path to the .otf file uploaded to the repo
-    font_path = "assets/fonts/font.otf"  # Ensure this is the correct path
+    font_path = "font.otf"  # Ensure this is the correct path
     font_size = 60  # Set a larger font size
     
     try:
