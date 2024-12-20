@@ -32,7 +32,7 @@ if not quote_of_the_day:
     exit()
 
 # Process the quote and replace backticks with double quotes
-quote_text = quote_of_the_day["quote"].replace("`", '""').capitalize()
+quote_text = quote_of_the_day["quote"].replace("`", '"').capitalize()
 
 # Create an image for the quote
 def create_quote_image(quote_text):
@@ -91,7 +91,7 @@ def create_quote_image(quote_text):
         y += line_height
 
     # Add signature below the quote with the same font
-    signature_text = "By @QuotientOfLife"  # Signature remains as provided
+    signature_text = "@QuotientOfLife"  # Signature remains as provided
     bbox = draw.textbbox((0, 0), signature_text, font=quote_font)
     signature_width = bbox[2] - bbox[0]
     signature_x = (width - signature_width) // 2
@@ -114,7 +114,7 @@ async def post_to_telegram():
         with open(image_path, "rb") as photo:
             # Remove backticks from caption and replace with double quotes
             caption = f"{quote_text}\n\n✍🏻 Join @QuotientOfLife for your daily dose of inspiration and wisdom!"
-            caption = caption.replace("`", '""')  # Ensure backticks are replaced by double quotes in caption
+            caption = caption.replace("`", '"')  # Ensure backticks are replaced by double quotes in caption
             await bot.send_photo(chat_id=CHAT_ID, photo=photo, caption=caption)
         print("Quote posted successfully!")
     except Exception as e:
