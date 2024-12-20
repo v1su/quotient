@@ -13,7 +13,9 @@ def send_telegram_message(bot_token, chat_id, message):
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     data = {"chat_id": chat_id, "text": message}
     
+    # Send POST request to Telegram API
     response = requests.post(url, data=data)
+    
     if response.status_code == 200:
         print(f"Message sent: {message}")
     else:
@@ -25,4 +27,8 @@ if __name__ == "__main__":
     chat_id = sys.argv[2]    # Telegram Chat ID or Channel ID
     message = sys.argv[3]    # Message to send
     
-    send_telegram_message(bot_token, chat_id, message)
+    # Ensure the message is not empty before sending
+    if message.strip():
+        send_telegram_message(bot_token, chat_id, message)
+    else:
+        print("Error: No message to send.")
