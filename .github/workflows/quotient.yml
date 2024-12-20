@@ -15,7 +15,7 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       REPO_OWNER: ${{ secrets.REPO_OWNER }}
       REPO_NAME: ${{ secrets.REPO_NAME }}
-      TELETHON_SESSION_STRING: ${{ secrets.TELETHON_SESSION_STRING }}
+      SESSION_STRING: ${{ secrets.SESSION_STRING }}
     
     steps:
       - name: Checkout code
@@ -35,13 +35,13 @@ jobs:
         run: |
           python featch_quotes.py
         env:
-          TELETHON_SESSION_STRING: ${{ secrets.TELETHON_SESSION_STRING }}  # Pass session string from secrets
+          SESSION_STRING: ${{ secrets.SESSION_STRING }}  # Pass session string from secrets
 
       - name: Create Pull Request
         run: |
           python create_pr.py
         env:
-          TELETHON_SESSION_STRING: ${{ secrets.TELETHON_SESSION_STRING }}
+          SESSION_STRING: ${{ secrets.SESSION_STRING }}
 
   review-and-merge:
     runs-on: ubuntu-latest
