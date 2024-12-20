@@ -15,10 +15,16 @@ QUOTES_FILE = "quotes.json"
 
 # Function to fetch quotes from Telegram channel
 async def fetch_quotes_from_telegram():
-    # Initialize the Telethon client
+    # Initialize the Telethon client with StringSession
     client = TelegramClient(StringSession(SESSION_STRING), api_id=API_ID, api_hash=API_HASH)
 
-    await client.start()
+    # Connect the client without requiring user input
+    await client.connect()
+
+    # Ensure the client is connected
+    if not await client.is_connected():
+        print("Failed to connect to Telegram.")
+        return
 
     # Get the channel
     channel = await client.get_entity(PeerChannel(CHANNEL_USERNAME))
@@ -37,7 +43,7 @@ async def fetch_quotes_from_telegram():
 
     print(f"Fetched {len(quotes)} quotes from the channel.")
 
-    # Close the client connection
+    # Disconnect the client
     await client.disconnect()
 
 # Run the script
