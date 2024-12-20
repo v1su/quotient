@@ -46,38 +46,10 @@ jobs:
           pr_response=$(python create_pr.py)
           echo "PR Response: $pr_response"  # This will print the string response
 
-      - name: Debug PR Response
+      - name: Send Pull Request created and review message to Telegram using curl
         run: |
-          echo "Debug: PR Response is $pr_response"  # Debug the value of PR response
-
-      - name: Send PR response to Telegram using curl
-        run: |
-          if [ -n "$pr_response" ]; then
-            echo "Sending PR Response to Telegram: $pr_response"
-            curl -X POST \
-              "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage" \
-              -d chat_id="${{ secrets.OWNER_ID }}" \
-              -d text="$pr_response"
-          else
-            echo "Error: PR response is empty or null."
-            curl -X POST \
-              "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage" \
-              -d chat_id="${{ secrets.OWNER_ID }}" \
-              -d text="Error: Pull Request creation failed. Please check the logs for details."
-          fi
-
-  review-and-merge:
-    runs-on: ubuntu-latest
-    needs: update-quotes
-    steps:
-      - name: Notify for review
-        run: |
-          echo "Pull request created. Please review it manually."
-          echo "Once reviewed, you can merge it manually from the GitHub UI."
-      
-      - name: Send Telegram notification for review
-        run: |
+          echo "Sending Pull Request creation and review notification to Telegram"
           curl -X POST \
             "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage" \
             -d chat_id="${{ secrets.OWNER_ID }}" \
-            -d text="The pull request is ready for your review. Please check and merge manually."
+            -d text="A pull request has been successfully created and is awaiting your review. Please review and merge it."
