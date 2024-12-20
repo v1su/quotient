@@ -13,25 +13,17 @@ CHANNEL_USERNAME = os.getenv('CHANNEL_USERNAME')  # Username of your Telegram ch
 # Define the output file for the quotes
 QUOTES_FILE = "quotes.json"
 
+client = TelegramClient(StringSession(SESSION_STRING), api_id=API_ID, api_hash=API_HASH)
+client.start()
+
 # Function to fetch quotes from Telegram channel
-async def fetch_quotes_from_telegram():
-    # Initialize the Telethon client with StringSession
-    client = TelegramClient(StringSession(SESSION_STRING), api_id=API_ID, api_hash=API_HASH)
-
-    # Connect the client without requiring user input
-    await client.connect()
-
-    # Ensure the client is connected
-    if not client.is_connected():
-        print("Failed to connect to Telegram.")
-        return
-
+async def fetch_quotes_from_telegram():    
     try:
         # Get the channel using its username
         channel = await client.get_entity(CHANNEL_USERNAME)
 
         # Fetch messages (quotes) from the channel, adjust the limit as needed
-        messages = await client.get_messages(channel, limit=100)  # Adjust the limit based on how many quotes you need
+        messages = await client.get_messages(channel, limit=7)  # Adjust the limit based on how many quotes you need
 
         quotes = []
         for message in messages:
