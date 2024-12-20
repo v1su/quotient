@@ -22,7 +22,7 @@ async def fetch_quotes_from_telegram():
     await client.connect()
 
     # Ensure the client is connected
-    if not await client.is_connected():
+    if not client.is_connected():
         print("Failed to connect to Telegram.")
         return
 
