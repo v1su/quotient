@@ -1,6 +1,6 @@
 import os
 import json
-from telethon.sync import TelegramClient
+from telethon import TelegramClient
 from telethon.sessions import StringSession
 from telethon.tl.types import PeerChannel
 
@@ -14,32 +14,33 @@ CHANNEL_USERNAME = os.getenv('CHANNEL_USERNAME')  # Username of your Telegram ch
 QUOTES_FILE = "quotes.json"
 
 # Function to fetch quotes from Telegram channel
-def fetch_quotes_from_telegram():
+async def fetch_quotes_from_telegram():
     # Initialize the Telethon client
     client = TelegramClient(StringSession(SESSION_STRING), api_id=API_ID, api_hash=API_HASH)
-    
-    async def main():
-        await client.start()
 
-        # Get the channel
-        channel = await client.get_entity(PeerChannel(CHANNEL_USERNAME))
-        
-        # Fetch messages (quotes) from the channel, adjust the limit as needed
-        messages = await client.get_messages(channel, limit=100)  # Adjust the limit based on how many quotes you need
+    await client.start()
 
-        quotes = []
-        for message in messages:
+    # Get the channel
+    channel = await client.get_entity(PeerChannel(CHANNEL_USERNAME))
+
+    # Fetch messages (quotes) from the channel, adjust the limit as needed
+    messages = await client.get_messages(channel, limit=7)  # Adjust the limit based on how many quotes you need
+
+    quotes = []
+    for message in messages:
+        if message.text:
             quotes.append(message.text)
 
-        # Save quotes to a JSON file
-        with open(QUOTES_FILE, "w", encoding="utf-8") as f:
-            json.dump(quotes, f, ensure_ascii=False, indent=4)
+    # Save quotes to a JSON file
+    with open(QUOTES_FILE, "w", encoding="utf-8") as f:
+        json.dump(quotes, f, ensure_ascii=False, indent=4)
 
-        print(f"Fetched {len(quotes)} quotes from the channel.")
+    print(f"Fetched {len(quotes)} quotes from the channel.")
 
-    # Run the client to fetch quotes
-    client.loop.run_until_complete(main())
+    # Close the client connection
+    await client.disconnect()
 
 # Run the script
 if __name__ == "__main__":
-    fetch_quotes_from_telegram()
+    import asyncio
+    asyncio.run(fetch_quotes_from_telegram())
