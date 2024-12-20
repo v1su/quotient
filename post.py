@@ -31,8 +31,8 @@ if not quote_of_the_day:
     print(f"No quote scheduled for today ({today}).")
     exit()
 
-# Format the quote properly
-quote_text = quote_of_the_day["quote"].capitalize()
+# Process the quote
+quote_text = quote_of_the_day["quote"].replace("`", "").capitalize()
 
 # Create an image for the quote
 def create_quote_image(quote_text):
@@ -44,8 +44,8 @@ def create_quote_image(quote_text):
 
     # Font settings
     font_path = "./assets/fonts/font.otf"  # Path to your provided font
-    quote_font_size = 80
-    signature_font_size = 40
+    quote_font_size = 100
+    signature_font_size = 60
 
     try:
         quote_font = ImageFont.truetype(font_path, quote_font_size)
@@ -93,7 +93,7 @@ def create_quote_image(quote_text):
         y += line_height
 
     # Add signature below the quote
-    signature_text = "✍🏻 @QuotientOfLife"
+    signature_text = "✍🏻 @QuotientOfLife"  # Signature remains as provided
     bbox = draw.textbbox((0, 0), signature_text, font=signature_font)
     signature_width = bbox[2] - bbox[0]
     signature_x = (width - signature_width) // 2
@@ -114,7 +114,7 @@ async def post_to_telegram():
     try:
         bot = Bot(token=BOT_TOKEN)
         with open(image_path, "rb") as photo:
-            caption = f"{quote_of_the_day['quote']}\n\n✍🏻 @QuotientOfLife"
+            caption = f"{quote_text}\n\n✍🏻 @QuotientOfLife"
             await bot.send_photo(chat_id=CHAT_ID, photo=photo, caption=caption)
         print("Quote posted successfully!")
     except Exception as e:
