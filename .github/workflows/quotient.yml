@@ -36,10 +36,10 @@ jobs:
       - name: Run the script to update quotes
         id: update-quotes
         run: |
-          python featch_quotes.py
+          python fetch_quotes.py
         env:
           SESSION_STRING: ${{ secrets.SESSION_STRING }}  # Pass session string from secrets
-        continue-on-error: true # Prevents the job from failing if the script fails
+          continue-on-error: true # Prevents the job from failing if the script fails
 
       - name: Check for errors in fetch step
         run: |
@@ -55,9 +55,7 @@ jobs:
         id: pr_creation
         run: |
           pr_response=$(python create_pr.py)
-          echo "PR_CREATED_URL=$(echo $pr_response | jq -r '.html_url')" >> $GITHUB_ENV
-          echo "PR_TITLE=$(echo $pr_response | jq -r '.title')" >> $GITHUB_ENV
-        continue-on-error: true
+          continue-on-error: true
 
       - name: Send Telegram notification for Pull Request creation
         run: |
