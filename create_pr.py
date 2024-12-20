@@ -2,7 +2,7 @@ import os
 import requests
 
 # Get the environment variables
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GH_TOKEN = os.getenv("GH_TOKEN")
 REPO_OWNER = os.getenv("REPO_OWNER")
 REPO_NAME = os.getenv("REPO_NAME")
 QUOTES_FILE = "quotes.json"
@@ -11,7 +11,7 @@ BRANCH_NAME = "update-quotes"
 # Function to create a pull request and assign a reviewer
 def create_pull_request_with_reviewer():
     headers = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Authorization": f"Bearer {GH_TOKEN}",
         "Accept": "application/vnd.github.v3+json"
     }
 
