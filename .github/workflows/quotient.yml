@@ -46,17 +46,10 @@ jobs:
           pr_response=$(python create_pr.py)
           echo "PR Response: $pr_response"  # This will print the string response
 
-          # Extract the URL directly from the response string (no need for JSON parsing)
-          pr_url=$(echo "$pr_response" | grep -o 'https://github.com/[^ ]*' || echo "No URL found")
-          pr_title="Pull Request Title"  # You can extract the title if needed from the response string
-
-          echo "PR URL: $pr_url"
-          echo "PR Title: $pr_title"
-
       - name: Send Telegram notification for Pull Request creation
         run: |
-          if [ -n "$pr_url" ] && [ -n "$pr_title" ]; then
-            python notify.py "$pr_title" "$pr_url"
+          if [ -n "$pr_response" ]; then
+            python notify.py "$pr_response"  # Send the full response string
           else
             curl -X POST \
               "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage" \
