@@ -24,73 +24,61 @@ client = TelegramClient(StringSession(SESSION_STRING), api_id=API_ID, api_hash=A
 # Improved English placeholder quote
 PLACEHOLDER_QUOTE = "`I didn't find anything in my author's diary! I'm still waiting for his thoughts on this day.`"
 
-async def fetch_quotes_from_telegram():
+# Function to fetch the last 7 posts from the channel
+async def fetch_last_7_posts(client, channel_username):
     try:
-        # Start the client
-        await client.start()
-
-        # Get the channel using its username
-        channel = await client.get_entity(CHANNEL_USERNAME)
-
-        # Fetch messages (quotes) from the channel, adjust the limit as needed
-        messages = await client.get_messages(channel, limit=50)  # You may need to fetch more messages
-
-        # Get today's date and determine the start of the week (Sunday)
-        today = datetime.today()
-
-        # Find the most recent Sunday (start of the week)
-        start_of_week = today - timedelta(days=today.weekday() + 1)  # Sunday of this week
-
-        # End of the week is today
-        end_of_week = today
-
-        # Initialize an empty list for quotes
+        # Ensure the channel exists by getting its entity using the username
+        entity = await client.get_entity(channel_username)
+        messages = await client.get_messages(entity, limit=7)
         quotes = []
-
-        # Loop through the days of the current week (Sunday to today)
-        for i in range((end_of_week - start_of_week).days + 1):
-            target_date = start_of_week + timedelta(days=i)
-            # Search for a message that corresponds to the target date
-            found_quote = False
-            for message in messages:
-                # Debug print to check the message date
-                print(f"Checking message: {message.date} for target date: {target_date}")
-
-                if message.date.date() == target_date.date() and message.text:
-                    quotes.append({
-                        "quote": message.text,
-                        "date": target_date.strftime("%Y-%m-%d")
-                    })
-                    found_quote = True
-                    break
-
-            # If no post was found for the day, add a placeholder quote with improved English
-            if not found_quote:
-                quotes.append({
-                    "quote": PLACEHOLDER_QUOTE,
-                    "date": target_date.strftime("%Y-%m-%d")
-                })
-
-        # Adjust dates by adding 7 days to each date (shift to the next week)
-        for quote in quotes:
-            original_date = datetime.strptime(quote["date"], "%Y-%m-%d")
-            new_date = original_date + timedelta(days=7)
-            quote["date"] = new_date.strftime("%Y-%m-%d")
-
-        # Save quotes to a JSON file
-        with open(QUOTES_FILE, "w", encoding="utf-8") as f:
-            json.dump(quotes, f, ensure_ascii=False, indent=4)
-
-        print(f"Fetched and saved {len(quotes)} quotes for the next week.")
-
+        for msg in messages:
+            if msg.text:
+                quotes.append({"quote": msg.text, "date": None})
+        return quotes[::-1]  # Reverse to maintain chronological order
     except ChannelInvalidError:
-        print(f"Error: Channel {CHANNEL_USERNAME} does not exist or is invalid.")
+        print(f"Error: Channel with username {channel_username} is invalid or does not exist.")
+        return []
+
+# Function to get the dates for the next week, starting from Sunday
+def get_next_week_dates():
+    # Get the current date
+    today = datetime.today()
+    # Calculate how many days to subtract to get to the previous Sunday
+    days_to_subtract = today.weekday() + 1  # Monday = 0, Sunday = 6
+    start_of_week = today - timedelta(days=days_to_subtract)
     
-    finally:
-        # Disconnect the client
-        await client.disconnect()
+    next_week_dates = []
+    for i in range(7):
+        next_day = start_of_week + timedelta(days=i)
+        next_week_dates.append(next_day.strftime("%Y-%m-%d"))
+    
+    return next_week_dates
+
+# Function to update the quotes file with messages for the next week
+async def update_quotes_file():
+    # Fetch the last 7 posts from the Telegram channel
+    messages = await fetch_last_7_posts(client, CHANNEL_USERNAME)
+    
+    # Get the dates for the next week, starting from Sunday
+    next_week_dates = get_next_week_dates()
+
+    # Prepare the data to save
+    quotes_data = []
+    for idx, date in enumerate(next_week_dates):
+        quote = (
+            messages[idx]["quote"]
+            if idx < len(messages)
+            else PLACEHOLDER_QUOTE  # Use placeholder if there aren't enough messages
+        )
+        quotes_data.append({"quote": quote, "date": date})
+
+    # Save the quotes to a JSON file
+    with open(QUOTES_FILE, "w") as f:
+        json.dump(quotes_data, f, indent=4)
+
+    print(f"Updated quotes for the next week and saved to {QUOTES_FILE}")
 
 # Run the script
 if __name__ == "__main__":
     import asyncio
-    asyncio.run(fetch_quotes_from_telegram())
+    asyncio.run(update_quotes_file())
