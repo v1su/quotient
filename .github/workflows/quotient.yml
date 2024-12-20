@@ -31,15 +31,15 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install telethon requests
+          pip install telethon requests jq
 
       - name: Run the script to update quotes
         id: update-quotes
         run: |
-          python featch_quotes.py
+          python fetch_quotes.py
         env:
           SESSION_STRING: ${{ secrets.SESSION_STRING }}  # Pass session string from secrets
-        continue-on-error: true # Prevents the job from failing if the script fails
+        continue-on-error: true  # Prevents the job from failing if the script fails
 
       - name: Check for errors in fetch step
         run: |
@@ -52,11 +52,15 @@ jobs:
           fi
 
       - name: Create Pull Request
-        id: pr_creation
+        id: pr-creation
         run: |
           pr_response=$(python create_pr.py)
-          echo "PR_CREATED_URL=$(echo $pr_response | jq -r '.html_url')" >> $GITHUB_ENV
-          echo "PR_TITLE=$(echo $pr_response | jq -r '.title')" >> $GITHUB_ENV
+          PR_CREATED_URL=$(echo "$pr_response" | jq -r '.html_url')
+          PR_TITLE=$(echo "$pr_response" | jq -r '.title')
+          echo "PR_CREATED_URL=$PR_CREATED_URL" >> $GITHUB_ENV
+          echo "PR_TITLE=$PR_TITLE" >> $GITHUB_ENV
+          echo "Pull Request URL: $PR_CREATED_URL"
+          echo "Pull Request Title: $PR_TITLE"
         continue-on-error: true
 
       - name: Send Telegram notification for Pull Request creation
