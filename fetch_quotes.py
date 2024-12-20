@@ -20,6 +20,7 @@ if not all([API_ID, API_HASH, SESSION_STRING, CHANNEL_USERNAME]):
 QUOTES_FILE = "quotes.json"
 
 client = TelegramClient(StringSession(SESSION_STRING), api_id=API_ID, api_hash=API_HASH)
+client.start()
 
 # Improved English placeholder quote
 PLACEHOLDER_QUOTE = "`I didn't find anything in my author's diary! I'm still waiting for his thoughts on this day.`"
