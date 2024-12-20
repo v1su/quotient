@@ -10,15 +10,21 @@ API_HASH = os.getenv('API_HASH')  # API Hash of your Telegram application
 SESSION_STRING = os.getenv('SESSION_STRING')  # Telethon session string
 CHANNEL_USERNAME = os.getenv('CHANNEL_USERNAME')  # Username of your Telegram channel
 
+# Check if environment variables are loaded correctly
+if not all([API_ID, API_HASH, SESSION_STRING, CHANNEL_USERNAME]):
+    print("Error: Missing environment variables.")
+    exit()
+
 # Define the output file for the quotes
 QUOTES_FILE = "quotes.json"
 
 client = TelegramClient(StringSession(SESSION_STRING), api_id=API_ID, api_hash=API_HASH)
-client.start()
 
-# Function to fetch quotes from Telegram channel
 async def fetch_quotes_from_telegram():    
     try:
+        # Start the client
+        await client.start()
+
         # Get the channel using its username
         channel = await client.get_entity(CHANNEL_USERNAME)
 
