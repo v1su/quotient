@@ -31,7 +31,7 @@ if not quote_of_the_day:
     print(f"No quote scheduled for today ({today}).")
     exit()
 
-# Capitalize the quote text properly
+# Format the quote properly
 quote_text = quote_of_the_day["quote"].capitalize()
 
 # Create an image for the quote
@@ -43,17 +43,17 @@ def create_quote_image(quote_text):
     gradient_end = (125, 185, 232)  # Light Blue
 
     # Font settings
-    font_path = "./assets/fonts/font.otf"  # Ensure this is the correct path
-    quote_font_size = 90  # Increased font size
-    signature_font_size = 50
+    font_path = "./assets/fonts/font.otf"  # Path to your provided font
+    quote_font_size = 80
+    signature_font_size = 40
 
     try:
         quote_font = ImageFont.truetype(font_path, quote_font_size)
-        signature_font = ImageFont.truetype(font_path, signature_font_size)
     except IOError:
         print(f"Font file not found at {font_path}. Using default font.")
         quote_font = ImageFont.load_default()
-        signature_font = ImageFont.load_default()
+
+    signature_font = ImageFont.load_default()
 
     # Create a blank image with gradient background
     image = Image.new("RGB", (width, height))
@@ -80,7 +80,7 @@ def create_quote_image(quote_text):
     lines.append(line)
 
     # Calculate total text height
-    line_height = 200  # Adjusted for the larger font size
+    line_height = 100
     text_height = len(lines) * line_height
 
     # Position text in the center
@@ -114,7 +114,7 @@ async def post_to_telegram():
     try:
         bot = Bot(token=BOT_TOKEN)
         with open(image_path, "rb") as photo:
-            caption = f"{quote_text}\n\n✍🏻 @QuotientOfLife"
+            caption = f"{quote_of_the_day['quote']}\n\n✍🏻 @QuotientOfLife"
             await bot.send_photo(chat_id=CHAT_ID, photo=photo, caption=caption)
         print("Quote posted successfully!")
     except Exception as e:
