@@ -13,16 +13,11 @@ def send_telegram_message(bot_token, chat_id, message):
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     data = {"chat_id": chat_id, "text": message}
     
-    try:
-        response = requests.post(url, data=data)
-        response.raise_for_status()
-        if response.status_code == 200:
-            print(f"Message sent: {message}")
-        else:
-            print(f"Failed to send message. Status Code: {response.status_code}")
-    except requests.exceptions.RequestException as e:
-        print(f"Error sending message: {e}")
-        sys.exit(1)
+    response = requests.post(url, data=data)
+    if response.status_code == 200:
+        print(f"Message sent: {message}")
+    else:
+        print(f"Failed to send message. Status Code: {response.status_code}")
 
 if __name__ == "__main__":
     # Get parameters from the command line
