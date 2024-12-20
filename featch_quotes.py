@@ -21,7 +21,7 @@ async def fetch_quotes_from_telegram():
     # Connect the client without requiring user input
     await client.connect()
 
-    # Ensure the client is connected
+    # Ensure the client is connected (without using await)
     if not client.is_connected():
         print("Failed to connect to Telegram.")
         return
@@ -30,7 +30,7 @@ async def fetch_quotes_from_telegram():
     channel = await client.get_entity(PeerChannel(CHANNEL_USERNAME))
 
     # Fetch messages (quotes) from the channel, adjust the limit as needed
-    messages = await client.get_messages(channel, limit=7)  # Adjust the limit based on how many quotes you need
+    messages = await client.get_messages(channel, limit=100)  # Adjust the limit based on how many quotes you need
 
     quotes = []
     for message in messages:
