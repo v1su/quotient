@@ -97,11 +97,14 @@ async def update_quotes_file():
             # If it exists, overwrite the quote for this date
             existing_quote["quote"] = quote
         else:
-            # If it doesn't exist, append a new entry
+            # If it doesn't exist, add a new entry
             new_quotes.append({"quote": quote, "date": date})
 
-    # Append new quotes to existing data
+    # Append new quotes to the existing data
     quotes_data.extend(new_quotes)
+
+    # Sort quotes_data by date to maintain chronological order
+    quotes_data = sorted(quotes_data, key=lambda x: x['date'])
 
     # Save the updated data back to the JSON file
     with open(QUOTES_FILE, "w") as f:
