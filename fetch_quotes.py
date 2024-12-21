@@ -90,9 +90,17 @@ async def update_quotes_file():
             if idx < len(messages)
             else PLACEHOLDER_QUOTE  # Use placeholder if there aren't enough messages
         )
-        new_quotes.append({"quote": quote, "date": date})
+        
+        # Check if this date is already in the existing quotes
+        existing_quote = next((item for item in quotes_data if item["date"] == date), None)
+        if existing_quote:
+            # If it exists, overwrite the quote for this date
+            existing_quote["quote"] = quote
+        else:
+            # If it doesn't exist, append a new entry
+            new_quotes.append({"quote": quote, "date": date})
 
-    # Append new entries to existing data
+    # Append new quotes to existing data
     quotes_data.extend(new_quotes)
 
     # Save the updated data back to the JSON file
