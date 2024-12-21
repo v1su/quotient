@@ -1,38 +1,4658 @@
 [
     {
-        "quote": "`TRY TO FIND A HOBBY THAT KEEPS YOU IN SHAPE. IT PAYS OFF IN THE LONG RUN.`",
-        "date": "2024-12-20"
+        "quote": "`A QUIET LIFE IS NOT A BORING LIFE.`",
+        "date": "2021-10-11 00:09:46"
     },
     {
-        "quote": "`BEING PROVEN WRONG IS A GOOD THING. YOU'RE LEARNING SOMETHING NEW.`",
-        "date": "2024-12-21"
+        "quote": "`NOT EVERYTHING IN YOUR BRAIN NEEDS TO COME OUT OF YOUR MOUTH.`",
+        "date": "2021-10-12 00:00:05"
     },
     {
-        "quote": "`YOUR GOALS SHOULD SCARE YOU A LITTLE AND EXCITE YOU A LOT.`",
-        "date": "2024-12-22"
+        "quote": "`WORK HARD TODAY SO YOU CAN BE LAZY TOMORROW.`",
+        "date": "2021-10-13 00:00:01"
     },
     {
-        "quote": "`THEY WILL`` SAY YOU JUST GOT LUCKY, BUT I`` WOULD SAY IT'S CONSISTENCY.`",
-        "date": "2024-12-23"
+        "quote": "`FOR EVERY COMPLEX QUESTION, THERE IS A SOLUTION THAT IS CLEAR, SIMPLE, AND WRONG.`",
+        "date": "2021-10-14 00:00:02"
     },
     {
-        "quote": "`YOUR LAZINESS IS DISRESPECTFUL FOR THE PEOPLE WHO BELIEVE IN YOU.`",
-        "date": "2024-12-24"
+        "quote": "`NOBODY IS THINKING ABOUT YOUR EMBARRASSING MOMENTS, JUST THEIR OWN.`",
+        "date": "2021-10-15 00:00:08"
     },
     {
-        "quote": "`TEMPTATION TO GIVE UP IS GREATEST BEFORE YOU'RE ABOUT TO SUCCEED.`",
-        "date": "2024-12-25"
+        "quote": "`TAKE ADVANTAGE OF HEALTH INSURANCE WHEN YOU HAVE IT.`",
+        "date": "2021-10-16 00:00:08"
     },
     {
-        "quote": "`MAKING IT IS EASY, MAINTAINING IT IS HARD.`",
-        "date": "2024-12-26"
+        "quote": "`KIND WORDS DO NOT COST MUCH. YET THEY ACCOMPLISH MUCH.`",
+        "date": "2021-10-17 00:00:09"
     },
     {
-        "quote": "`DON\u2019T BURN YOUR OPPORTUNITIES FOR A TEMPORARY COMFORT.`",
-        "date": "2024-12-27"
+        "quote": "`PEOPLE DON\u2019T GROW JUST BECAUSE THEY GET OLDER.`",
+        "date": "2021-10-18 00:00:02"
+    },
+    {
+        "quote": "`DON\u2019T PLACE TOO MUCH VALUE ON PRODUCTIVITY. IF YOU ENJOY DOING IT, IT\u2019S PROBABLY WORTH YOUR TIME.`",
+        "date": "2021-10-19 00:00:07"
+    },
+    {
+        "quote": "`THE GREATEST GLORY IN LIVING LIES NOT IN NEVER FAILING, BUT IN RISING EVERY TIME WE FALL.`",
+        "date": "2021-10-20 00:00:07"
+    },
+    {
+        "quote": "\"`BEWARE OF LITTLE EXPENSES; A SMALL LEAK WILL SINK A GREAT SHIP.\" - BEN FRANKLIN`",
+        "date": "2021-10-21 00:00:09"
+    },
+    {
+        "quote": "`BE ASHAMED TO DIE UNTIL YOU HAVE WON SOME VICTORY FOR HUMANITY.`",
+        "date": "2021-10-22 00:00:11"
+    },
+    {
+        "quote": "`REAL LUXURY IS TIME AND OPPORTUNITY TO READ FOR PLEASURE.`",
+        "date": "2021-10-23 00:00:08"
+    },
+    {
+        "quote": "`IT\u2019S BETTER TO ASK AND BE REJECTED QUICKLY THAN TO SPEND THE REST OF YOUR LIFE WONDERING \"WHAT IF?`\"",
+        "date": "2021-10-24 00:00:05"
+    },
+    {
+        "quote": "`READ, OBSERVE, LISTEN INTENSELY. AS IF YOUR LIFE DEPENDED ON IT.`",
+        "date": "2021-10-25 00:00:07"
+    },
+    {
+        "quote": "`MAY YOUR CHOICES REFLECT YOUR HOPES, NOT YOUR FEARS.`",
+        "date": "2021-10-26 00:00:02"
+    },
+    {
+        "quote": "`YOUR CHARACTER IS REVEALED BY HOW YOU TREAT PEOPLE WHO CAN DO NOTHING FOR YOU.`",
+        "date": "2021-10-27 00:00:04"
+    },
+    {
+        "quote": "`BEING RUDE TO STRANGERS IS A COMMON WAY TO SCREAM UNHAPPINESS.`",
+        "date": "2021-10-28 00:00:10"
+    },
+    {
+        "quote": "`SMART PEOPLE LEARN FROM EVERYTHING AND EVERYONE, AVERAGE PEOPLE FROM THEIR EXPERIENCES. STUPID PEOPLE ALREADY HAVE ALL THE ANSWERS.`",
+        "date": "2021-10-29 00:00:07"
+    },
+    {
+        "quote": "`DON\u2019T WAIT UNTIL YOU ARE OLD TO REALIZE YOU LIVED THE LIFE OTHER PEOPLE WANTED YOU TO LIVE.`",
+        "date": "2021-10-30 00:00:09"
+    },
+    {
+        "quote": "`READ, OBSERVE, LISTEN INTENSELY. AS IF YOUR LIFE DEPENDED ON IT.`",
+        "date": "2021-10-31 00:00:09"
+    },
+    {
+        "quote": "`SURROUND YOURSELF WITH RELIABLE PEOPLE, BUT NEVER GROW OVERLY RELIANT ON ANYBODY.`",
+        "date": "2021-11-01 00:00:07"
+    },
+    {
+        "quote": "`DON\u2019T RUIN A RELATIONSHIP JUST BECAUSE YOU ARE HAVING A BAD DAY.`",
+        "date": "2021-11-02 00:00:09"
+    },
+    {
+        "quote": "`DEADLINES ARE FRIENDS. THEY HELP YOU GET SHIT DONE.`",
+        "date": "2021-11-03 00:00:07"
+    },
+    {
+        "quote": "`YOU DON\u2019T NEED INSPIRATION; YOU NEED DISCIPLINE.`",
+        "date": "2021-11-04 00:00:02"
+    },
+    {
+        "quote": "`MOST PEOPLE WILL CHOOSE UNHAPPINESS OVER UNCERTAINTY.`",
+        "date": "2021-11-05 00:00:18"
+    },
+    {
+        "quote": "`ACTION MAY NOT ALWAYS BRING HAPPINESS, BUT THERE IS NOT HAPPINESS WITHOUT ACTION.`",
+        "date": "2021-11-06 00:00:40"
+    },
+    {
+        "quote": "`JEALOUSY IS ALL THE FUN YOU THINK THEY HAD.`",
+        "date": "2021-11-07 00:02:07"
+    },
+    {
+        "quote": "`IF YOUR GUT IS TELLING YOU TO LEAVE, LEAVE.`",
+        "date": "2021-11-08 00:00:20"
+    },
+    {
+        "quote": "`NOBODY KNOWS WHAT THE FUCK THEY ARE DOING.`",
+        "date": "2021-11-09 00:00:24"
+    },
+    {
+        "quote": "`YOU CAN\u2019T ALWAYS BE THE BEST, BUT YOU CAN ALWAYS DO YOUR BEST.`",
+        "date": "2021-11-10 00:00:54"
+    },
+    {
+        "quote": "`NOT EVERYONE WHO SPEAKS IN A PLEASANT WAY TO YOU IS YOUR FRIEND.`",
+        "date": "2021-11-11 00:01:07"
+    },
+    {
+        "quote": "`EVERYONE IS FACING A BATTLE YOU KNOW NOTHING ABOUT.`",
+        "date": "2021-11-12 00:00:18"
+    },
+    {
+        "quote": "`PEOPLE TREATING YOU POORLY IS A REFLECTION OF THEM, NOT YOU.`",
+        "date": "2021-11-13 00:01:01"
+    },
+    {
+        "quote": "`YOU CAN EITHER APPEAR TO BE WEALTHY NOW OR ACTUALLY BE WEALTHY LATER.`",
+        "date": "2021-11-14 00:00:24"
+    },
+    {
+        "quote": "`HANG OUT WITH PEOPLE WHO PUSH YOU TO BECOME THE BEST VERSION OF YOURSELF.`",
+        "date": "2021-11-15 00:01:45"
+    },
+    {
+        "quote": "`WHAT YOU ALLOW WILL CONTINUE.`",
+        "date": "2021-11-16 00:00:15"
+    },
+    {
+        "quote": "`IT\u2019S OKAY TO BE BAD AT SOMETHING AND STILL ENJOY IT.`",
+        "date": "2021-11-17 00:00:49"
+    },
+    {
+        "quote": "`IN THE END, IT DOESN'T EVEN MATTER.`",
+        "date": "2021-11-18 00:01:17"
+    },
+    {
+        "quote": "`THE EASILY OUTRAGED ARE THE EASILY MANIPULATED. IF YOU CAN\u2019T CONTROL YOUR EMOTIONS, SOMEONE ELSE WILL.`",
+        "date": "2021-11-19 00:00:26"
+    },
+    {
+        "quote": "`WHEN SOMETHING IS IMPORTANT ENOUGH, YOU DO IT EVEN IF THE ODDS AREN\u2019T IN YOUR FAVOR.`",
+        "date": "2021-11-20 00:00:11"
+    },
+    {
+        "quote": "`IF YOU RESPONSE TO THE \"WHAT IF\", YOU'LL GET IN TROUBLE``.`",
+        "date": "2021-11-21 00:00:45"
+    },
+    {
+        "quote": "`JUST BECAUSE YOU ARE GOOD AT SOMETHING DOESN\u2019T MEAN IT HAS TO BE YOUR CAREER.`",
+        "date": "2021-11-22 00:01:17"
+    },
+    {
+        "quote": "`TO MAKE SOMETHING GOOD, JUST DO IT. TO MAKE SOMETHING GREAT, RE-DO IT, RE-DO IT, RE-DO IT.`",
+        "date": "2021-11-23 00:01:52"
+    },
+    {
+        "quote": "`YOU CAN DO ANYTHING, BUT NOT EVERYTHING.`",
+        "date": "2021-11-24 00:01:06"
+    },
+    {
+        "quote": "`DOING NEW THINGS OFTEN SLOWS DOWN YOUR PERCEPTION OF TIME, INCREASES HAPPINESS, AND MAKES LIFE INTERESTING.`",
+        "date": "2021-11-25 00:00:24"
+    },
+    {
+        "quote": "`WHEN WAS THE LAST TIME YOU DID SOMETHING FOR THE FIRST TIME?`",
+        "date": "2021-11-26 00:01:56"
+    },
+    {
+        "quote": "`THE MOST IMPORTANT STEP A MAN CAN TAKE IS THE NEXT ONE.`",
+        "date": "2021-11-27 00:00:18"
+    },
+    {
+        "quote": "`BE YOURSELF DOESN\u2019T MEAN STAY AS YOU ARE.`",
+        "date": "2021-11-28 00:01:24"
+    },
+    {
+        "quote": "`SUCCESSFUL PEOPLE HAVE A REALLY STRONG ACTION BIAS. THEY JUST DO THINGS.`",
+        "date": "2021-11-29 00:00:40"
+    },
+    {
+        "quote": "`FREE EDUCATION IS ABUNDANT ALL OVER THE INTERNET. IT\u2019S THE DESIRE TO LEARN THAT\u2019S SCARCE.`",
+        "date": "2021-11-30 00:01:36"
+    },
+    {
+        "quote": "`SOME LESSONS HAVE TO BE EXPERIENCED IN ORDER TO BE LEARNED.`",
+        "date": "2021-12-01 00:00:21"
+    },
+    {
+        "quote": "`LIFE IS TOUGH. IT\u2019S TOUGHER IF YOU\u2019RE STUPID.`",
+        "date": "2021-12-02 00:02:00"
+    },
+    {
+        "quote": "`ONLY PASSIONS, GREAT PASSIONS, CAN ELEVATE THE SOUL TO GREAT THINGS.`",
+        "date": "2021-12-03 00:00:33"
+    },
+    {
+        "quote": "`BE DECISIVE. THE ROAD OF LIFE IS PAVED WITH FLAT SQUIRRELS WHO COULDN\u2019T MAKE A DECISION.`",
+        "date": "2021-12-04 00:01:44"
+    },
+    {
+        "quote": "`DISTANCE YOURSELF FROM PEOPLE WHO MAKE YOU A WORSE PERSON OF YOURSELF.`",
+        "date": "2021-12-05 00:00:05"
+    },
+    {
+        "quote": "`JUST BECAUSE SOMEONE HAS A LOT OF FOLLOWERS, IT DOESN\u2019T MEAN THEY KNOW WHAT THEY ARE TALKING ABOUT.`",
+        "date": "2021-12-06 00:00:05"
+    },
+    {
+        "quote": "`WORRY IS INTEREST PAID ON TROUBLE BEFORE IT COMES DUE.`",
+        "date": "2021-12-07 00:00:05"
+    },
+    {
+        "quote": "`BEING ALONE DOESN\u2019T NECESSARILY MEAN BEING SAD.`",
+        "date": "2021-12-08 00:00:04"
+    },
+    {
+        "quote": "`YOU DON\u2019T HAVE TO SHOW UP TO EVERY ARGUMENT YOU\u2019RE INVITED TO.`",
+        "date": "2021-12-09 00:00:04"
+    },
+    {
+        "quote": "`THE GREATEST PLEASURE IS DOING THINGS PEOPLE SAID COULD NOT BE DONE.`",
+        "date": "2021-12-10 00:00:05"
+    },
+    {
+        "quote": "`YOU\u2019LL BE HAPPIER IF YOU STOP NEEDLESSLY JUDGING PEOPLE.`",
+        "date": "2021-12-11 00:00:04"
+    },
+    {
+        "quote": "`IF SOMEONE IS TRYING TO BRING YOU DOWN, IT ONLY MEANS YOU ARE ABOVE THEM.`",
+        "date": "2021-12-12 00:00:04"
+    },
+    {
+        "quote": "`IF YOU HAVE ALWAYS DONE IT THAT WAY, IT\u2019S PROBABLY WRONG.`",
+        "date": "2021-12-13 00:00:04"
+    },
+    {
+        "quote": "`LIFE IS TOO SHORT TO WORRY ABOUT STUPID SHIT.`",
+        "date": "2021-12-14 00:00:04"
+    },
+    {
+        "quote": "`THE MOST WORTHWHILE THING IS TO TRY TO PUT HAPPINESS INTO THE LIVES OF OTHERS.`",
+        "date": "2021-12-15 00:00:04"
+    },
+    {
+        "quote": "`WHEN ONE TEACHES, TWO LEARN.`",
+        "date": "2021-12-16 00:00:04"
+    },
+    {
+        "quote": "`IT\u2019S BETTER TO ASK A STUPID QUESTION THAN MAKE A STUPID MISTAKE.`",
+        "date": "2021-12-17 00:00:04"
+    },
+    {
+        "quote": "`DON\u2019T EVER TAKE DOWN A FENCE UNTIL YOU KNOW THE REASON WHY IT WAS PUT UP.`",
+        "date": "2021-12-18 00:00:04"
+    },
+    {
+        "quote": "`DON\u2019T BELIEVE EVERYTHING YOU THINK.`",
+        "date": "2021-12-19 00:00:04"
+    },
+    {
+        "quote": "`BELIEVE HALF OF WHAT YOU SEE AND NONE OF WHAT YOU HEAR.`",
+        "date": "2021-12-20 00:00:04"
+    },
+    {
+        "quote": "`NEVER BET AGAINST SOMEONE WHO LOVES WHAT THEY DO.`",
+        "date": "2021-12-21 00:00:04"
+    },
+    {
+        "quote": "`A LOT OF PEOPLE THINK THEY LACK INTELLIGENCE WHEN THEY ACTUALLY LACK COURAGE.`",
+        "date": "2021-12-22 00:00:04"
+    },
+    {
+        "quote": "`THINGS THAT NEVER HAPPENED BEFORE HAPPEN ALL THE TIME.`",
+        "date": "2021-12-23 00:00:04"
+    },
+    {
+        "quote": "`TODAY IS THE ONLY DAY. YESTERDAY IS GONE.`",
+        "date": "2021-12-24 00:00:04"
+    },
+    {
+        "quote": "`YOU DO NOT FIND A HAPPY LIFE. YOU MAKE IT.`",
+        "date": "2021-12-25 00:00:04"
+    },
+    {
+        "quote": "`DON\u2019T EXPLAIN YOUR PHILOSOPHY. EMBODY IT.`",
+        "date": "2021-12-26 00:00:05"
+    },
+    {
+        "quote": "`THE ONLY THING MORE DANGEROUS THAN IGNORANCE IS ARROGANCE.`",
+        "date": "2021-12-27 00:00:06"
+    },
+    {
+        "quote": "`SUCCESSFUL PEOPLE ARE SIMPLY THOSE WITH SUCCESSFUL HABITS.`",
+        "date": "2021-12-28 00:00:05"
+    },
+    {
+        "quote": "`IF IT COSTS YOU YOUR PEACE, IT\u2019S TOO EXPENSIVE.`",
+        "date": "2021-12-29 00:00:04"
+    },
+    {
+        "quote": "`SELF-KNOWLEDGE IS THE FIRST STEP TO MATURITY.`",
+        "date": "2021-12-30 00:00:05"
+    },
+    {
+        "quote": "`IT\u2019S ALWAYS POSSIBLE TO CONVEY YOUR POINT WITHOUT BEING RUDE.`",
+        "date": "2021-12-31 00:00:04"
+    },
+    {
+        "quote": "`BELIEVE THOSE WHO SEEK THE TRUTH. DOUBT THOSE WHO FIND IT.`",
+        "date": "2022-01-01 00:00:05"
+    },
+    {
+        "quote": "`YOUR LIFE IS YOUR MESSAGE TO THE WORLD. MAKE SURE IT\u2019S INSPIRING.`",
+        "date": "2022-01-02 00:00:06"
+    },
+    {
+        "quote": "`YOU CAN SAVE A LOT OF TIME BY LETTING PEOPLE \u201cWIN\u201d THE ARGUMENT.`",
+        "date": "2022-01-03 00:00:05"
+    },
+    {
+        "quote": "`CHANGE YOUR LIFE TODAY. DON\u2019T GAMBLE ON THE FUTURE. ACT NOW, WITHOUT DELAY.`",
+        "date": "2022-01-04 00:00:05"
+    },
+    {
+        "quote": "`THE ONLY REVENGE IS SELF IMPROVEMENT.`",
+        "date": "2022-01-05 00:00:05"
+    },
+    {
+        "quote": "`THERE IS A GREAT DEAL OF UNMAPPED COUNTRY IN US.`",
+        "date": "2022-01-06 00:00:05"
+    },
+    {
+        "quote": "`TOO MANY PEOPLE BELIEVE EVERYTHING MUST BE PLEASURABLE IN LIFE.`",
+        "date": "2022-01-07 00:00:05"
+    },
+    {
+        "quote": "`THIS PRESENT MOMENT USED TO BE THE UNIMAGINABLE FUTURE.`",
+        "date": "2022-01-08 00:00:05"
+    },
+    {
+        "quote": "`BE BRAVE. TAKE RISKS. NOTHING CAN SUBSTITUTE EXPERIENCE.`",
+        "date": "2022-01-09 00:00:05"
+    },
+    {
+        "quote": "`READ, TRAVEL, MEET PEOPLE, BUILD THINGS.`",
+        "date": "2022-01-10 00:00:05"
+    },
+    {
+        "quote": "`WHAT YOU DO TODAY CAN IMPROVE ALL OF YOUR TOMORROWS.`",
+        "date": "2022-01-11 00:00:05"
+    },
+    {
+        "quote": "`NO ONE IS COMING TO SAVE YOU. THIS LIFE IS 100% YOUR RESPONSIBILITY.`",
+        "date": "2022-01-14 00:00:05"
+    },
+    {
+        "quote": "`PUT YOUR HEART, MIND, AND SOUL INTO EVEN YOUR SMALLEST ACTS. THIS IS THE SECRET OF SUCCESS.`",
+        "date": "2022-01-15 00:00:06"
+    },
+    {
+        "quote": "`SPENDING MONEY TO SHOW PEOPLE YOU HAVE MONEY IS THE FASTEST WAY TO HAVE LESS MONEY.`",
+        "date": "2022-01-16 00:00:05"
+    },
+    {
+        "quote": "`TRUE FRIENDS SAY GOOD THINGS BEHIND YOUR BACK AND BAD THINGS TO YOUR FACE.`",
+        "date": "2022-01-17 00:00:06"
+    },
+    {
+        "quote": "`IF YOU DO NOT KNOW WHO YOU ARE, DON\u2019T ASK, ACT. ACTION WILL DELINEATE AND DEFINE YOU.`",
+        "date": "2022-01-18 00:00:05"
+    },
+    {
+        "quote": "`THE MOST WASTED DAY OF ALL IS THAT ON WHICH WE HAVE NOT LAUGHED.`",
+        "date": "2022-01-19 00:00:06"
+    },
+    {
+        "quote": "`CHANGE YOUR LIFE TODAY. DON\u2019T GAMBLE ON THE FUTURE. ACT NOW, WITHOUT DELAY.`",
+        "date": "2022-01-20 00:00:05"
+    },
+    {
+        "quote": "`CHILDREN ARE EDUCATED BY WHAT THE GROWN-UP IS AND NOT BY HIS TALK.`",
+        "date": "2022-01-21 00:00:06"
+    },
+    {
+        "quote": "`A MISTAKE REPEATED MORE THAN ONCE IS A DECISION.`",
+        "date": "2022-01-22 00:00:05"
+    },
+    {
+        "quote": "`TAKE CARE OF YOUR THOUGHTS WHEN YOU ARE ALONE. TAKE CARE OF YOUR WORDS WHEN YOU ARE WITH PEOPLE.`",
+        "date": "2022-01-23 00:00:06"
+    },
+    {
+        "quote": "`IT IS FAR BETTER TO BE ALONE THAN IN BAD COMPANY.`",
+        "date": "2022-01-24 00:00:04"
+    },
+    {
+        "quote": "`YOUR COMFORT ZONE WILL DESTROY YOUR DREAMS.`",
+        "date": "2022-01-25 00:00:05"
+    },
+    {
+        "quote": "`WHEN YOU ARE WRONG, ADMIT IT. WHEN YOU ARE RIGHT, BE QUIET.`",
+        "date": "2022-01-26 00:00:03"
+    },
+    {
+        "quote": "`IF YOU DON\u2019T STAY CURIOUS, YOU MISS LIFE-CHANGING OPPORTUNITIES.`",
+        "date": "2022-01-27 00:00:05"
+    },
+    {
+        "quote": "`A GREAT MAN IS HARD ON HIMSELF; A SMALL MAN IS HARD ON OTHERS.`",
+        "date": "2022-01-28 00:00:04"
+    },
+    {
+        "quote": "`WORRYING DOESN\u2019T CHANGE THE OUTCOME.`",
+        "date": "2022-01-29 00:00:05"
+    },
+    {
+        "quote": "`READING GOOD BOOKS, EXERCISING, AND FORGIVING ARE THE BEST FORMS OF SELF-CARE.`",
+        "date": "2022-01-30 00:00:04"
+    },
+    {
+        "quote": "`IF YOU THINK ABOUT IT EVERY DAY, TAKE THE RISK. NO WAITING.`",
+        "date": "2022-01-31 00:00:03"
+    },
+    {
+        "quote": "`THE LESS YOU CARE ABOUT LOOKING DUMB, THE MORE YOU\u2019LL LEARN.`",
+        "date": "2022-02-01 00:00:04"
+    },
+    {
+        "quote": "`WRITE SIMPLE, SPEAK CLEARLY, AND LISTEN ATTENTIVELY.`",
+        "date": "2022-02-02 00:00:04"
+    },
+    {
+        "quote": "`GO WHEREVER YOU FEEL MOST ALIVE.`",
+        "date": "2022-02-03 00:00:04"
+    },
+    {
+        "quote": "`ALWAYS BE A LITTLE KINDER THAN NECESSARY.`",
+        "date": "2022-02-04 00:00:04"
+    },
+    {
+        "quote": "`IF YOU ARE SCARED OF MAKING MISTAKES, YOU WILL NEVER GROW.`",
+        "date": "2022-02-05 00:00:04"
+    },
+    {
+        "quote": "`DON\u2019T GOSSIP. YOU GAIN NOTHING. YOU LOSE RESPECT.`",
+        "date": "2022-02-06 00:00:03"
+    },
+    {
+        "quote": "`YOUR CONSISTENCY DICTATES YOUR SUCCESS.`",
+        "date": "2022-02-07 00:00:05"
+    },
+    {
+        "quote": "`THE PEOPLE WHO CAREFULLY DESIGN THEIR DAILY ROUTINES GO FURTHER THAN THOSE WHO NEGOTIATE WITH THEMSELVES EVERY DAY.`",
+        "date": "2022-02-08 00:00:05"
+    },
+    {
+        "quote": "`BE THE PERSON WHO IS ALWAYS ENCOURAGING AND POSITIVE TOWARDS OTHERS.`",
+        "date": "2022-02-09 00:00:04"
+    },
+    {
+        "quote": "`YOU MAY DELAY, BUT TIME WILL NOT.`",
+        "date": "2022-02-10 00:00:05"
+    },
+    {
+        "quote": "`THE WORST WAY TO SPEND YOUR THIRTIES IS BY REGRETTING YOUR TWENTIES.`",
+        "date": "2022-02-11 00:00:03"
+    },
+    {
+        "quote": "`A DAY IS AN AMOUNT OF TIME NO MAN IS WEALTHY ENOUGH TO WASTE.`",
+        "date": "2022-02-12 00:00:03"
+    },
+    {
+        "quote": "`GETTING PHYSICALLY STRONGER MAKES YOU MENTALLY STRONGER.`",
+        "date": "2022-02-13 00:00:05"
+    },
+    {
+        "quote": "`THERE IS NO SUCH THING AS AN OVERNIGHT SUCCESS. NOT IN LIFE. NOT IN BUSINESS. NOT IN THE GYM.`",
+        "date": "2022-02-14 00:00:04"
+    },
+    {
+        "quote": "`IF YOU THINK ADVENTURE IS DANGEROUS, TRY ROUTINE. IT\u2019S LETHAL.`",
+        "date": "2022-02-15 00:00:05"
+    },
+    {
+        "quote": "`NO AMOUNT OF THINKING IS GOING TO FIX THE PROBLEM THAT IS SOLVED BY DOING.`",
+        "date": "2022-02-16 00:00:04"
+    },
+    {
+        "quote": "`BEING LAZY ENDS UP MAKING YOU MORE TIRED.`",
+        "date": "2022-02-17 00:00:05"
+    },
+    {
+        "quote": "`BE ALONE AND PROCESS YOUR THOUGHTS UNTIL YOU FEEL LIKE YOU AGAIN.`",
+        "date": "2022-02-18 00:00:05"
+    },
+    {
+        "quote": "`REMEMBER: UNCERTAINTY AND UNCOMFORTABLE SITUATIONS LEAD TO GROWTH.`",
+        "date": "2022-02-19 00:00:04"
+    },
+    {
+        "quote": "`A RICH MAN ISN\u2019T ALWAYS HAPPY BUT A HAPPY MAN IS ALWAYS RICH.`",
+        "date": "2022-02-20 00:00:05"
+    },
+    {
+        "quote": "`IT\u2019S ALWAYS TOO EARLY TO QUIT.`",
+        "date": "2022-02-21 00:00:05"
+    },
+    {
+        "quote": "`CURIOSITY WILL CONQUER FEAR EVEN MORE THAN BRAVERY.`",
+        "date": "2022-02-22 00:00:05"
+    },
+    {
+        "quote": "`REPETITION CREATES RESULTS. BE MINDFUL OF YOUR EFFORT.`",
+        "date": "2022-02-23 00:00:04"
+    },
+    {
+        "quote": "`BE A PROBLEM SOLVER, NOT A SOLUTION GIVER.`",
+        "date": "2022-02-24 00:00:05"
+    },
+    {
+        "quote": "`MAKE MISTAKES BY TAKING RISKS AND NOT BY STANDING STILL.`",
+        "date": "2022-02-25 00:00:04"
+    },
+    {
+        "quote": "`THE ONLY WAY TO DISCOVER THE LIMITS OF THE POSSIBLE IS TO GO BEYOND THEM INTO THE IMPOSSIBLE.`",
+        "date": "2022-02-26 00:00:03"
+    },
+    {
+        "quote": "`IT\u2019S OKAY TO ADMIT THAT YOU DON\u2019T KNOW OR DON\u2019T UNDERSTAND WHAT\u2019S GOING ON.`",
+        "date": "2022-02-27 00:00:05"
+    },
+    {
+        "quote": "`LOOKING GOOD IS COOL, BUT FEELING GOOD IS THE ULTIMATE FLEX.`",
+        "date": "2022-02-28 00:00:04"
+    },
+    {
+        "quote": "`KEEP IT PRIVATE, PEOPLE LOVE TO RUIN THINGS.`",
+        "date": "2022-03-01 00:00:06"
+    },
+    {
+        "quote": "`IT COSTS A FORTUNE TO STAY UNEDUCATED.`",
+        "date": "2022-03-02 00:00:04"
+    },
+    {
+        "quote": "`EGO IS THE ENEMY OF CREATIVITY AND GROWTH.`",
+        "date": "2022-03-03 00:00:05"
+    },
+    {
+        "quote": "`PUSH YOURSELF TO BE BETTER EVERY DAY.`",
+        "date": "2022-03-04 00:00:04"
+    },
+    {
+        "quote": "`START ALONE. MEET PEOPLE YOU VIBE WITH. START AN EMPIRE TOGETHER.`",
+        "date": "2022-03-05 00:00:05"
+    },
+    {
+        "quote": "`THE SAFE WAY TO DOUBLE YOUR MONEY IS TO FOLD IT OVER ONCE AND PUT IT IN YOUR POCKET.`",
+        "date": "2022-03-06 00:00:04"
+    },
+    {
+        "quote": "`SHORT-TERM PLEASURE IS THE FASTEST TRACK TO FAILURE.`",
+        "date": "2022-03-07 00:00:06"
+    },
+    {
+        "quote": "`MAKE FRIENDS WHO FORCE YOU TO LEVEL UP.`",
+        "date": "2022-03-08 00:00:05"
+    },
+    {
+        "quote": "`IF SOMETHING IS IMPORTANT IN YOUR LIFE, YOU SHOULD ACT LIKE IT\u2019S IMPORTANT.`",
+        "date": "2022-03-09 00:00:05"
+    },
+    {
+        "quote": "`WHAT PEOPLE SAY IS OFTEN A REFLECTION OF THEMSELVES, NOT YOU.`",
+        "date": "2022-03-10 00:00:04"
+    },
+    {
+        "quote": "`THE ART OF WRITING IS THE ART OF DISCOVERING WHAT YOU BELIEVE.`",
+        "date": "2022-03-11 00:00:05"
+    },
+    {
+        "quote": "`IT IS EASIER TO PREVENT BAD HABITS THAN TO BREAK THEM.`",
+        "date": "2022-03-12 00:00:05"
+    },
+    {
+        "quote": "`THE PURPOSE OF KNOWLEDGE IS ACTION, NOT KNOWLEDGE.`",
+        "date": "2022-03-13 00:00:04"
+    },
+    {
+        "quote": "`GOOD CONVERSATIONS WITH THE RIGHT PEOPLE ARE LIFE CHANGING.`",
+        "date": "2022-03-14 00:00:05"
+    },
+    {
+        "quote": "`A MISTAKE MADE TWICE IS A LESSON NOT LEARNT.`",
+        "date": "2022-03-15 00:00:05"
+    },
+    {
+        "quote": "`STOP QUITTING EVERY TIME IT GETS HARD.`",
+        "date": "2022-03-16 00:00:05"
+    },
+    {
+        "quote": "`THINKING IS DIFFICULT, THAT\u2019S WHY MOST PEOPLE JUDGE.`",
+        "date": "2022-03-17 00:00:04"
     },
     {
         "quote": "`YOU LEARN NOTHING FROM LIFE IF YOU THINK YOU\u2019RE RIGHT ALL THE TIME.`",
-        "date": "2024-12-28"
+        "date": "2022-03-18 00:00:06"
+    },
+    {
+        "quote": "`THE ART OF MEMORY IS THE ART OF ATTENTION.`",
+        "date": "2022-03-19 00:00:03"
+    },
+    {
+        "quote": "`YOU WILL NEVER KNOW CHANGE WITHOUT KNOWING CHALLENGE.`",
+        "date": "2022-03-20 00:00:06"
+    },
+    {
+        "quote": "`THE BEST APOLOGY IS CHANGED BEHAVIOR.`",
+        "date": "2022-03-21 00:00:05"
+    },
+    {
+        "quote": "`GROWTH HAPPENS BY CHOICE AND NEVER BY CHANCE.`",
+        "date": "2022-03-22 00:00:04"
+    },
+    {
+        "quote": "`FOCUS ON YOURSELF. DON\u2019T GET LOST IN OTHER PEOPLE.`",
+        "date": "2022-03-23 00:00:05"
+    },
+    {
+        "quote": "`THE SECRET OF YOUR FUTURE IS HIDDEN IN YOUR DAILY HABITS.`",
+        "date": "2022-03-24 00:00:06"
+    },
+    {
+        "quote": "`IT\u2019S NOT A LACK OF TALENT. IT\u2019S A LACK OF FOCUS THAT\u2019S STOPPING YOU.`",
+        "date": "2022-03-25 00:00:05"
+    },
+    {
+        "quote": "`MOST HAVE THE WILL TO WIN. FEW HAVE THE WILL TO PREPARE TO WIN.`",
+        "date": "2022-03-26 00:00:05"
+    },
+    {
+        "quote": "`FOCUS ON YOU AND YOUR FUTURE SELF.`",
+        "date": "2022-03-27 00:00:06"
+    },
+    {
+        "quote": "`SHORT TERM PLEASURE IS THE FAST TRACK TO FAILURE.`",
+        "date": "2022-03-28 00:00:06"
+    },
+    {
+        "quote": "`BE PROUD OF YOUR SCARS. THEY REMIND YOU THAT YOU HAVE THE WILL TO LIVE.`",
+        "date": "2022-03-29 00:00:04"
+    },
+    {
+        "quote": "`IF YOU WANT A DIFFERENT RESULT, MAKE A DIFFERENT CHOICE AND MOVE.`",
+        "date": "2022-03-30 00:00:05"
+    },
+    {
+        "quote": "`BEWARE OF PEOPLE WHO ARE NOT CAPABLE OF A SINCERE APOLOGY.`",
+        "date": "2022-03-31 00:00:05"
+    },
+    {
+        "quote": "`DISCOMFORT BRINGS COMFORT AND GROWTH.`",
+        "date": "2022-04-01 00:00:04"
+    },
+    {
+        "quote": "`PUT YOURSELF FIRST AND DON\u2019T APOLOGIZE FOR IT.`",
+        "date": "2022-04-02 00:00:05"
+    },
+    {
+        "quote": "`NOTHING GREAT WAS EVER ACHIEVED WITHOUT ENTHUSIASM.`",
+        "date": "2022-04-03 00:00:04"
+    },
+    {
+        "quote": "`PRAISE AND REWARD LOUDLY. CRITIQUE QUIETLY.`",
+        "date": "2022-04-04 00:00:05"
+    },
+    {
+        "quote": "`AN INVESTMENT IN YOURSELF IS LOW-RISK AND HIGH-REWARD.`",
+        "date": "2022-04-05 01:55:13"
+    },
+    {
+        "quote": "`SOCIAL MEDIA IS AN ASSET OR A LIABILITY. YOU CHOOSE.`",
+        "date": "2022-04-06 00:00:05"
+    },
+    {
+        "quote": "`FEELINGS ARE TEMPORARY; DECISIONS ARE PERMANENT.`",
+        "date": "2022-04-07 00:00:05"
+    },
+    {
+        "quote": "`CHASING EASY MONEY IS THE QUICKEST WAY TO LOSE MONEY.`",
+        "date": "2022-04-08 00:00:05"
+    },
+    {
+        "quote": "`MOST PEOPLE SEEK THEIR MOUTHS BEFORE THEIR MINDS.`",
+        "date": "2022-04-09 00:00:04"
+    },
+    {
+        "quote": "`DON\u2019T SPEND ANOTHER YEAR DOING THE SAME THING.`",
+        "date": "2022-04-10 00:00:05"
+    },
+    {
+        "quote": "`DON\u2019T LET A BAD DAY MAKE YOU FEEL LIKE YOU HAVE A BAD LIFE.`",
+        "date": "2022-04-11 00:00:06"
+    },
+    {
+        "quote": "`BE PROUD OF YOURSELF FOR HOW HARD YOU ARE TRYING.`",
+        "date": "2022-04-12 00:00:06"
+    },
+    {
+        "quote": "`IT\u2019S OKAY TO HAVE A BAD DAY.`",
+        "date": "2022-04-13 00:00:05"
+    },
+    {
+        "quote": "`WHEN YOU DISCOVER YOUR SELF-WORTH, YOU LOSE INTEREST IN ANYONE WHO DOESN\u2019T SEE IT.`",
+        "date": "2022-04-14 00:00:05"
+    },
+    {
+        "quote": "`DO GOOD, IT WILL COME BACK TO YOU IN UNEXPECTED WAYS.`",
+        "date": "2022-04-15 00:00:05"
+    },
+    {
+        "quote": "`MISTAKES ARE MEANT FOR LEARNING, NOT FOR REPEATING.`",
+        "date": "2022-04-16 00:00:05"
+    },
+    {
+        "quote": "`DON\u2019T BURN YOUR OPPORTUNITIES FOR A TEMPORARY COMFORT.`",
+        "date": "2022-04-17 00:00:05"
+    },
+    {
+        "quote": "`STAY AWAY FROM NEGATIVE PEOPLE. THEY HAVE A PROBLEM FOR EVERY SOLUTION.`",
+        "date": "2022-04-18 00:00:05"
+    },
+    {
+        "quote": "`EXPERIENCE IS THE HARDEST KIND OF TEACHER. IT GIVES YOU THE TEST FIRST AND THE LESSON AFTERWARD.`",
+        "date": "2022-04-19 00:00:05"
+    },
+    {
+        "quote": "`WE ARE NOT OUR BEST INTENTIONS. WE ARE WHAT WE DO.`",
+        "date": "2022-04-20 00:00:04"
+    },
+    {
+        "quote": "`YOU ARE NEVER TOO BUSY FOR PEOPLE YOU TRULY CARE ABOUT.`",
+        "date": "2022-04-21 00:00:04"
+    },
+    {
+        "quote": "`SAY WHAT YOU GOTTA SAY. DON\u2019T ASSUME PEOPLE CAN READ YOUR MIND.`",
+        "date": "2022-04-22 00:00:04"
+    },
+    {
+        "quote": "`IF YOU NEVER FEEL STUPID, YOU AREN\u2019T LEARNING.`",
+        "date": "2022-04-23 00:00:04"
+    },
+    {
+        "quote": "`COOKING AND EATING AT HOME WILL SAVE YOU A TON OF MONEY.`",
+        "date": "2022-04-24 00:00:05"
+    },
+    {
+        "quote": "`DO NOT LISTEN TO REPLY. LISTEN TO LEARN.`",
+        "date": "2022-04-25 00:00:05"
+    },
+    {
+        "quote": "`THE BEST PROOF OF LOVE IS TRUST.`",
+        "date": "2022-04-26 00:00:05"
+    },
+    {
+        "quote": "`BEING ENTIRELY HONEST WITH ONESELF IS A GOOD EXERCISE.`",
+        "date": "2022-04-27 00:00:04"
+    },
+    {
+        "quote": "`IF YOU WOKE UP HEALTHY TODAY, THAT\u2019S ALREADY A GOOD DAY.`",
+        "date": "2022-04-28 00:00:05"
+    },
+    {
+        "quote": "`FIND SOMETHING YOU LOVE AND DO IT.`",
+        "date": "2022-04-29 00:00:04"
+    },
+    {
+        "quote": "`HANG OUT WITH PROBLEM SOLVERS, NOT EXCUSE MAKERS.`",
+        "date": "2022-04-30 00:00:05"
+    },
+    {
+        "quote": "`THERE ARE NO SECRETS TO SUCCESS. IT IS THE RESULT OF PREPARATION, HARD WORK, AND LEARNING FROM FAILURE.`",
+        "date": "2022-05-01 00:00:05"
+    },
+    {
+        "quote": "`THERE IS NO SUCH THING IN ANYONE\u2019S LIFE AS AN UNIMPORTANT DAY.`",
+        "date": "2022-05-02 00:00:05"
+    },
+    {
+        "quote": "`TO FIND YOURSELF, THINK FOR YOURSELF.`",
+        "date": "2022-05-03 00:00:05"
+    },
+    {
+        "quote": "`FORGIVE THE PERSON YOU WERE BEFORE YOU LEARNED THE LESSON.`",
+        "date": "2022-05-04 00:00:05"
+    },
+    {
+        "quote": "`YOU DON\u2019T NEED A LOT OF FRIENDS, JUST THE RIGHT ONES.`",
+        "date": "2022-05-05 00:00:05"
+    },
+    {
+        "quote": "`THERE\u2019S ONLY ONE WAY TO LEARN. IT\u2019S THROUGH ACTION.`",
+        "date": "2022-05-06 00:00:04"
+    },
+    {
+        "quote": "`SURROUND YOURSELF WITH PEOPLE WHO MAKE YOU THINK.`",
+        "date": "2022-05-07 00:00:04"
+    },
+    {
+        "quote": "`TAKE THE RISK OR LOSE THE CHANCE.`",
+        "date": "2022-05-08 00:00:05"
+    },
+    {
+        "quote": "`THE MOST IMPORTANT DECISION YOU CAN MAKE IS TO BE IN A GOOD MOOD.`",
+        "date": "2022-05-09 00:00:06"
+    },
+    {
+        "quote": "`BE THE QUIET ONE DOING, NOT THE LOUD ONE TALKING.`",
+        "date": "2022-05-10 00:00:05"
+    },
+    {
+        "quote": "`YOU\u2019RE UNDER NO OBLIGATION TO BASE YOUR DECISIONS ON THE ADVICE OF THOSE WHO DON\u2019T HAVE TO DEAL WITH THE RESULTS.`",
+        "date": "2022-05-11 00:00:05"
+    },
+    {
+        "quote": "`DON\u2019T WASTE TIME LOOKING BACK ON MEMORIES THAT HURT YOU.`",
+        "date": "2022-05-12 00:00:04"
+    },
+    {
+        "quote": "`JUST BECAUSE THINGS COULD HAVE BEEN DIFFERENT, IT DOESN\u2019T MEAN THEY WOULD HAVE BEEN BETTER.`",
+        "date": "2022-05-13 00:00:05"
+    },
+    {
+        "quote": "`STAND FOR WHAT IS RIGHT, EVEN IF IT MEANS STANDING ALONE.`",
+        "date": "2022-05-14 00:00:05"
+    },
+    {
+        "quote": "`FALL IN LOVE WITH THE PROCESS BECAUSE THERE IS NO FINISH LINE.`",
+        "date": "2022-05-15 00:00:04"
+    },
+    {
+        "quote": "`THE ONLY WAY TO DEEP HAPPINESS IS TO DO SOMETHING YOU LOVE TO THE BEST OF YOUR ABILITY.`",
+        "date": "2022-05-16 00:00:05"
+    },
+    {
+        "quote": "`YOUR WORST ENEMY IS YOUR FEAR OF FAILURE.`",
+        "date": "2022-05-17 00:00:05"
+    },
+    {
+        "quote": "`AVOID PEOPLE WHO AREN\u2019T GOOD FOR YOUR MENTAL HEALTH.`",
+        "date": "2022-05-18 00:00:04"
+    },
+    {
+        "quote": "`YOUR ONLY PERMANENT HOME IS YOUR BODY. TAKE CARE OF IT.`",
+        "date": "2022-05-19 00:00:05"
+    },
+    {
+        "quote": "`ALL GREAT ACHIEVEMENTS REQUIRE TIME.`",
+        "date": "2022-05-20 00:00:05"
+    },
+    {
+        "quote": "`SOMEONE\u2019S FAILURE IS NEVER YOUR SUCCESS.`",
+        "date": "2022-05-21 00:00:05"
+    },
+    {
+        "quote": "`BE CRAZY ENOUGH TO BELIEVE YOU CAN DO ANYTHING IN LIFE.`",
+        "date": "2022-05-22 00:00:04"
+    },
+    {
+        "quote": "`ACT LIKE THE PERSON YOU WANT TO BECOME.`",
+        "date": "2022-05-23 00:00:06"
+    },
+    {
+        "quote": "`PROVE IT TO YOURSELF, NOT TO OTHERS.`",
+        "date": "2022-05-24 00:00:05"
+    },
+    {
+        "quote": "`A MIND THAT IS STRETCHED BY A NEW IDEA CAN NEVER GO BACK TO ITS ORIGINAL DIMENSIONS.`",
+        "date": "2022-05-25 00:00:05"
+    },
+    {
+        "quote": "`EITHER MOVE OR BE MOVED.`",
+        "date": "2022-05-26 00:00:05"
+    },
+    {
+        "quote": "`IF YOU DON\u2019T ASK, THE ANSWER IS ALWAYS NO.`",
+        "date": "2022-05-27 00:00:05"
+    },
+    {
+        "quote": "`ONE FOOT IN FRONT OF THE OTHER. REPEAT AS OFTEN AS NECESSARY TO FINISH.`",
+        "date": "2022-05-28 00:00:05"
+    },
+    {
+        "quote": "`ARGUMENTS ARE ABOUT FIGURING OUT WHAT IS RIGHT, NOT WHO IS RIGHT.`",
+        "date": "2022-05-29 00:00:05"
+    },
+    {
+        "quote": "`DON\u2019T VALUE THE ADVICE OF THOSE NOT QUALIFIED TO GIVE IT.`",
+        "date": "2022-05-30 00:00:06"
+    },
+    {
+        "quote": "`SOMETIMES THE MOST IMPORTANT THING YOU CAN DO IS SHOW UP.`",
+        "date": "2022-05-31 00:00:06"
+    },
+    {
+        "quote": "`IF YOU EXPECT MORE FROM OTHER PEOPLE THAN THEY EXPECT FROM THEMSELVES, YOU WILL ALWAYS BE DISAPPOINTED.`",
+        "date": "2022-06-01 00:00:05"
+    },
+    {
+        "quote": "`SMALL PROGRESS IS STILL PROGRESS.`",
+        "date": "2022-06-02 00:00:04"
+    },
+    {
+        "quote": "`BE KIND, BUT LEARN TO SAY NO.`",
+        "date": "2022-06-03 00:00:05"
+    },
+    {
+        "quote": "`COURAGE DOESN\u2019T ALWAYS ROAR. SOMETIMES COURAGE IS THE LITTLE VOICE AT THE END OF THE DAY THAT SAYS I\u2019LL TRY AGAIN TOMORROW.`",
+        "date": "2022-06-04 00:00:05"
+    },
+    {
+        "quote": "`ALWAYS GIVE NEW THINGS A CHANCE. YOU NEVER KNOW WHAT YOU\u2019LL LIKE.`",
+        "date": "2022-06-05 00:00:05"
+    },
+    {
+        "quote": "`THE MEDIA PREYS ON YOUR FEARS AND ANXIETIES. BE SKEPTICAL OF WHAT THEY TELL YOU.`",
+        "date": "2022-06-06 00:00:04"
+    },
+    {
+        "quote": "`A WISE MAN OUGHT TO REALIZE THAT HEALTH IS HIS MOST VALUABLE POSSESSION.`",
+        "date": "2022-06-07 00:00:05"
+    },
+    {
+        "quote": "`DON\u2019T STOP WHEN YOU\u2019RE TIRED. STOP WHEN YOU\u2019RE DONE.`",
+        "date": "2022-06-08 00:00:04"
+    },
+    {
+        "quote": "`ADVERSITY DOESN\u2019T BUILD CHARACTER, IT REVEALS IT.`",
+        "date": "2022-06-09 00:00:05"
+    },
+    {
+        "quote": "`AN APOLOGY WITHOUT CHANGE IS JUST MANIPULATION.`",
+        "date": "2022-06-10 00:00:05"
+    },
+    {
+        "quote": "`BE NOT SIMPLY GOOD &ndash; BE GOOD FOR SOMETHING.`",
+        "date": "2022-06-11 00:00:05"
+    },
+    {
+        "quote": "`WORRYING DOESN\u2019T CHANGE THE OUTCOME.`",
+        "date": "2022-06-12 00:00:07"
+    },
+    {
+        "quote": "`REGRET HURTS MORE THAN REJECTION.`",
+        "date": "2022-06-13 00:00:04"
+    },
+    {
+        "quote": "`OPPORTUNITY FINDS THOSE WHO ARE DOING SOMETHING ALREADY.`",
+        "date": "2022-06-14 00:00:06"
+    },
+    {
+        "quote": "`MAN\u2019S LONELINESS IS BUT HIS FEAR OF LIFE.`",
+        "date": "2022-06-15 00:00:05"
+    },
+    {
+        "quote": "`YOU WEREN\u2019T BORN TO SPEND MORE TIME WITH YOUR BOSS THAN YOUR FAMILY.`",
+        "date": "2022-06-16 00:00:04"
+    },
+    {
+        "quote": "`BE ADDICTED TO BETTERING YOURSELF.`",
+        "date": "2022-06-17 00:00:04"
+    },
+    {
+        "quote": "`YOUR BEST ASSET IS YOURSELF. YOU CAN BECOME TO AN ENORMOUS DEGREE THE PERSON YOU WANT TO BE.`",
+        "date": "2022-06-18 00:00:05"
+    },
+    {
+        "quote": "`NEVER STAY AT A JOB FOR LOYALTY BECAUSE THEY SURE AS SHIT AREN\u2019T LOYAL TO YOU.`",
+        "date": "2022-06-19 00:00:05"
+    },
+    {
+        "quote": "`LIFE CAN GO TO ABSOLUTE SHIT AT ANY MOMENT, SO ENJOY IT WHILE YOU CAN.`",
+        "date": "2022-06-20 00:00:05"
+    },
+    {
+        "quote": "`CONNECTIONS WILL GET YOU FURTHER IN LIFE THAN YOUR OWN MERIT.`",
+        "date": "2022-06-21 00:00:04"
+    },
+    {
+        "quote": "`BUY IT NICE OR BUY IT TWICE.`",
+        "date": "2022-06-22 00:00:10"
+    },
+    {
+        "quote": "`YOU HAVE ZERO CONTROL OVER OTHER PEOPLE. YOU HAVE ABSOLUTE CONTROL OVER YOURSELF.`",
+        "date": "2022-06-23 00:00:04"
+    },
+    {
+        "quote": "`A MAN IS WHAT HE THINKS ABOUT ALL DAY LONG.`",
+        "date": "2022-06-24 00:00:04"
+    },
+    {
+        "quote": "`HOPE IS BEING ABLE TO SEE THE LIGHT DESPITE ALL THE DARKNESS.`",
+        "date": "2022-06-25 00:00:04"
+    },
+    {
+        "quote": "`YOU CAN\u2019T UNSAY SOMETHING DEEPLY HURTFUL.`",
+        "date": "2022-06-26 00:00:06"
+    },
+    {
+        "quote": "`THE MEASURE OF A MAN IS WHAT HE DOES WITH POWER.`",
+        "date": "2022-06-27 00:00:04"
+    },
+    {
+        "quote": "`A MAN WHO DARES WASTE ONE HOUR OF TIME HAS NOT DISCOVERED THE VALUE OF LIFE.`",
+        "date": "2022-06-28 00:00:36"
+    },
+    {
+        "quote": "`EGOTISM IS NATURE\u2019S COMPENSATION FOR MEDIOCRITY.`",
+        "date": "2022-06-29 00:00:06"
+    },
+    {
+        "quote": "`DO YOUR LITTLE BIT OF GOOD WHERE YOU ARE; IT\u2019S THOSE LITTLE BITS OF GOOD PUT TOGETHER THAT OVERWHELM THE WORLD.`",
+        "date": "2022-06-30 00:00:04"
+    },
+    {
+        "quote": "`SUCCESS IS A LOUSY TEACHER. IT SEDUCES SMART PEOPLE INTO THINKING THEY CAN\u2019T LOSE.`",
+        "date": "2022-07-01 00:00:04"
+    },
+    {
+        "quote": "`NEVER STOP BEING A GOOD PERSON BECAUSE OF BAD PEOPLE.`",
+        "date": "2022-07-02 00:00:04"
+    },
+    {
+        "quote": "`NETWORKING CAN GET YOU INTO PLACES DEGREES CAN\u2019T.`",
+        "date": "2022-07-03 00:00:06"
+    },
+    {
+        "quote": "`SAVING MORE MONEY IS GOOD. MAKING MORE MONEY IS BETTER.`",
+        "date": "2022-07-04 00:00:04"
+    },
+    {
+        "quote": "`FOR THE SAKE OF YOUR OWN PEACE, FORGIVE OTHERS.`",
+        "date": "2022-07-05 00:00:06"
+    },
+    {
+        "quote": "`STOP WORRYING ABOUT WHAT MIGHT HAPPEN. TAKE THE CHANCE AND SEE WHAT DOES HAPPEN.`",
+        "date": "2022-07-06 00:00:05"
+    },
+    {
+        "quote": "`YOU CAN DRASTICALLY CHANGE YOUR LIFE WITH A DAILY ROUTINE, STABLE ENVIRONMENT, AND POSITIVE MINDSET.`",
+        "date": "2022-07-07 00:00:05"
+    },
+    {
+        "quote": "`EVERYTHING LIFE THROWS AT YOU IS AN OPPORTUNITY TO LEVEL UP.`",
+        "date": "2022-07-08 00:00:05"
+    },
+    {
+        "quote": "`DON\u2019T TREAT OTHERS WITH DISRESPECT JUST BECAUSE YOU ARE HAVING A TOUGH DAY.`",
+        "date": "2022-07-09 00:00:06"
+    },
+    {
+        "quote": "`ACTION IS WORRY\u2019S WORST ENEMY.`",
+        "date": "2022-07-10 00:00:05"
+    },
+    {
+        "quote": "`PEOPLE ONLY SEE WHAT THEY ARE PREPARED TO SEE.`",
+        "date": "2022-07-11 00:00:05"
+    },
+    {
+        "quote": "`IT ONLY TAKES SIX MONTHS OF PURE DEDICATION TO CHANGE YOUR LIFE.`",
+        "date": "2022-07-12 00:00:05"
+    },
+    {
+        "quote": "`EDUCATION IS A PROGRESSIVE DISCOVERY OF OUR OWN IGNORANCE.`",
+        "date": "2022-07-13 00:00:05"
+    },
+    {
+        "quote": "`DON\u2019T MISTAKE AN EXPENSIVE LIFESTYLE WITH A HAPPY LIFE.`",
+        "date": "2022-07-14 00:00:04"
+    },
+    {
+        "quote": "`STRENGTH DOES NOT COME FROM PHYSICAL CAPACITY. IT COMES FROM AN INDOMITABLE WILL.`",
+        "date": "2022-07-15 00:00:06"
+    },
+    {
+        "quote": "`IT\u2019S NOT ALWAYS A COMPETITION. IT\u2019S OKAY TO BUILD OTHERS UP.`",
+        "date": "2022-07-16 00:00:05"
+    },
+    {
+        "quote": "`TREATING PEOPLE POORLY AND HOLDING GRUDGES ONLY LEADS TO LONELINESS AND MISERY.`",
+        "date": "2022-07-17 00:00:05"
+    },
+    {
+        "quote": "`DON\u2019T BEFRIEND SHITTY PEOPLE.`",
+        "date": "2022-07-18 00:00:05"
+    },
+    {
+        "quote": "`EXERCISE IS GOOD FOR THE MIND AND BODY. MAKE THE TIME.`",
+        "date": "2022-07-19 00:00:05"
+    },
+    {
+        "quote": "`LEADERS ARE CREATED THROUGH ADVERSITY, NOT COMFORT.`",
+        "date": "2022-07-20 00:00:05"
+    },
+    {
+        "quote": "`DO NOT CONFUSE POWER WITH GREATNESS.`",
+        "date": "2022-07-21 00:00:04"
+    },
+    {
+        "quote": "`NOTHING GREAT IN THE WORLD HAS EVER BEEN ACCOMPLISHED WITHOUT PASSION.`",
+        "date": "2022-07-22 00:00:06"
+    },
+    {
+        "quote": "`CUTTING PEOPLE OUT OF YOUR LIFE DOESN\u2019T MEAN YOU HATE THEM. IT SIMPLY MEANS YOU RESPECT YOURSELF.`",
+        "date": "2022-07-23 00:00:05"
+    },
+    {
+        "quote": "`BE HAPPY IN THE MOMENT. THAT\u2019S ENOUGH.`",
+        "date": "2022-07-24 00:00:05"
+    },
+    {
+        "quote": "`YOU CAN\u2019T CONTROL THE WAY PEOPLE TAKE THINGS.`",
+        "date": "2022-07-25 00:00:04"
+    },
+    {
+        "quote": "`EVERYTHING SHOULD BE MADE AS SIMPLE AS POSSIBLE, BUT NOT SIMPLER.`",
+        "date": "2022-07-26 00:00:05"
+    },
+    {
+        "quote": "`DON\u2019T BLAME THE DISTRACTIONS. IMPROVE YOUR FOCUS.`",
+        "date": "2022-07-27 00:00:05"
+    },
+    {
+        "quote": "`IF YOU DON\u2019T KNOW WHAT YOUR PASSION IS, YOUR PRIORITY SHOULD BE DISCOVERING WHAT YOUR PASSION IS.`",
+        "date": "2022-07-28 00:00:04"
+    },
+    {
+        "quote": "`IF PEOPLE MAKE YOU FEEL BAD ABOUT YOURSELF, IT\u2019S NOT BECAUSE THERE\u2019S SOMETHING WRONG WITH YOU. IT\u2019S BECAUSE THEY SUCK AND THEY KNOW IT.`",
+        "date": "2022-07-29 00:00:05"
+    },
+    {
+        "quote": "`DON\u2019T LET YOURSELF GET OUT OF SHAPE. MAINTAINING IS EASIER THAN RECOVERING.`",
+        "date": "2022-07-30 00:00:05"
+    },
+    {
+        "quote": "`SUCCESS CAN HAPPEN AT ANY AGE.`",
+        "date": "2022-07-31 00:00:05"
+    },
+    {
+        "quote": "`THERE\u2019S ALWAYS SOMEONE WHO ISN\u2019T GOING TO SEE YOUR WORTH. DON\u2019T LET IT BE YOU.`",
+        "date": "2022-08-01 00:00:06"
+    },
+    {
+        "quote": "`DO NOT ALLOW YOUR LONELINESS TO RUIN YOUR STANDARDS.`",
+        "date": "2022-08-02 00:00:04"
+    },
+    {
+        "quote": "`YOU WILL NEVER WIN IF YOU NEVER BEGIN.`",
+        "date": "2022-08-03 00:00:04"
+    },
+    {
+        "quote": "`MATURITY IS WHEN YOU BARELY THINK ABOUT WHAT PEOPLE THINK OF YOU.`",
+        "date": "2022-08-04 00:00:04"
+    },
+    {
+        "quote": "`YOUR BIGGEST ENEMY IS THE VERSION OF YOURSELF THAT WANTS TO SETTLE FOR COMFORT.`",
+        "date": "2022-08-05 00:00:06"
+    },
+    {
+        "quote": "`TRAVEL FAR ENOUGH, YOU MEET YOURSELF.`",
+        "date": "2022-08-06 00:00:05"
+    },
+    {
+        "quote": "`THE FIRST DUTY OF MAN IS TO THINK FOR HIMSELF.`",
+        "date": "2022-08-07 00:00:04"
+    },
+    {
+        "quote": "`A SOMEBODY WAS ONCE A NOBODY WHO WANTED TO AND DID.`",
+        "date": "2022-08-08 00:00:06"
+    },
+    {
+        "quote": "`A BOOK IS THE CHEAPEST TICKET YOU WILL EVER HOLD.`",
+        "date": "2022-08-09 00:00:06"
+    },
+    {
+        "quote": "`A MAN IS GREAT NOT BECAUSE HE HASN\u2019T FAILED; A MAN IS GREAT BECAUSE FAILURE HASN\u2019T STOPPED HIM.`",
+        "date": "2022-08-10 00:00:05"
+    },
+    {
+        "quote": "`RISK IS ALWAYS BETTER THAN REGRET.`",
+        "date": "2022-08-11 00:00:05"
+    },
+    {
+        "quote": "`YOU CANNOT DO ALL THE GOOD THE WORLD NEEDS, BUT THE WORLD NEEDS ALL THE GOOD YOU CAN DO.`",
+        "date": "2022-08-12 00:00:04"
+    },
+    {
+        "quote": "`THINGS CAN GO WRONG EVEN IF YOU DO EVERYTHING RIGHT.`",
+        "date": "2022-08-13 00:00:05"
+    },
+    {
+        "quote": "`DO IT ALONE. DO IT BROKE. DO IT TIRED. DO IT SCARED. JUST DO IT.`",
+        "date": "2022-08-14 00:00:05"
+    },
+    {
+        "quote": "`NINETY PERCENT OF BEING AN ADULT IS PRETENDING YOU\u2019RE AN ADULT.`",
+        "date": "2022-08-15 00:00:05"
+    },
+    {
+        "quote": "`HAPPINESS IS A DIRECTION, NOT A PLACE.`",
+        "date": "2022-08-16 00:00:05"
+    },
+    {
+        "quote": "`SPEAK LESS, BUT NOTICE EVERYTHING.`",
+        "date": "2022-08-17 00:00:05"
+    },
+    {
+        "quote": "`ONLY THE EDUCATED ARE FREE.`",
+        "date": "2022-08-18 00:00:04"
+    },
+    {
+        "quote": "`YOUR GOALS SHOULD SCARE YOU A LITTLE AND EXCITE YOU A LOT.`",
+        "date": "2022-08-19 00:00:06"
+    },
+    {
+        "quote": "`STOP CHEATING ON YOUR FUTURE WITH YOUR PAST. IT\u2019S OVER.`",
+        "date": "2022-08-20 00:00:06"
+    },
+    {
+        "quote": "`UNTIL YOU TRY, YOU DON\u2019T KNOW WHAT YOU CAN\u2019T DO.`",
+        "date": "2022-08-21 00:00:05"
+    },
+    {
+        "quote": "`YOU ALWAYS FEEL LIKE YOU DON\u2019T HAVE ENOUGH TIME. YOU ACTUALLY DON\u2019T HAVE ENOUGH CONCENTRATION.`",
+        "date": "2022-08-22 00:00:05"
+    },
+    {
+        "quote": "`CONSISTENT SMALL STEPS AT A SUSTAINABLE PACE WIN BIG GOALS.`",
+        "date": "2022-08-23 00:00:05"
+    },
+    {
+        "quote": "`IT IS AMAZING HOW COMPLETE IS THE DELUSION THAT BEAUTY IS GOODNESS.`",
+        "date": "2022-08-24 00:00:06"
+    },
+    {
+        "quote": "`INSECURITY IS LOUD. CONFIDENCE IS SILENT.`",
+        "date": "2022-08-25 00:00:06"
+    },
+    {
+        "quote": "`KNOWLEDGE COMES, BUT WISDOM LINGERS.`",
+        "date": "2022-08-26 00:00:05"
+    },
+    {
+        "quote": "`THE MOST YOU CAN DO FOR YOUR FRIENDS IS SIMPLY BE THEIR FRIEND.`",
+        "date": "2022-08-27 00:00:04"
+    },
+    {
+        "quote": "`NEVER APOLOGIZE FOR SHOWING FEELING. WHEN YOU DO SO, YOU APOLOGIZE FOR THE TRUTH.`",
+        "date": "2022-08-28 00:00:04"
+    },
+    {
+        "quote": "`NOBODY EVER DROWNED IN HIS OWN SWEAT.`",
+        "date": "2022-08-29 00:00:04"
+    },
+    {
+        "quote": "`YOU\u2019RE THE MOST PERMANENT PERSON IN YOUR LIFE. SO CHOOSE YOU, ALWAYS.`",
+        "date": "2022-08-30 00:00:04"
+    },
+    {
+        "quote": "`STRENGTH DOES NOT COME FROM PHYSICAL CAPACITY. IT COMES FROM INDOMITABLE WILL.`",
+        "date": "2022-08-31 00:00:05"
+    },
+    {
+        "quote": "`SELF-CARE IS NOT A LUXURY, IT\u2019S A PRIORITY.`",
+        "date": "2022-09-01 00:00:04"
+    },
+    {
+        "quote": "`DON\u2019T BASE YOUR HAPPINESS ON OTHERS. LEARN TO FIND HAPPINESS WITH YOURSELF.`",
+        "date": "2022-09-02 00:00:10"
+    },
+    {
+        "quote": "`DON\u2019T FALL FOR CONSUMERISM. LIVE BELOW YOUR MEANS.`",
+        "date": "2022-09-03 00:00:04"
+    },
+    {
+        "quote": "`DON\u2019T WORRY ABOUT CONTROLLING YOUR EMOTIONS. CONTROL YOUR ACTIONS.`",
+        "date": "2022-09-04 00:00:05"
+    },
+    {
+        "quote": "`DON\u2019T MAKE DECISIONS WHEN YOU\u2019RE ANGRY. DON\u2019T MAKE PROMISES WHEN YOU\u2019RE HAPPY.`",
+        "date": "2022-09-05 00:00:06"
+    },
+    {
+        "quote": "`SOMETIMES YOU HAVE TO BE A HARDASS.`",
+        "date": "2022-09-06 00:00:04"
+    },
+    {
+        "quote": "`DO STUFF. DO NOT WAIT FOR INSPIRATION\u2019S SHOVE OR SOCIETY\u2019S KISS ON YOUR FOREHEAD.`",
+        "date": "2022-09-07 00:00:05"
+    },
+    {
+        "quote": "`WHAT HAPPENS IS NOT AS IMPORTANT AS HOW YOU REACT TO WHAT HAPPENS.`",
+        "date": "2022-09-08 00:00:05"
+    },
+    {
+        "quote": "`YOU CAN READ BOOKS ABOUT SWIMMING, BUT YOU DON\u2019T LEARN TO SWIM WITHOUT JUMPING IN THE WATER.`",
+        "date": "2022-09-09 00:00:05"
+    },
+    {
+        "quote": "`BEWARE THE FURY OF A PATIENT MAN.`",
+        "date": "2022-09-10 00:00:05"
+    },
+    {
+        "quote": "`CHANGE AND PROGRESS TAKE TIME. DON\u2019T BEAT YOURSELF UP ABOUT NOT BEING WHERE YOU WANT TO BE YET.`",
+        "date": "2022-09-11 00:00:05"
+    },
+    {
+        "quote": "`PUT THE PHONE DOWN.`",
+        "date": "2022-09-12 00:00:04"
+    },
+    {
+        "quote": "`DON\u2019T DRIVE FASTER THAN YOUR REFLEXES.`",
+        "date": "2022-09-13 00:00:05"
+    },
+    {
+        "quote": "`KINDNESS COSTS YOU NOTHING.`",
+        "date": "2022-09-14 00:00:05"
+    },
+    {
+        "quote": "`ONE CANNOT AND MUST NOT TRY TO ERASE THE PAST MERELY BECAUSE IT DOES NOT FIT THE PRESENT.`",
+        "date": "2022-09-15 00:00:04"
+    },
+    {
+        "quote": "`OBSTACLES ARE THINGS A PERSON SEES WHEN HE TAKES HIS EYES OFF THE GOAL.`",
+        "date": "2022-09-16 00:00:06"
+    },
+    {
+        "quote": "`ONE OF THE BEST REASONS TO MAKE YOUR ART IS THAT YOU ARE LITERALLY THE ONLY ONE WHO CAN.`",
+        "date": "2022-09-17 00:00:06"
+    },
+    {
+        "quote": "`OPPORTUNITY IS MISSED BY MOST PEOPLE BECAUSE IT IS DRESSED IN OVERALLS AND LOOKS LIKE WORK.`",
+        "date": "2022-09-18 00:00:06"
+    },
+    {
+        "quote": "`CHOOSE PEOPLE THAT CHOOSE YOU.`",
+        "date": "2022-09-19 00:00:06"
+    },
+    {
+        "quote": "`YOU ARE NOT DEFINED BY YOUR MISTAKES.`",
+        "date": "2022-09-20 00:00:05"
+    },
+    {
+        "quote": "`DOING THE BEST AT THIS MOMENT PUTS YOU IN THE BEST PLACE FOR THE NEXT MOMENT.`",
+        "date": "2022-09-21 00:00:04"
+    },
+    {
+        "quote": "`IT\u2019S NOT ABOUT WAITING FOR THE STORM TO PASS. IT\u2019S ABOUT LEARNING TO DANCE IN THE RAIN.`",
+        "date": "2022-09-22 00:00:05"
+    },
+    {
+        "quote": "`DON\u2019T LET THE BASTARDS WEAR YOU DOWN.`",
+        "date": "2022-09-23 00:00:05"
+    },
+    {
+        "quote": "`A GEM CANNOT BE POLISHED WITHOUT FRICTION, NOR A MAN PERFECTED WITHOUT TRIALS.`",
+        "date": "2022-09-24 00:00:04"
+    },
+    {
+        "quote": "`THE TRUE SECRET OF HAPPINESS LIES IN TAKING A GENUINE INTEREST IN ALL THE DETAILS OF DAILY LIFE.`",
+        "date": "2022-09-25 00:00:05"
+    },
+    {
+        "quote": "`IF YOUR ACTIONS INSPIRE OTHERS TO DREAM MORE, LEARN MORE, DO MORE, AND BECOME MORE, YOU ARE A LEADER.`",
+        "date": "2022-09-26 00:00:05"
+    },
+    {
+        "quote": "`GIVE NOT ADVICE WITHOUT BEING ASKED, AND WHEN DESIRED, DO IT BRIEFLY.`",
+        "date": "2022-09-27 00:00:04"
+    },
+    {
+        "quote": "`IF YOU HIT EVERY SHOT YOU TAKE, YOU\u2019RE STANDING TOO CLOSE TO THE NET.`",
+        "date": "2022-09-28 00:00:06"
+    },
+    {
+        "quote": "`YOU CAN LEARN A LOT ABOUT A PERSON BY HOW THEY TREAT PEOPLE THEY DON\u2019T HAVE TO BE NICE TO.`",
+        "date": "2022-09-29 00:00:04"
+    },
+    {
+        "quote": "`READING AND WRITING ARE THE MOST NOURISHING FORMS OF MEDITATION ANYONE HAS SO FAR FOUND.`",
+        "date": "2022-09-30 00:00:04"
+    },
+    {
+        "quote": "`NOTHING IS A WASTE OF TIME IF YOU USE THE EXPERIENCE WISELY.`",
+        "date": "2022-10-01 00:00:04"
+    },
+    {
+        "quote": "`BEES DON\u2019T WASTE TIME TELLING FLIES THAT HONEY IS BETTER THAN SHIT.`",
+        "date": "2022-10-02 00:00:05"
+    },
+    {
+        "quote": "`THE YOUNG MAN KNOWS THE RULES, BUT THE OLD MAN KNOWS THE EXCEPTIONS.`",
+        "date": "2022-10-03 00:00:04"
+    },
+    {
+        "quote": "`THE PAST ALWAYS LOOKS BETTER THAN IT WAS. IT\u2019S ONLY PLEASANT BECAUSE IT ISN\u2019T HERE.`",
+        "date": "2022-10-04 00:00:05"
+    },
+    {
+        "quote": "`HAPPINESS IS NOT SOMETHING READYMADE. IT COMES FROM YOUR OWN ACTIONS.`",
+        "date": "2022-10-05 00:00:05"
+    },
+    {
+        "quote": "`SELF-DISCIPLINE IS THE BEST FORM OF SELF-LOVE.`",
+        "date": "2022-10-06 00:00:06"
+    },
+    {
+        "quote": "`CHANGE IS NOT ALWAYS GROWTH, BUT GROWTH IS OFTEN ROOTED IN CHANGE.`",
+        "date": "2022-10-07 00:00:06"
+    },
+    {
+        "quote": "`IT\u2019S OKAY TO NOT KNOW THINGS SOMETIMES.`",
+        "date": "2022-10-08 00:00:05"
+    },
+    {
+        "quote": "`THE FASTEST WAY TO KILL SOMETHING SPECIAL IS TO COMPARE IT TO SOMETHING ELSE.`",
+        "date": "2022-10-09 00:00:04"
+    },
+    {
+        "quote": "`THERE IS MORE PLEASURE IN LOVING THAN BEING LOVED.`",
+        "date": "2022-10-10 00:00:04"
+    },
+    {
+        "quote": "`THE GREATEST USE OF A LIFE IS TO SPEND IT ON SOMETHING THAT WILL OUTLAST IT.`",
+        "date": "2022-10-11 00:00:06"
+    },
+    {
+        "quote": "`IF OPPORTUNITY DOESN\u2019T KNOCK, BUILD A DOOR.`",
+        "date": "2022-10-12 00:00:05"
+    },
+    {
+        "quote": "`ALL YOU HAVE TO DO IS DECIDE WHAT TO DO WITH THE TIME THAT IS GIVEN TO YOU.`",
+        "date": "2022-10-13 00:00:06"
+    },
+    {
+        "quote": "`DON\u2019T LET YOUR MISTAKES DEFINE YOU.`",
+        "date": "2022-10-14 00:00:04"
+    },
+    {
+        "quote": "`TAKE THE RISK OR LOSE THE CHANCE.`",
+        "date": "2022-10-15 00:00:05"
+    },
+    {
+        "quote": "`FOCUS ON YOUR GOALS, NOT YOUR FEARS.`",
+        "date": "2022-10-16 00:00:04"
+    },
+    {
+        "quote": "`THE SMALLEST DEED IS BETTER THAN THE GREATEST INTENTION.`",
+        "date": "2022-10-17 00:00:05"
+    },
+    {
+        "quote": "`DO NOT RETURN TO PEOPLE WHO REPEATEDLY HURT YOU.`",
+        "date": "2022-10-18 00:00:05"
+    },
+    {
+        "quote": "`COMPLAINING ABOUT A PROBLEM WITHOUT PROPOSING A SOLUTION IS CALLED WHINING.`",
+        "date": "2022-10-19 00:00:05"
+    },
+    {
+        "quote": "`TO THE LIVING WE OWE RESPECT, BUT TO THE DEAD WE ONLY OWE THE TRUTH.`",
+        "date": "2022-10-20 00:00:06"
+    },
+    {
+        "quote": "`KIND WORDS DO NOT COST MUCH. YET THEY ACCOMPLISH MUCH.`",
+        "date": "2022-10-21 00:00:05"
+    },
+    {
+        "quote": "`THE ACTIONS OF MEN ARE THE BEST INTERPRETERS OF THEIR THOUGHTS.`",
+        "date": "2022-10-22 00:00:06"
+    },
+    {
+        "quote": "`STOP SHRINKING TO FIT PLACES YOU\u2019VE OUTGROWN.`",
+        "date": "2022-10-23 00:00:05"
+    },
+    {
+        "quote": "`YOU CAN\u2019T GO BACK AND CHANGE THE BEGINNING, BUT YOU CAN START WHERE YOU ARE AND CHANGE THE ENDING.`",
+        "date": "2022-10-24 00:00:06"
+    },
+    {
+        "quote": "`IF YOU DON\u2019T SEPARATE YOURSELF FROM DISTRACTIONS, YOUR DISTRACTIONS WILL SEPARATE YOU FROM YOUR GOALS AND THE LIFE YOU WANT.`",
+        "date": "2022-10-25 00:00:04"
+    },
+    {
+        "quote": "`YOU CAN AVOID REALITY, BUT YOU CANNOT AVOID THE CONSEQUENCES OF AVOIDING REALITY.`",
+        "date": "2022-10-26 00:00:06"
+    },
+    {
+        "quote": "`DO NOT JUDGE OTHERS JUST BECAUSE THEY SIN DIFFERENTLY THAN YOU.`",
+        "date": "2022-10-27 00:00:04"
+    },
+    {
+        "quote": "`YOU GET WHAT YOU TOLERATE.`",
+        "date": "2022-10-28 00:00:06"
+    },
+    {
+        "quote": "`DON\u2019T WAIT FOR INSPIRATION. GO AFTER IT WITH A CLUB IN HAND.`",
+        "date": "2022-10-29 00:00:05"
+    },
+    {
+        "quote": "`NEVER INVEST MORE THAN YOU\u2019RE WILLING TO LOSE.`",
+        "date": "2022-10-30 00:00:05"
+    },
+    {
+        "quote": "`WILDERNESS IS NOT A LUXURY BUT A NECESSITY OF THE HUMAN SPIRIT.`",
+        "date": "2022-10-31 00:00:05"
+    },
+    {
+        "quote": "`YOU\u2019RE NEVER TOO IMPORTANT TO BE NICE TO PEOPLE.`",
+        "date": "2022-11-01 00:00:05"
+    },
+    {
+        "quote": "`DO NOT WORRY ABOUT WHAT WILL HAPPEN, ONLY ABOUT WHAT NEEDS TO BE DONE.`",
+        "date": "2022-11-02 00:00:05"
+    },
+    {
+        "quote": "`SILENT GRATITUDE ISN\u2019T MUCH USE TO ANYONE.`",
+        "date": "2022-11-03 00:00:06"
+    },
+    {
+        "quote": "`EVERYTHING WE HEAR IS AN OPINION, NOT A FACT. EVERYTHING WE SEE IS A PERSPECTIVE, NOT A TRUTH.`",
+        "date": "2022-11-04 00:00:04"
+    },
+    {
+        "quote": "`PEOPLE OFTEN CONFUSE CHARISMA FOR INTELLIGENCE, CONFIDENCE FOR COMPETENCE, AND BEAUTY FOR VIRTUE.`",
+        "date": "2022-11-05 00:00:05"
+    },
+    {
+        "quote": "`TREAT YOURSELF LIKE YOU WOULD TREAT SOMEONE YOU LOVE.`",
+        "date": "2022-11-06 00:00:05"
+    },
+    {
+        "quote": "`THE ONLY JOB SECURITY YOU WILL EVER HAVE IS YOUR ABILITY TO PERFORM.`",
+        "date": "2022-11-07 00:00:05"
+    },
+    {
+        "quote": "`TO KNOW EVEN ONE LIFE HAS BREATHED EASIER BECAUSE YOU HAVE LIVED. THIS IS TO BE SUCCESSFUL.`",
+        "date": "2022-11-08 00:00:05"
+    },
+    {
+        "quote": "`THE ONLY COURAGE THAT MATTERS IS THE KIND THAT GETS YOU FROM ONE MOMENT TO THE NEXT.`",
+        "date": "2022-11-09 00:00:04"
+    },
+    {
+        "quote": "`A LIFE SPENT MAKING MISTAKES IS NOT ONLY MORE HONORABLE BUT MORE USEFUL THAN A LIFE SPENT DOING NOTHING.`",
+        "date": "2022-11-10 00:00:04"
+    },
+    {
+        "quote": "`THE TRUTH WILL SET YOU FREE, BUT FIRST IT WILL PISS YOU OFF.`",
+        "date": "2022-11-11 00:00:04"
+    },
+    {
+        "quote": "`\n\nTOMORROW IS THE SUM OF OUR YESTERDAYS.`",
+        "date": "2022-11-12 00:00:06"
+    },
+    {
+        "quote": "`REMEMBER THAT TO CHANGE YOUR MIND AND ACCEPT CORRECTION ARE FREE ACTS.`",
+        "date": "2022-11-13 00:00:04"
+    },
+    {
+        "quote": "`PROBLEMS DO NOT GO AWAY IF YOU IGNORE THEM LONG ENOUGH.`",
+        "date": "2022-11-14 00:00:05"
+    },
+    {
+        "quote": "`WHOEVER IS HAPPY WILL MAKE OTHERS HAPPY TOO.`",
+        "date": "2022-11-15 00:00:05"
+    },
+    {
+        "quote": "`THE BEST COURSE OF ACTION WHEN YOU FEEL ANGRY IS OFTEN TO DO NOTHING AND WAIT IT OUT.`",
+        "date": "2022-11-16 00:00:04"
+    },
+    {
+        "quote": "`A CREATIVE MAN IS MOTIVATED BY THE DESIRE TO ACHIEVE, NOT BY THE DESIRE TO BEAT OTHERS.`",
+        "date": "2022-11-17 00:00:05"
+    },
+    {
+        "quote": "`YOU DIDN\u2019T CHOOSE YOUR BIRTH CIRCUMSTANCES, BUT EVERY DAY, YOU ARE CHOOSING WHERE YOU WILL BE IN TEN YEARS.`",
+        "date": "2022-11-18 00:00:05"
+    },
+    {
+        "quote": "`AVOID PEOPLE WHO BLAME YOU FOR THEIR OWN BEHAVIOR.`",
+        "date": "2022-11-19 00:00:05"
+    },
+    {
+        "quote": "`TO THINK IS EASY. TO ACT IS DIFFICULT. TO ACT AS ONE THINKS IS THE MOST DIFFICULT.`",
+        "date": "2022-11-20 00:00:37"
+    },
+    {
+        "quote": "`THE THINGS YOU THINK ABOUT DETERMINE THE QUALITY OF YOUR MIND.`",
+        "date": "2022-11-21 00:00:06"
+    },
+    {
+        "quote": "`MATURITY IS WHEN YOU DON\u2019T FORCE PEOPLE TO CHOOSE YOU.`",
+        "date": "2022-11-22 00:00:04"
+    },
+    {
+        "quote": "`YOU CAN\u2019T HAVE A RELATIONSHIP WITH SOMEONE\u2019S POTENTIAL.`",
+        "date": "2022-11-23 00:00:05"
+    },
+    {
+        "quote": "`HARD WORK IS OFTEN REWARDED ONLY WITH MORE WORK.`",
+        "date": "2022-11-24 00:01:57"
+    },
+    {
+        "quote": "`THE FUTURE BELONGS TO THOSE WHO BELIEVE IN THE BEAUTY OF THEIR DREAMS.`",
+        "date": "2022-11-25 00:00:05"
+    },
+    {
+        "quote": "`NOT EVERYONE WILL LIKE YOU FOR DOING THE RIGHT THING.`",
+        "date": "2022-11-26 00:00:04"
+    },
+    {
+        "quote": "`SPEAK WHEN YOU ARE ANGRY AND YOU WILL MAKE THE BEST SPEECH YOU WILL EVER REGRET.`",
+        "date": "2022-11-27 00:00:05"
+    },
+    {
+        "quote": "`CHOOSE PEOPLE WHO WILL TELL YOU WHAT YOU NEED TO HEAR EVEN WHEN IT\u2019S HARD.`",
+        "date": "2022-11-28 00:00:04"
+    },
+    {
+        "quote": "`IF YOU HAVE THE POWER TO MAKE SOMEONE HAPPY, DO IT. THE WORLD NEEDS MORE OF THAT.`",
+        "date": "2022-11-29 00:00:05"
+    },
+    {
+        "quote": "`DON\u2019T USE YOUR ENERGY TO WORRY. USE YOUR ENERGY TO BELIEVE.`",
+        "date": "2022-11-30 00:00:05"
+    },
+    {
+        "quote": "`CURIOSITY IS THE BEGINNING OF KNOWLEDGE.`",
+        "date": "2022-12-01 00:00:05"
+    },
+    {
+        "quote": "`OUR ATTITUDE TOWARDS LIFE DETERMINES LIFE\u2019S ATTITUDE TOWARDS US.`",
+        "date": "2022-12-02 00:00:05"
+    },
+    {
+        "quote": "`THERE IS NO POINT IN BEING THE FASTEST IF YOU DON\u2019T FINISH THE RACE.`",
+        "date": "2022-12-03 00:00:05"
+    },
+    {
+        "quote": "`NO MAN WAS EVER WISE BY CHANCE.`",
+        "date": "2022-12-04 00:00:06"
+    },
+    {
+        "quote": "`THE DIFFERENCE BETWEEN STUPIDITY AND GENIUS IS THAT GENIUS HAS ITS LIMITS.`",
+        "date": "2022-12-05 00:00:04"
+    },
+    {
+        "quote": "`CONFLICT CANNOT SURVIVE WITHOUT YOUR PARTICIPATION.`",
+        "date": "2022-12-06 00:00:07"
+    },
+    {
+        "quote": "`SOMETIMES YOU DON\u2019T HAVE TO LIKE IT. YOU JUST HAVE TO DO IT.`",
+        "date": "2022-12-07 00:00:05"
+    },
+    {
+        "quote": "`NOBODY IS ENTITLED TO YOUR TIME, MONEY, OR BODY.`",
+        "date": "2022-12-08 02:17:38"
+    },
+    {
+        "quote": "`JUST BECAUSE SOMEONE IS NICE TO YOU, IT DOESN\u2019T MEAN THEY ARE A NICE PERSON.`",
+        "date": "2022-12-09 02:08:36"
+    },
+    {
+        "quote": "`THE MOST WORTHWHILE THING IS TO TRY TO PUT HAPPINESS INTO THE LIVES OF OTHERS.`",
+        "date": "2022-12-10 02:00:48"
+    },
+    {
+        "quote": "`A CALM MIND CAN HANDLE EVERY STORM.`",
+        "date": "2022-12-11 02:58:43"
+    },
+    {
+        "quote": "`NOTHING IS FOREVER. DON\u2019T TAKE IT FOR GRANTED.`",
+        "date": "2022-12-12 03:28:04"
+    },
+    {
+        "quote": "`DON\u2019T WASTE TIME IN RELATIONSHIPS YOU\u2019RE NOT ENJOYING.`",
+        "date": "2022-12-13 03:16:46"
+    },
+    {
+        "quote": "`THE ABILITY TO FOCUS ATTENTION ON IMPORTANT THINGS IS A DEFINING CHARACTERISTIC OF INTELLIGENCE.`",
+        "date": "2022-12-14 00:53:48"
+    },
+    {
+        "quote": "`JUST BECAUSE YOU HAVE SPARE MONEY AT THE END OF THE MONTH, IT DOESN\u2019T MEAN YOU HAVE TO SPEND IT.`",
+        "date": "2022-12-15 01:55:59"
+    },
+    {
+        "quote": "`QUIT COMPARING YOURSELF TO UNREALISTIC EXPECTATIONS AND FAKE INTERNET PERSONAS.`",
+        "date": "2022-12-16 02:00:05"
+    },
+    {
+        "quote": "`DON\u2019T LOAN MONEY YOU CANNOT AFFORD TO NEVER SEE AGAIN.`",
+        "date": "2022-12-17 02:00:05"
+    },
+    {
+        "quote": "`THE ONLY WAY TO DO GREAT WORK IS TO LOVE WHAT YOU DO.`",
+        "date": "2022-12-18 02:00:05"
+    },
+    {
+        "quote": "`GROWTH AND COMFORT DO NOT COEXIST.`",
+        "date": "2022-12-19 02:00:05"
+    },
+    {
+        "quote": "`THE ONLY LIMIT TO OUR REALIZATION OF TOMORROW WILL BE OUR DOUBTS OF TODAY.`",
+        "date": "2022-12-20 02:00:06"
+    },
+    {
+        "quote": "`THERE ARE NO SECRETS THAT TIME DOES NOT REVEAL.`",
+        "date": "2022-12-21 02:00:05"
+    },
+    {
+        "quote": "`CHALLENGE YOURSELF TO IMPROVE DAILY, NO MATTER YOUR MOOD.`",
+        "date": "2022-12-22 02:00:05"
+    },
+    {
+        "quote": "`IF YOU HAVE SOMETHING GOOD TO SAY ABOUT SOMEONE, SAY IT. THEY MIGHT NEED IT.`",
+        "date": "2022-12-23 02:00:05"
+    },
+    {
+        "quote": "`BE CURIOUS, NOT JUDGMENTAL.`",
+        "date": "2022-12-24 02:00:06"
+    },
+    {
+        "quote": "`DOGS BARK AT WHAT THEY CANNOT UNDERSTAND.`",
+        "date": "2022-12-25 02:00:05"
+    },
+    {
+        "quote": "`FORGIVENESS IS THE FINAL FORM OF LOVE.`",
+        "date": "2022-12-26 02:00:04"
+    },
+    {
+        "quote": "`LESSER ARTISTS BORROW, GREAT ARTISTS STEAL.`",
+        "date": "2022-12-27 02:00:05"
+    },
+    {
+        "quote": "`YOU WILL ALWAYS BE LESS PRODUCTIVE WHEN YOU DON\u2019T HAVE A PLAN.`",
+        "date": "2022-12-28 02:00:04"
+    },
+    {
+        "quote": "`BUILD A LIFE YOU DON\u2019T NEED A VACATION FROM.`",
+        "date": "2022-12-29 02:00:05"
+    },
+    {
+        "quote": "`YOUR FEAR OF LOOKING STUPID IS HOLDING YOU BACK.`",
+        "date": "2022-12-30 02:02:45"
+    },
+    {
+        "quote": "`GREAT CREATORS START WITH GREAT TASTE.`",
+        "date": "2022-12-31 02:00:05"
+    },
+    {
+        "quote": "`BELIEVE YOU CAN AND YOU\u2019RE HALFWAY THERE.`",
+        "date": "2023-01-01 02:00:05"
+    },
+    {
+        "quote": "`NEVER FORGET THAT AS LONG AS YOU ARE ALIVE AND HEALTHY, YOU GET AS MANY SECOND CHANCES AS YOU WANT.`",
+        "date": "2023-01-02 02:00:05"
+    },
+    {
+        "quote": "`STAY AWAY FROM PEOPLE THAT RUIN YOUR PEACE.`",
+        "date": "2023-01-03 02:00:06"
+    },
+    {
+        "quote": "`THINK IN TERMS OF THE DAY\u2019S RESOLUTIONS, NOT THE YEAR\u2019S.`",
+        "date": "2023-01-04 02:00:05"
+    },
+    {
+        "quote": "`WHAT WE LEARN FROM HISTORY IS THAT NO ONE LEARNS FROM HISTORY.`",
+        "date": "2023-01-05 02:00:05"
+    },
+    {
+        "quote": "`BE GOOD TO PEOPLE FOR NO REASON.`",
+        "date": "2023-01-06 02:00:04"
+    },
+    {
+        "quote": "`HAPPINESS IS GOOD HEALTH AND A BAD MEMORY.`",
+        "date": "2023-01-07 02:00:06"
+    },
+    {
+        "quote": "`SOMETIMES CONSEQUENCES CAN BE YEARS DOWN THE LINE.`",
+        "date": "2023-01-08 02:00:05"
+    },
+    {
+        "quote": "`DON\u2019T EXPECT OTHERS TO BE HONEST JUST BECAUSE YOU ARE.`",
+        "date": "2023-01-09 02:00:06"
+    },
+    {
+        "quote": "`THE THREE BIG DECISIONS - WHAT YOU DO, WHERE YOU LIVE, AND WHO YOU\u2019RE WITH.`",
+        "date": "2023-01-10 02:00:05"
+    },
+    {
+        "quote": "`THERE IS LITTLE THAT CAN WITHSTAND A MAN WHO CAN CONQUER HIMSELF.`",
+        "date": "2023-01-11 02:00:05"
+    },
+    {
+        "quote": "`BIG SHOTS ARE ONLY LITTLE SHOTS WHO KEEP SHOOTING.`",
+        "date": "2023-01-12 02:00:05"
+    },
+    {
+        "quote": "`THAT MOVE YOU\u2019RE AFRAID TO MAKE MIGHT JUST BE THE ONE THAT CHANGES EVERYTHING.`",
+        "date": "2023-01-13 02:00:05"
+    },
+    {
+        "quote": "`GOOD IDEAS ARE NOT ADOPTED AUTOMATICALLY. THEY MUST BE DRIVEN INTO PRACTICE WITH COURAGEOUS PATIENCE.`",
+        "date": "2023-01-14 02:00:05"
+    },
+    {
+        "quote": "`BE THE PERSON WHO GETS SHIT DONE.`",
+        "date": "2023-01-15 02:00:04"
+    },
+    {
+        "quote": "`YOU DON\u2019T NEED ANYONE ELSE TO COMPLETE YOU. YOU ARE A WHOLE-ASS PERSON.`",
+        "date": "2023-01-16 02:00:06"
+    },
+    {
+        "quote": "`YOU CAN\u2019T HELP GETTING OLDER, BUT YOU DON\u2019T HAVE TO GET OLD.`",
+        "date": "2023-01-17 02:00:04"
+    },
+    {
+        "quote": "`YOUR FUTURE IS DETERMINED BY YOUR DISCIPLINE, NOT YOUR INTELLIGENCE.`",
+        "date": "2023-01-18 02:00:04"
+    },
+    {
+        "quote": "`INTO EACH LIFE, SOME RAIN MUST FALL.`",
+        "date": "2023-01-19 02:00:05"
+    },
+    {
+        "quote": "`SITUATIONAL AWARENESS IS THE BEST SELF-DEFENSE.`",
+        "date": "2023-01-20 02:00:05"
+    },
+    {
+        "quote": "`DON\u2019T WAIT UNTIL NEXT YEAR. IF YOU WANT TO ACCOMPLISH SOMETHING, DO IT NOW.`",
+        "date": "2023-01-21 02:00:04"
+    },
+    {
+        "quote": "`THE ONLY REAL MISTAKE IS THE ONE FROM WHICH WE LEARN NOTHING.`",
+        "date": "2023-01-22 02:00:05"
+    },
+    {
+        "quote": "`A MAN IS GREAT NOT BECAUSE HE HASN\u2019T FAILED; A MAN IS GREAT BECAUSE FAILURE HASN\u2019T STOPPED HIM.`",
+        "date": "2023-01-23 02:00:05"
+    },
+    {
+        "quote": "`EVEN SMALL ACTS OF KINDNESS CAN MAKE A BIG DIFFERENCE.`",
+        "date": "2023-01-24 02:00:05"
+    },
+    {
+        "quote": "`SPEAK WHEN YOU ARE ANGRY AND YOU WILL MAKE THE BEST SPEECH YOU WILL EVER REGRET.`",
+        "date": "2023-01-25 02:00:05"
+    },
+    {
+        "quote": "`YOUR CIRCLE IS SUPPOSED TO BE PROUD OF YOU, NOT JEALOUS.`",
+        "date": "2023-01-26 02:00:05"
+    },
+    {
+        "quote": "`IF YOU HAVE AN IDEA THAT YOU GENUINELY THINK IS GOOD, DON\u2019T LET SOME IDIOT TALK YOU OUT OF IT.`",
+        "date": "2023-01-27 02:00:04"
+    },
+    {
+        "quote": "`NEVER ACCEPT DISRESPECT.`",
+        "date": "2023-01-28 02:00:04"
+    },
+    {
+        "quote": "`HAPPINESS IS A CHOICE WE CAN MAKE EVERY DAY.`",
+        "date": "2023-01-29 02:00:05"
+    },
+    {
+        "quote": "`OUR WORK IS THE PRESENTATION OF OUR CAPABILITIES.`",
+        "date": "2023-01-30 02:00:05"
+    },
+    {
+        "quote": "`BIKING IS A WONDERFUL WAY TO FALL DEEPLY IN LOVE WITH A PLACE.`",
+        "date": "2023-01-31 02:00:04"
+    },
+    {
+        "quote": "`YOUR RIGHTS MATTER BECAUSE YOU NEVER KNOW WHEN YOU\u2019RE GOING TO NEED THEM.`",
+        "date": "2023-02-01 02:00:05"
+    },
+    {
+        "quote": "`EITHER YOU RUN THE DAY OR THE DAY RUNS YOU.`",
+        "date": "2023-02-02 02:00:06"
+    },
+    {
+        "quote": "`HOW TO BE HAPPY: DON\u2019T EXPECT ANYTHING FROM ANYONE.`",
+        "date": "2023-02-03 02:00:05"
+    },
+    {
+        "quote": "`THE PRICE OF GREATNESS IS RESPONSIBILITY.`",
+        "date": "2023-02-04 02:00:04"
+    },
+    {
+        "quote": "`EVERY FAILURE IS A STEP TO SUCCESS.`",
+        "date": "2023-02-05 02:00:04"
+    },
+    {
+        "quote": "`A MAN NEVER DISCLOSES HIS CHARACTER SO CLEARLY AS WHEN HE DESCRIBES ANOTHER.`",
+        "date": "2023-02-06 02:00:06"
+    },
+    {
+        "quote": "`WHAT WE REALLY ARE MEANS MORE THAN WHAT PEOPLE THINK OF US.`",
+        "date": "2023-02-07 02:00:04"
+    },
+    {
+        "quote": "`IT MAY SEEM DIFFICULT AT FIRST, BUT EVERYTHING SEEMS DIFFICULT AT FIRST.`",
+        "date": "2023-02-08 02:00:04"
+    },
+    {
+        "quote": "`KINDNESS AND COMPASSION BEGIN WITH THE UNDERSTANDING THAT WE ALL STRUGGLE.`",
+        "date": "2023-02-09 02:00:06"
+    },
+    {
+        "quote": "`EXPECT PROBLEMS AND EAT THEM FOR BREAKFAST.`",
+        "date": "2023-02-10 02:00:04"
+    },
+    {
+        "quote": "`DON\u2019T ASSUME THEY MEANT TO OFFEND YOU. THINGS ARE NOT AS PERSONAL AS THEY FEEL.`",
+        "date": "2023-02-11 02:00:04"
+    },
+    {
+        "quote": "`EVERYTHING THAT IRRITATES US CAN LEAD TO AN UNDERSTANDING OF OURSELVES.`",
+        "date": "2023-02-12 02:00:06"
+    },
+    {
+        "quote": "`GET IT OUT OF YOUR WAY SO IT DOESN\u2019T RUIN YOUR DAY.`",
+        "date": "2023-02-13 02:00:05"
+    },
+    {
+        "quote": "`EXPERIENCE SHOWS THAT SUCCESS IS DUE LESS TO ABILITY THAN TO ZEAL.`",
+        "date": "2023-02-14 02:00:04"
+    },
+    {
+        "quote": "`NEVER SACRIFICE WHO YOU ARE FOR THE SAKE OF MAKING FRIENDS.`",
+        "date": "2023-02-15 02:00:04"
+    },
+    {
+        "quote": "`DON\u2019T TALK ABOUT WHAT YOU\u2019RE GOING TO DO. JUST DO IT AND LET YOUR ACTIONS SPEAK FOR YOU.`",
+        "date": "2023-02-16 02:00:05"
+    },
+    {
+        "quote": "`DON\u2019T HUSTLE YOURSELF INTO AN EARLY GRAVE.`",
+        "date": "2023-02-17 02:00:05"
+    },
+    {
+        "quote": "`TOO OFTEN WE ENJOY THE COMFORT OF OPINION WITHOUT THE DISCOMFORT OF THOUGHT.`",
+        "date": "2023-02-18 02:00:04"
+    },
+    {
+        "quote": "`THE MOST EFFECTIVE WAY TO DO IT IS TO JUST DO IT.`",
+        "date": "2023-02-19 02:00:04"
+    },
+    {
+        "quote": "`A MAN IS THE PRODUCT OF HIS THOUGHTS. WHAT HE THINKS, HE BECOMES.`",
+        "date": "2023-02-20 02:00:05"
+    },
+    {
+        "quote": "`ALL YOU NEED IS THE PLAN, THE ROADMAP, AND THE COURAGE TO PRESS ON TO THE NEXT DESTINATION.`",
+        "date": "2023-02-21 02:00:05"
+    },
+    {
+        "quote": "`THERE ARE MANY WAYS OF GOING FORWARD, BUT ONLY ONE WAY OF STANDING STILL.`",
+        "date": "2023-02-22 02:00:04"
+    },
+    {
+        "quote": "`WHEREVER YOU ARE, BE ALL THERE.`",
+        "date": "2023-02-23 02:00:04"
+    },
+    {
+        "quote": "`BEWARE OF LITTLE EXPENSES. A SMALL LEAK WILL SINK A GREAT SHIP.`",
+        "date": "2023-02-24 02:00:05"
+    },
+    {
+        "quote": "`IF SOMEONE DOES SOMETHING ONCE, THEY WILL DO IT TWICE.`",
+        "date": "2023-02-25 02:00:04"
+    },
+    {
+        "quote": "`YOU CAN ALWAYS COURSE CORRECT, BUT YOU CAN\u2019T STEER A SHIP THAT ISN\u2019T MOVING.`",
+        "date": "2023-02-26 02:00:04"
+    },
+    {
+        "quote": "`TRY TO MAKE TODAY BETTER THAN YESTERDAY.`",
+        "date": "2023-02-27 02:00:04"
+    },
+    {
+        "quote": "`THERE ARE ENOUGH ASSHOLES OUT THERE TO MAKE YOU THINK EVERYONE IS AN ASSHOLE. THE TRUTH IS, MOST PEOPLE ARE GREAT.`",
+        "date": "2023-02-28 02:00:04"
+    },
+    {
+        "quote": "`THE IDEAL MAN BEARS THE ACCIDENTS OF LIFE WITH DIGNITY AND GRACE, MAKING THE BEST OF CIRCUMSTANCES.`",
+        "date": "2023-03-01 02:00:04"
+    },
+    {
+        "quote": "`A GREAT MAN IS HARD ON HIMSELF; A SMALL MAN IS HARD ON OTHERS.`",
+        "date": "2023-03-02 02:00:04"
+    },
+    {
+        "quote": "`NO AMOUNT OF EVIDENCE WILL EVER PERSUADE AN IDIOT.`",
+        "date": "2023-03-03 02:00:05"
+    },
+    {
+        "quote": "`YOUR MIND IS A SACRED ENCLOSURE INTO WHICH NOTHING HARMFUL CAN ENTER EXCEPT BY YOUR OWN PERMISSION.`",
+        "date": "2023-03-04 02:00:04"
+    },
+    {
+        "quote": "`READING IS TO THE MIND WHAT EXERCISE IS TO THE BODY.`",
+        "date": "2023-03-05 02:00:05"
+    },
+    {
+        "quote": "`HE WHO ANGERS YOU CONQUERS YOU.`",
+        "date": "2023-03-06 02:00:04"
+    },
+    {
+        "quote": "`HOPE IS BEING ABLE TO SEE THERE IS LIGHT DESPITE ALL OF THE DARKNESS.`",
+        "date": "2023-03-07 02:00:05"
+    },
+    {
+        "quote": "`A FRIEND IS ONE WHO KNOWS YOU AND LOVES YOU JUST THE SAME.`",
+        "date": "2023-03-08 02:00:04"
+    },
+    {
+        "quote": "`GENIUS AIN\u2019T ANYTHING MORE THAN ELEGANT COMMON SENSE.`",
+        "date": "2023-03-09 02:00:06"
+    },
+    {
+        "quote": "`ROUGH DIAMONDS MAY SOMETIMES BE MISTAKEN FOR WORTHLESS PEBBLES.`",
+        "date": "2023-03-10 02:00:05"
+    },
+    {
+        "quote": "`LIFE IS TOO SHORT TO BE SPENT NURSING ANIMOSITY OR REGISTERING WRONGS.`",
+        "date": "2023-03-11 02:00:04"
+    },
+    {
+        "quote": "`STRUGGLING NOW DOESN\u2019T MEAN STRUGGLING FOREVER.`",
+        "date": "2023-03-12 02:00:05"
+    },
+    {
+        "quote": "`CHEERFULNESS IS THE BEST PROMOTER OF HEALTH.`",
+        "date": "2023-03-13 02:00:05"
+    },
+    {
+        "quote": "`THE ART OF WRITING IS THE ART OF DISCOVERING WHAT YOU BELIEVE.`",
+        "date": "2023-03-14 02:00:05"
+    },
+    {
+        "quote": "`FINDING WHAT ONE IS FIT TO DO AND SECURING AN OPPORTUNITY TO DO IT IS THE KEY TO HAPPINESS.`",
+        "date": "2023-03-15 02:00:05"
+    },
+    {
+        "quote": "`THE HEAVIEST BURDENS WE CARRY ARE THE THOUGHTS IN OUR HEADS.`",
+        "date": "2023-03-16 02:00:05"
+    },
+    {
+        "quote": "`FORTUNE FAVORS THE PREPARED MIND.`",
+        "date": "2023-03-17 02:00:06"
+    },
+    {
+        "quote": "`ONE WHO DECEIVES WILL ALWAYS FIND THOSE WHO ALLOW THEMSELVES TO BE DECEIVED.`",
+        "date": "2023-03-18 02:00:05"
+    },
+    {
+        "quote": "`WE WASTE TIME LOOKING FOR THE PERFECT LOVER INSTEAD OF CREATING THE PERFECT LOVE.`",
+        "date": "2023-03-19 02:00:05"
+    },
+    {
+        "quote": "`IF YOU\u2019VE EVER HAD IT IN YOU, YOU\u2019LL ALWAYS HAVE IT IN YOU.`",
+        "date": "2023-03-20 02:00:07"
+    },
+    {
+        "quote": "`IT\u2019S EASY TO MAKE A BUCK. IT\u2019S A LOT TOUGHER TO MAKE A DIFFERENCE.`",
+        "date": "2023-03-21 02:00:07"
+    },
+    {
+        "quote": "`IT\u2019S SCARY TO LIVE THE UNKNOWN. IT\u2019S A LOT SCARIER TO LIVE WITH REGRET.`",
+        "date": "2023-03-22 02:00:06"
+    },
+    {
+        "quote": "`BE TRUE TO YOUR WORD, YOUR WORK, AND YOUR FRIEND.`",
+        "date": "2023-03-23 02:00:07"
+    },
+    {
+        "quote": "`RESPECT IS WHAT WE OWE. LOVE IS WHAT WE GIVE.`",
+        "date": "2023-03-24 02:00:05"
+    },
+    {
+        "quote": "`IF YOUR DAY WAS SHITTY, JUST REMEMBER, YOU WILL NEVER HAVE TO DO TODAY AGAIN.`",
+        "date": "2023-03-25 02:00:05"
+    },
+    {
+        "quote": "`THE CHIEF OBSTACLE IN THE PROGRESS OF THE HUMAN RACE IS THE HUMAN RACE.`",
+        "date": "2023-03-26 02:00:05"
+    },
+    {
+        "quote": "`THE WHOLE SECRET OF LIFE IS TO BE INTERESTED IN ONE THING PROFOUNDLY AND IN A THOUSAND THINGS WELL.`",
+        "date": "2023-03-27 02:00:05"
+    },
+    {
+        "quote": "`LIFE\u2019S MOST PERSISTENT AND URGENT QUESTION IS, \u201cWHAT ARE YOU DOING FOR OTHERS?\u201d`",
+        "date": "2023-03-28 02:00:05"
+    },
+    {
+        "quote": "`BE MISERABLE. OR MOTIVATE YOURSELF. WHATEVER HAS TO BE DONE, IT\u2019S YOUR CHOICE.`",
+        "date": "2023-03-29 02:00:05"
+    },
+    {
+        "quote": "`PEOPLE MAY DOUBT WHAT YOU SAY, BUT THEY WILL BELIEVE WHAT YOU DO.`",
+        "date": "2023-03-30 02:00:05"
+    },
+    {
+        "quote": "`PASSION IS MOMENTARY; LOVE IS ENDURING.`",
+        "date": "2023-03-31 02:00:06"
+    },
+    {
+        "quote": "`TRY TO KEEP YOUR SOUL YOUNG AND QUIVERING RIGHT UP TO OLD AGE.`",
+        "date": "2023-04-01 02:00:05"
+    },
+    {
+        "quote": "`WORK HARD AND ENJOY LIFE\u2019S PLEASURES.`",
+        "date": "2023-04-02 02:00:07"
+    },
+    {
+        "quote": "`IF YOU LIGHT A LAMP FOR SOMEBODY, IT WILL ALSO BRIGHTEN YOUR PATH.`",
+        "date": "2023-04-03 02:00:06"
+    },
+    {
+        "quote": "`KNOWING IS NOT ENOUGH; WE MUST APPLY!`",
+        "date": "2023-04-04 02:00:06"
+    },
+    {
+        "quote": "`THE COLOR OF TRUTH IS GREY.`",
+        "date": "2023-04-05 02:00:06"
+    },
+    {
+        "quote": "`THERE IS NO SUCCESS WITHOUT A SOLID FOUNDATION OF FAILURES.`",
+        "date": "2023-04-06 02:00:08"
+    },
+    {
+        "quote": "`IN FAIR WEATHER, PREPARE FOR FOUL.`",
+        "date": "2023-04-07 02:00:07"
+    },
+    {
+        "quote": "`STOP BEING OKAY WITH THINGS YOU ARE REALLY NOT OKAY WITH.`",
+        "date": "2023-04-08 02:00:06"
+    },
+    {
+        "quote": "`STUDY NATURE, LOVE NATURE, STAY CLOSE TO NATURE. IT WILL NEVER FAIL YOU.`",
+        "date": "2023-04-09 02:00:05"
+    },
+    {
+        "quote": "`ONE WAY TO GET THE MOST OUT OF LIFE IS TO LOOK UPON IT AS AN ADVENTURE.`",
+        "date": "2023-04-10 02:00:06"
+    },
+    {
+        "quote": "`ANTICIPATE THE DIFFICULT BY MANAGING THE EASY.`",
+        "date": "2023-04-11 02:00:06"
+    },
+    {
+        "quote": "`THE ONLY SURE WEAPON AGAINST BAD IDEAS IS BETTER IDEAS.`",
+        "date": "2023-04-12 02:00:06"
+    },
+    {
+        "quote": "`CORRECTION DOES MUCH, BUT ENCOURAGEMENT DOES MORE.`",
+        "date": "2023-04-13 02:00:06"
+    },
+    {
+        "quote": "`ALL OF OUR TECHNOLOGY IS COMPLETELY UNNECESSARY TO A HAPPY LIFE.`",
+        "date": "2023-04-14 02:00:05"
+    },
+    {
+        "quote": "`AN APPEASER IS ONE WHO FEEDS A CROCODILE, HOPING IT WILL EAT HIM LAST.`",
+        "date": "2023-04-15 02:00:06"
+    },
+    {
+        "quote": "`IN EVERY SITUATION, LIFE IS ASKING US A QUESTION, AND OUR ACTIONS ARE THE ANSWER.`",
+        "date": "2023-04-16 02:00:05"
+    },
+    {
+        "quote": "`YOU CANNOT ESCAPE THE RESPONSIBILITY OF TOMORROW BY EVADING IT TODAY.`",
+        "date": "2023-04-17 02:00:06"
+    },
+    {
+        "quote": "`BE SELECTIVE WITH YOUR RAGE. DON\u2019T GET WORKED UP OVER TRIVIAL SHIT.`",
+        "date": "2023-04-18 02:00:06"
+    },
+    {
+        "quote": "`THE BEGINNING IS ALWAYS TODAY.`",
+        "date": "2023-04-19 02:00:06"
+    },
+    {
+        "quote": "`PRAISE AND REWARD LOUDLY; BLAME QUIETLY.`",
+        "date": "2023-04-20 02:00:06"
+    },
+    {
+        "quote": "`FIND SOMETHING YOU\u2019RE PASSIONATE ABOUT AND KEEP TREMENDOUSLY INTERESTED IN IT.`",
+        "date": "2023-04-21 02:00:06"
+    },
+    {
+        "quote": "`WE ARE NO LONGER HAPPY SO SOON AS WE WISH TO BE HAPPIER.`",
+        "date": "2023-04-22 02:00:06"
+    },
+    {
+        "quote": "`IT IS A CHARACTERISTIC OF WISDOM NOT TO DO DESPERATE THINGS.`",
+        "date": "2023-04-23 02:00:05"
+    },
+    {
+        "quote": "`AS A CURE FOR WORRYING, WORK IS BETTER THAN WHISKEY.`",
+        "date": "2023-04-24 02:00:06"
+    },
+    {
+        "quote": "`EXPERIENCE IS SIMPLY THE NAME WE GIVE OUR MISTAKES.`",
+        "date": "2023-04-25 02:00:06"
+    },
+    {
+        "quote": "`A PERSON WILL SHOW YOU WHO THEY TRULY ARE WHEN YOU HAVE NOTHING TO OFFER THEM.`",
+        "date": "2023-04-26 02:00:05"
+    },
+    {
+        "quote": "`PREPARE AND SOMEDAY YOUR CHANCE WILL COME.`",
+        "date": "2023-04-27 02:00:05"
+    },
+    {
+        "quote": "`YOU DON\u2019T NEED MORE TIME. YOU NEED FEWER DISTRACTIONS.`",
+        "date": "2023-04-28 02:00:06"
+    },
+    {
+        "quote": "`CHEERFULNESS IS THE BEST PROMOTER OF HEALTH.`",
+        "date": "2023-04-29 02:00:06"
+    },
+    {
+        "quote": "`TEN PEOPLE WHO SPEAK MAKE MORE NOISE THAN TEN THOUSAND WHO ARE SILENT. -NAPOLEON`",
+        "date": "2023-04-30 02:00:05"
+    },
+    {
+        "quote": "`IF YOU FIND YOURSELF IN A HOLE, THE FIRST THING TO DO IS STOP DIGGING.`",
+        "date": "2023-05-01 02:00:05"
+    },
+    {
+        "quote": "`NOT ENGAGING IN IGNORANCE IS WISDOM.`",
+        "date": "2023-05-02 02:00:05"
+    },
+    {
+        "quote": "`BE CAREFUL WHO YOU TRUST. SUGAR AND SALT LOOK THE SAME.`",
+        "date": "2023-05-03 02:00:05"
+    },
+    {
+        "quote": "`THE LONGER YOU ARE LIVING ON AUTOPILOT, THE HARDER THE FUTURE IS GOING TO BE.`",
+        "date": "2023-05-04 02:00:06"
+    },
+    {
+        "quote": "`DON\u2019T MEASURE YOUR LIFE WITH SOMEONE ELSE\u2019S RULER.`",
+        "date": "2023-05-05 02:00:05"
+    },
+    {
+        "quote": "`THE EXCITEMENT TO LEARN MUST OUTWEIGH THE FEAR OF APPEARING STUPID.`",
+        "date": "2023-05-06 02:00:06"
+    },
+    {
+        "quote": "`THE GREATEST TEACHER IS CALLED \u201cDOING.\u201d`",
+        "date": "2023-05-07 02:00:05"
+    },
+    {
+        "quote": "`SOMETIMES PEOPLE PRETEND YOU\u2019RE A BAD PERSON SO THEY DON\u2019T FEEL GUILTY WITH HOW THEY TREATED YOU.`",
+        "date": "2023-05-08 02:00:05"
+    },
+    {
+        "quote": "`WISE MEN TALK BECAUSE THEY HAVE SOMETHING TO SAY; FOOLS, BECAUSE THEY HAVE TO SAY SOMETHING.`",
+        "date": "2023-05-09 02:00:06"
+    },
+    {
+        "quote": "`CONSISTENCY IS MORE IMPORTANT THAN PERFECTION.`",
+        "date": "2023-05-10 02:00:05"
+    },
+    {
+        "quote": "`GOOD JUDGMENT COMES FROM EXPERIENCE, AND A LOT OF THAT COMES FROM BAD JUDGMENT.`",
+        "date": "2023-05-11 02:00:05"
+    },
+    {
+        "quote": "`NOBODY HAS MADE A GREATER MISTAKE THAN HE WHO DID NOTHING BECAUSE HE COULD DO ONLY A LITTLE.`",
+        "date": "2023-05-12 02:00:06"
+    },
+    {
+        "quote": "`KIND WORDS DO NOT COST MUCH. YET THEY ACCOMPLISH MUCH.`",
+        "date": "2023-05-13 02:00:06"
+    },
+    {
+        "quote": "`CONFLICT CANNOT SURVIVE WITHOUT YOUR PARTICIPATION.`",
+        "date": "2023-05-14 02:00:06"
+    },
+    {
+        "quote": "`NO MAN WAS EVER WISE BY CHANCE.`",
+        "date": "2023-05-15 02:00:05"
+    },
+    {
+        "quote": "`GET GOOD ABOUT BEING CORRECTED WITHOUT BEING OFFENDED.`",
+        "date": "2023-05-16 02:00:07"
+    },
+    {
+        "quote": "`TREAT YOURSELF LIKE SOMEONE YOU ARE RESPONSIBLE FOR.`",
+        "date": "2023-05-17 02:00:07"
+    },
+    {
+        "quote": "`LEARN TO DIFFERENTIATE BETWEEN THE THINGS THAT ARE IN YOUR CONTROL AND THE THINGS THAT AREN\u2019T.`",
+        "date": "2023-05-18 02:00:07"
+    },
+    {
+        "quote": "`DON\u2019T GO BROKE TRYING TO LOOK RICH.`",
+        "date": "2023-05-19 02:00:07"
+    },
+    {
+        "quote": "`YOU WILL BE A LOT HAPPIER IN LIFE IF YOU LEARN WHEN TO GIVE A SHIT AND WHEN NOT TO GIVE A SHIT.`",
+        "date": "2023-05-20 02:00:07"
+    },
+    {
+        "quote": "`ALL THINGS ARE DIFFICULT BEFORE THEY COME EASY.`",
+        "date": "2023-05-21 02:00:06"
+    },
+    {
+        "quote": "`DO NO HARM, BUT TAKE NO SHIT.`",
+        "date": "2023-05-22 02:00:06"
+    },
+    {
+        "quote": "`PICK THE RIGHT PARTNER BECAUSE A BAD SPOUSE WILL FUCK UP YOUR LIFE MORE THAN LONELINESS EVER COULD.`",
+        "date": "2023-05-23 02:00:07"
+    },
+    {
+        "quote": "`EXPERIENCE IS A HARD TEACHER BECAUSE SHE GIVES THE TEST FIRST, THE LESSON AFTERWARDS.`",
+        "date": "2023-05-24 02:00:07"
+    },
+    {
+        "quote": "`DON\u2019T TRY TO CREATE AND ANALYZE AT THE SAME TIME. THEY\u2019RE DIFFERENT PROCESSES.`",
+        "date": "2023-05-25 02:00:06"
+    },
+    {
+        "quote": "`KNOWLEDGE ISN\u2019T FREE. YOU HAVE TO PAY ATTENTION.`",
+        "date": "2023-05-26 02:00:07"
+    },
+    {
+        "quote": "`YOUR FUTURE SELF IS WATCHING YOU RIGHT NOW THROUGH YOUR MEMORIES.`",
+        "date": "2023-05-27 02:00:07"
+    },
+    {
+        "quote": "`TAKE CARE OF YOUR THOUGHTS WHEN YOU ARE ALONE, AND TAKE CARE OF YOUR WORDS WHEN YOU ARE NOT.`",
+        "date": "2023-05-28 02:00:07"
+    },
+    {
+        "quote": "`WITHOUT CRAFTSMANSHIP, INSPIRATION IS A MERE REED SHAKEN IN THE WIND.`",
+        "date": "2023-05-29 02:00:07"
+    },
+    {
+        "quote": "`TALKERS ARE USUALLY MORE ARTICULATE THAN DOERS, SINCE TALK IS THEIR SPECIALTY.`",
+        "date": "2023-05-30 02:00:07"
+    },
+    {
+        "quote": "`GIVE LIGHT AND PEOPLE WILL FIND THE WAY.`",
+        "date": "2023-05-31 02:00:07"
+    },
+    {
+        "quote": "`ALWAYS DO SOBER WHAT YOU SAID YOU\u2019D DO DRUNK. THAT\u2019LL TEACH YOU TO KEEP YOUR MOUTH SHUT.`",
+        "date": "2023-06-01 02:00:06"
+    },
+    {
+        "quote": "`IN ORDER TO BE IRREPLACEABLE, ONE MUST ALWAYS BE DIFFERENT.`",
+        "date": "2023-06-02 02:00:06"
+    },
+    {
+        "quote": "`EVERYTHING HAS ITS BEAUTY, BUT NOT EVERYONE SEES IT.`",
+        "date": "2023-06-03 02:00:06"
+    },
+    {
+        "quote": "`THERE IS NO REVENGE SO COMPLETE AS FORGIVENESS.`",
+        "date": "2023-06-04 02:00:06"
+    },
+    {
+        "quote": "`IF YOU WANT TO LIFT YOURSELF UP, LIFT SOMEONE ELSE UP.`",
+        "date": "2023-06-05 02:00:07"
+    },
+    {
+        "quote": "`THE WEAK CAN NEVER FORGIVE. FORGIVENESS IS AN ATTRIBUTE OF THE STRONG.`",
+        "date": "2023-06-06 02:00:06"
+    },
+    {
+        "quote": "`TO PLAY IT SAFE IS NOT TO PLAY.`",
+        "date": "2023-06-07 02:00:06"
+    },
+    {
+        "quote": "`LIFE IS TOO SHORT TO BE SPENT NURSING ANIMOSITY OR REGISTERING WRONGS.`",
+        "date": "2023-06-08 02:00:05"
+    },
+    {
+        "quote": "`WHEN YOU ARE ANXIOUS BECAUSE OF YOUR TO-DO LIST, TAKE COMFORT IN YOUR HAVE-DONE LIST.`",
+        "date": "2023-06-09 02:00:06"
+    },
+    {
+        "quote": "`WHEN YOU LOVE LEARNING, WHAT YOU DON\u2019T KNOW IS AN OPPORTUNITY, NOT A THREAT.`",
+        "date": "2023-06-10 02:00:05"
+    },
+    {
+        "quote": "`THE CHIEF DANGER IN LIFE IS THAT YOU MAY TAKE TOO MANY PRECAUTIONS.`",
+        "date": "2023-06-11 02:00:06"
+    },
+    {
+        "quote": "`TAKE CARE OF YOUR THOUGHTS WHEN YOU ARE ALONE, AND TAKE CARE OF YOUR WORDS WHEN YOU ARE NOT.`",
+        "date": "2023-06-12 02:00:07"
+    },
+    {
+        "quote": "`WHEN THE CHARACTER OF A MAN IS NOT CLEAR TO YOU, LOOK AT HIS FRIENDS.`",
+        "date": "2023-06-13 02:00:05"
+    },
+    {
+        "quote": "`A TRUE FRIEND NEVER GETS IN YOUR WAY UNLESS YOU HAPPEN TO BE GOING DOWN.`",
+        "date": "2023-06-14 02:00:06"
+    },
+    {
+        "quote": "`WORRY DOES NOT EMPTY TOMORROW OF ITS SORROW; IT EMPTIES TODAY OF ITS STRENGTH.`",
+        "date": "2023-06-15 02:00:06"
+    },
+    {
+        "quote": "`BEFORE ANYTHING ELSE, PREPARATION IS THE KEY TO SUCCESS.`",
+        "date": "2023-06-16 02:00:08"
+    },
+    {
+        "quote": "`WE FAIL WHEN WE FAIL TO TRY.`",
+        "date": "2023-06-17 02:00:06"
+    },
+    {
+        "quote": "`YOU\u2019LL NEVER CHANGE YOUR LIFE UNTIL YOU CHANGE SOMETHING YOU DO DAILY.`",
+        "date": "2023-06-18 02:00:05"
+    },
+    {
+        "quote": "`LEARN THE RULES LIKE A PRO, SO YOU CAN BREAK THEM LIKE AN ARTIST.`",
+        "date": "2023-06-19 02:00:06"
+    },
+    {
+        "quote": "`ACT BOLDLY AND UNSEEN FORCES WILL COME TO YOUR AID.`",
+        "date": "2023-06-20 02:00:05"
+    },
+    {
+        "quote": "`MEN IN GENERAL ARE QUICK TO BELIEVE THAT WHICH THEY WISH TO BE TRUE.`",
+        "date": "2023-06-21 02:00:06"
+    },
+    {
+        "quote": "`TRUTH NEVER DAMAGES A CAUSE THAT IS JUST.`",
+        "date": "2023-06-22 02:00:07"
+    },
+    {
+        "quote": "`WAKE UP DETERMINED, GO TO BED SATISFIED.`",
+        "date": "2023-06-23 02:00:06"
+    },
+    {
+        "quote": "`IF YOU DON\u2019T LIKE THE ROAD YOU\u2019RE WALKING, PAVE ANOTHER ONE.`",
+        "date": "2023-06-24 02:00:06"
+    },
+    {
+        "quote": "`WHAT YOU GET BY ACHIEVING YOUR GOALS IS NOT AS IMPORTANT AS WHAT YOU BECOME BY ACHIEVING YOUR GOALS.`",
+        "date": "2023-06-25 02:00:05"
+    },
+    {
+        "quote": "`NOTHING HAS AN UGLIER LOOK TO US THAN REASON WHEN IT IS NOT ON OUR SIDE.`",
+        "date": "2023-06-26 02:00:06"
+    },
+    {
+        "quote": "`WORK LIKE THERE IS SOMEONE WORKING 24 HOURS TO TAKE IT AWAY FROM YOU.`",
+        "date": "2023-06-27 02:00:06"
+    },
+    {
+        "quote": "`GO CONFIDENTALLY IN THE DIRECTION OF YOUR DREAMS. LIVE THE LIFE YOU\u2019VE IMAGINED.`",
+        "date": "2023-06-28 02:00:06"
+    },
+    {
+        "quote": "`THINK BEFORE YOU SPEAK. READ BEFORE YOU THINK.`",
+        "date": "2023-06-29 02:00:06"
+    },
+    {
+        "quote": "`TRADE MONEY FOR TIME, NOT TIME FOR MONEY.`",
+        "date": "2023-06-30 02:00:06"
+    },
+    {
+        "quote": "`WHOEVER IS TRYING TO BRING YOU DOWN IS ALREADY BELOW YOU.`",
+        "date": "2023-07-01 02:00:06"
+    },
+    {
+        "quote": "`THERE IS NO ELEVATOR TO SUCCESS. YOU HAVE TO TAKE THE STAIRS.`",
+        "date": "2023-07-02 02:00:05"
+    },
+    {
+        "quote": "`EDUCATE THE CHILDREN AND IT WON\u2019T BE NECESSARY TO PUNISH THE MEN.`",
+        "date": "2023-07-03 02:00:06"
+    },
+    {
+        "quote": "`WHATEVER YOU WANT TO DO, DO IT NOW. THERE ARE ONLY SO MANY TOMORROWS.`",
+        "date": "2023-07-04 02:00:06"
+    },
+    {
+        "quote": "`AN ACRE OF PERFORMANCE IS WORTH A WHOLE WORLD OF PROMISE.`",
+        "date": "2023-07-05 02:00:06"
+    },
+    {
+        "quote": "`THOSE WHO DO NOT MOVE DO NOT NOTICE THEIR CHAINS.`",
+        "date": "2023-07-06 02:00:06"
+    },
+    {
+        "quote": "`DO NOT FEAR TO BE ECCENTRIC IN OPINION, FOR EVERY OPINION NOW ACCEPTED WAS ONCE ECCENTRIC.`",
+        "date": "2023-07-07 02:00:06"
+    },
+    {
+        "quote": "`TO ENJOY THE GLOW OF GOOD HEALTH, YOU MUST EXERCISE.`",
+        "date": "2023-07-08 02:00:06"
+    },
+    {
+        "quote": "`AN IDIOT ADMIRES COMPLEXITY; A GENIUS ADMIRES SIMPLICITY.`",
+        "date": "2023-07-09 02:00:05"
+    },
+    {
+        "quote": "`DON\u2019T TRY TO MAXIMIZE HAPPINESS. TRY TO MINIMIZE MISERY, AND YOU\u2019LL BE HAPPY.`",
+        "date": "2023-07-10 02:00:06"
+    },
+    {
+        "quote": "`THE TRUTH FEARS NO INVESTIGATION.`",
+        "date": "2023-07-11 02:00:06"
+    },
+    {
+        "quote": "`ADVENTURE IS WORTHWHILE. -ARISTOTLE`",
+        "date": "2023-07-12 02:00:06"
+    },
+    {
+        "quote": "`I HEAR AND I FORGET. I SEE AND I REMEMBER. I DO AND I UNDERSTAND. -CONFUCIUS`",
+        "date": "2023-07-13 02:00:05"
+    },
+    {
+        "quote": "`LOVE WITHOUT CONVERSATION IS IMPOSSIBLE.`",
+        "date": "2023-07-14 02:00:06"
+    },
+    {
+        "quote": "`IMAGINATION AND FICTION MAKE UP MORE THAN THREE QUARTERS OF OUR REAL LIFE.`",
+        "date": "2023-07-15 02:00:06"
+    },
+    {
+        "quote": "`PEOPLE ONLY SEE WHAT THEY ARE PREPARED TO SEE.`",
+        "date": "2023-07-16 02:00:06"
+    },
+    {
+        "quote": "`POWER IS NOT REVEALED BY STRIKING HARD OR OFTEN, BUT BY STRIKING TRUE.`",
+        "date": "2023-07-17 02:00:06"
+    },
+    {
+        "quote": "`WE FIRST MAKE OUR HABITS, THEN OUR HABITS MAKE US.`",
+        "date": "2023-07-18 02:00:06"
+    },
+    {
+        "quote": "`A CLEVER PERSON SOLVES A PROBLEM; A WISE PERSON AVOIDS IT.`",
+        "date": "2023-07-19 02:00:06"
+    },
+    {
+        "quote": "`WE CANNOT SOLVE OUR PROBLEMS WITH THE SAME THINKING WE USED WHEN WE CREATED THEM.`",
+        "date": "2023-07-20 02:00:07"
+    },
+    {
+        "quote": "`NO MAN IS REALLY WISE UNTIL HE IS KIND AND COURTEOUS.`",
+        "date": "2023-07-21 02:00:05"
+    },
+    {
+        "quote": "`THOSE WHO LET THINGS HAPPEN USUALLY LOSE TO THOSE WHO MAKE THINGS HAPPEN.`",
+        "date": "2023-07-22 02:00:06"
+    },
+    {
+        "quote": "`REAL KNOWLEDGE IS TO KNOW THE EXTENT OF ONE\u2019S IGNORANCE.`",
+        "date": "2023-07-23 02:00:06"
+    },
+    {
+        "quote": "`NOBODY IS TOO BUSY; IT\u2019S JUST A MATTER OF PRIORITIES.`",
+        "date": "2023-07-24 02:00:05"
+    },
+    {
+        "quote": "`IF YOU WANT THINGS TO BE DIFFERENT, PERHAPS THE ANSWER IS TO BECOME DIFFERENT YOURSELF.`",
+        "date": "2023-07-25 02:00:06"
+    },
+    {
+        "quote": "`WHERE THERE IS CHARITY AND WISDOM, THEIR IS NEITHER FEAR NOR IGNORANCE.`",
+        "date": "2023-07-26 02:00:04"
+    },
+    {
+        "quote": "`IT IS NOT SO IMPORTANT TO KNOW EVERYTHING AS TO APPRECIATE WHAT WE LEARN.`",
+        "date": "2023-07-27 02:00:05"
+    },
+    {
+        "quote": "`IMPORTANT PRINCIPLES MAY, AND MUST, BE INFLEXIBLE.`",
+        "date": "2023-07-28 02:00:05"
+    },
+    {
+        "quote": "`TO ACCOMPLISH GREAT THINGS, WE MUST DREAM AS WELL AS ACT.`",
+        "date": "2023-07-29 02:00:06"
+    },
+    {
+        "quote": "`A GESTURE OF FRIENDSHIP, NO MATTER HOW SMALL, IS ALWAYS APPRECIATED.`",
+        "date": "2023-07-30 02:00:05"
+    },
+    {
+        "quote": "`A BUSINESS THAT MAKES NOTHING BUT MONEY IS A POOR BUSINESS.`",
+        "date": "2023-07-31 02:00:06"
+    },
+    {
+        "quote": "`WE&rsquo;VE GOT TO GO OUT ON A LIMB SOMETIMES BECAUSE THAT IS WHERE THE FRUIT IS.`",
+        "date": "2023-08-01 02:00:05"
+    },
+    {
+        "quote": "`FAME USUALLY COMES TO THOSE WHO ARE THINKING ABOUT SOMETHING ELSE.`",
+        "date": "2023-08-02 02:00:06"
+    },
+    {
+        "quote": "`YOU WILL NEVER WIN IF YOU NEVER BEGIN.`",
+        "date": "2023-08-03 02:00:05"
+    },
+    {
+        "quote": "`PREPARE FOR THE WORST, EXPECT THE BEST, AND TAKE WHAT COMES.`",
+        "date": "2023-08-04 02:00:05"
+    },
+    {
+        "quote": "`THE MOST TECHNOLOGICALLY EFFICIENT MACHINE THAT MAN EVER INVENTED IS THE BOOK.`",
+        "date": "2023-08-05 02:00:05"
+    },
+    {
+        "quote": "`IF SOMEONE SUCCEEDS IN PROVOKING YOU, REALIZE THAT YOUR MIND IS COMPLICIT IN THE PROVOCATION.`",
+        "date": "2023-08-06 02:00:05"
+    },
+    {
+        "quote": "`LIFE IS A MYSTERY TO BE LIVED, NOT A PROBLEM TO BE SOLVED.`",
+        "date": "2023-08-07 02:00:06"
+    },
+    {
+        "quote": "`BEING ENTIRELY HONEST WITH ONESELF IS A GOOD EXERCISE.`",
+        "date": "2023-08-08 02:00:05"
+    },
+    {
+        "quote": "`THE TRUEST WISDOM IS A RESOLUTE DETERMINATION.`",
+        "date": "2023-08-09 02:00:05"
+    },
+    {
+        "quote": "`PEOPLE TAKE DIFFERENT ROADS SEEKING FULFILLMENT AND HAPPINESS. JUST BECAUSE THEY'RE NOT ON YOUR ROAD, IT DOESN'T MEAN THEY'RE LOST.`",
+        "date": "2023-08-10 02:00:05"
+    },
+    {
+        "quote": "`EVERYTHING HAS BEAUTY, BUT NOT EVERYONE CAN SEE.`",
+        "date": "2023-08-11 02:00:06"
+    },
+    {
+        "quote": "`WHEN PEOPLE GET PREFERENTIAL TREATMENT, EQUAL TREATMENT SEEMS LIKE DISCRIMINATION.`",
+        "date": "2023-08-12 02:00:06"
+    },
+    {
+        "quote": "`BEING A WOMAN IS A TERRIBLY DIFFICULT TASK SINCE IT CONSISTS PRINCIPALLY IN DEALING WITH MEN.`",
+        "date": "2023-08-13 02:00:05"
+    },
+    {
+        "quote": "`NO LEGACY IS SO RICH AS HONESTY.`",
+        "date": "2023-08-14 02:00:06"
+    },
+    {
+        "quote": "`WHEN ONE MUST, ONE CAN.`",
+        "date": "2023-08-15 02:00:06"
+    },
+    {
+        "quote": "`IDEOLOGIES SEPARATE US. DREAMS AND ANGUISH BRING US TOGETHER.`",
+        "date": "2023-08-16 02:00:06"
+    },
+    {
+        "quote": "`NEVER BE AFRAID TO RAISE YOUR VOICE FOR HONESTY AND TRUTH AND COMPASSION, AGAINST INJUSTICE AND LYING AND GREED.`",
+        "date": "2023-08-17 02:00:07"
+    },
+    {
+        "quote": "`NO DAY IN WHICH YOU LEARN SOMETHING IS A COMPLETE LOSS.`",
+        "date": "2023-08-18 02:00:06"
+    },
+    {
+        "quote": "`CHAMPIONS KEEP PLAYING UNTIL THEY GET IT RIGHT.`",
+        "date": "2023-08-19 02:00:05"
+    },
+    {
+        "quote": "`ASK YOURSELF THE SECRET OF YOUR SUCCESS. LISTEN TO YOUR ANSWER, AND PRACTICE IT.`",
+        "date": "2023-08-20 02:00:05"
+    },
+    {
+        "quote": "`HAPPINESS IS A DIRECTION, NOT A PLACE.`",
+        "date": "2023-08-21 02:00:06"
+    },
+    {
+        "quote": "`THE SMALLEST DEED IS BETTER THAN THE GREATEST INTENTION.`",
+        "date": "2023-08-22 02:00:06"
+    },
+    {
+        "quote": "`SURROUNDING YOURSELF WITH SMALLER PEOPLE DOES NOT MAKE YOU A GIANT.`",
+        "date": "2023-08-23 02:00:06"
+    },
+    {
+        "quote": "`IT'S OKAY IF YOU FAILED TODAY. TRY AGAIN TOMORROW.`",
+        "date": "2023-08-24 02:00:06"
+    },
+    {
+        "quote": "`ALL OF US COULD TAKE A LESSON FROM THE WEATHER, IT PAYS NO ATTENTION TO CRITICISM.`",
+        "date": "2023-08-25 02:00:05"
+    },
+    {
+        "quote": "`KNOWLEDGE COMES, BUT WISDOM LINGERS.`",
+        "date": "2023-08-26 02:00:05"
+    },
+    {
+        "quote": "`YOU DON'T HAVE TO WATCH THE NEWS TODAY.`",
+        "date": "2023-08-27 02:00:05"
+    },
+    {
+        "quote": "`IT IS AMAZING HOW COMPLETE THE DELUSION IS THAT BEAUTY IS GOODNESS.`",
+        "date": "2023-08-28 02:00:05"
+    },
+    {
+        "quote": "`A ROOM WITHOUT BOOKS IS LIKE A BODY WITHOUT A SOUL.`",
+        "date": "2023-08-29 02:00:06"
+    },
+    {
+        "quote": "`STRONG AND BITTER WORDS INDICATE A WEAK CAUSE.`",
+        "date": "2023-08-30 02:00:06"
+    },
+    {
+        "quote": "`A GOOD FRIEND WILL ALWAYS STAB YOU IN THE FRONT.`",
+        "date": "2023-08-31 02:00:05"
+    },
+    {
+        "quote": "`IF YOU MUST TELL ME YOUR OPINION, TELL ME WHAT YOU BELIEVE. I HAVE PLENTY OF DOUBTS OF MY OWN.`",
+        "date": "2023-09-01 02:00:05"
+    },
+    {
+        "quote": "`DON'T JUDGE EACH DAY BY THE HARVEST YOU REAP BUT BY THE SEEDS YOU PLANT.`",
+        "date": "2023-09-02 02:00:06"
+    },
+    {
+        "quote": "`A MAN WHO IS A MASTER OF PATIENCE IS A MASTER OF EVERYTHING ELSE.`",
+        "date": "2023-09-03 02:00:05"
+    },
+    {
+        "quote": "`IF YOU KNOW HOW QUICKLY PEOPLE FORGET THE DEAD, YOU'D STOP LIVING TO IMPRESS PEOPLE.`",
+        "date": "2023-09-04 02:00:05"
+    },
+    {
+        "quote": "`INSIST UPON YOURSELF. BE ORIGINAL.`",
+        "date": "2023-09-05 02:00:05"
+    },
+    {
+        "quote": "`QUALITY IS NOT AN ACT; IT IS A HABIT.`",
+        "date": "2023-09-06 02:00:05"
+    },
+    {
+        "quote": "`SEPARATE MATTERS INTO WHAT IS CONTROLLABLE VERSUS UNCONTROLLABLE.`",
+        "date": "2023-09-07 02:00:05"
+    },
+    {
+        "quote": "`THE TRUTH HAS NO DEFENCE AGAINST A FOOL DETERMINED TO BELIEVE A LIE.`",
+        "date": "2023-09-08 02:00:05"
+    },
+    {
+        "quote": "`SPECTACULAR ACHIEVEMENT IS ALWAYS PRECEDED BY UNSPECTACULAR PREPARATION.`",
+        "date": "2023-09-09 02:00:05"
+    },
+    {
+        "quote": "`IF YOU CANNOT DO GREAT THINGS, DO SMALL THINGS IN A GREAT WAY.`",
+        "date": "2023-09-10 02:00:05"
+    },
+    {
+        "quote": "`IT IS NOT LOVE THAT SHOULD BE DEPICTED AS BLIND, BUT SELF-LOVE.`",
+        "date": "2023-09-11 02:00:05"
+    },
+    {
+        "quote": "`IF YOU DON'T KNOW WHERE YOU ARE GOING, YOU WILL PROBABLY END UP SOMEWHERE ELSE.`",
+        "date": "2023-09-12 02:00:05"
+    },
+    {
+        "quote": "`KNOW HOW TO LISTEN, AND YOU WILL PROFIT EVEN FROM THOSE WHO TALK BADLY.`",
+        "date": "2023-09-13 02:00:05"
+    },
+    {
+        "quote": "`IF YOU DON\u2019T VALUE YOUR TIME, YOU WON\u2019T DO ANYTHING OF CONSEQUENCE WITH IT.`",
+        "date": "2023-09-14 02:00:05"
+    },
+    {
+        "quote": "`BE LESS CURIOUS ABOUT PEOPLE AND MORE CURIOUS ABOUT IDEAS.`",
+        "date": "2023-09-15 02:00:05"
+    },
+    {
+        "quote": "`IT TAKES COURAGE TO GROW UP AND BECOME WHO YOU TRULY ARE.`",
+        "date": "2023-09-16 02:00:04"
+    },
+    {
+        "quote": "`MORE OFTEN THAN NOT, ANGER IS AN INDICATION OF WEAKNESS, NOT STRENGTH.`",
+        "date": "2023-09-17 02:00:06"
+    },
+    {
+        "quote": "`YOU DON\u2019T GET BETTER BY NOT DOING SOMETHING.`",
+        "date": "2023-09-18 02:00:05"
+    },
+    {
+        "quote": "`THE GREATEST TRAGEDY IS INDIFFERENCE.`",
+        "date": "2023-09-19 02:00:05"
+    },
+    {
+        "quote": "`NOBODY MADE A GREATER MISTAKE THAN HE WHO DID NOTHING BECAUSE HE COULD ONLY DO A LITTLE.`",
+        "date": "2023-09-20 02:00:05"
+    },
+    {
+        "quote": "`EITHER YOU RUN THE DAY OR THE DAY RUNS YOU.`",
+        "date": "2023-09-21 02:00:04"
+    },
+    {
+        "quote": "`IF YOU ARE LUCKY ENOUGH TO FIND A WAY OF LIFE YOU LOVE, YOU HAVE TO FIND THE COURAGE TO LIVE IT.`",
+        "date": "2023-09-22 02:00:05"
+    },
+    {
+        "quote": "`HAPPY IS HE WHO DARES COURAGEOUSLY TO DEFEND WHAT HE LOVES.`",
+        "date": "2023-09-23 02:00:04"
+    },
+    {
+        "quote": "`ALWAYS BE A LITTLE KINDER THAN NECESSARY.`",
+        "date": "2023-09-24 02:00:04"
+    },
+    {
+        "quote": "`NO MAN HAS A GOOD ENOUGH MEMORY TO BE A SUCCESSFUL LIAR.`",
+        "date": "2023-09-25 02:00:05"
+    },
+    {
+        "quote": "`QUICK DECISIONS ARE UNSAFE DECISIONS.`",
+        "date": "2023-09-26 02:00:05"
+    },
+    {
+        "quote": "`IF SOMEONE LOVES YOU, THEY WILL GIVE YOU THEIR EFFORT, NOT THEIR EXCUSES.`",
+        "date": "2023-09-27 02:00:05"
+    },
+    {
+        "quote": "`TO BEGIN, BEGIN.`",
+        "date": "2023-09-28 02:00:06"
+    },
+    {
+        "quote": "`IT IS EASY TO SIT UP AND TAKE NOTICE. WHAT IS DIFFICULT IS GETTING UP AND TAKING ACTION.`",
+        "date": "2023-09-29 02:00:05"
+    },
+    {
+        "quote": "`BIG WORDS SELDOM ACCOMPANY GOOD DEEDS.`",
+        "date": "2023-09-30 02:00:05"
+    },
+    {
+        "quote": "`WE\u2019LL GO DOWN IN HISTORY AS THE FIRST SOCIETY THAT WOULDN\u2019T SAVE ITSELF BECAUSE IT WASN\u2019T COST-EFFECTIVE.`",
+        "date": "2023-10-01 02:00:05"
+    },
+    {
+        "quote": "`BE A GOOD PERSON, BUT DON\u2019T WASTE TIME TRYING TO PROVE IT.`",
+        "date": "2023-10-02 02:00:05"
+    },
+    {
+        "quote": "`NOTHING CAN BRING YOU SUCCESS BUT YOURSELF.`",
+        "date": "2023-10-03 02:00:05"
+    },
+    {
+        "quote": "`MOST PEOPLE ARE OTHER PEOPLE. THEIR THOUGHTS ARE SOMEONE ELSE\u2019S OPINIONS, THEIR LIVES A MIMICRY, THEIR PASSIONS A QUOTATION.`",
+        "date": "2023-10-04 02:00:05"
+    },
+    {
+        "quote": "`DON\u2019T WATCH THE CLOCK; DO WHAT IT DOES. KEEP GOING.`",
+        "date": "2023-10-05 02:00:05"
+    },
+    {
+        "quote": "`FORTUNE BEFRIENDS THE BOLD.`",
+        "date": "2023-10-06 02:00:05"
+    },
+    {
+        "quote": "`THE SECRET OF YOUR FUTURE IS HIDDEN IN YOUR DAILY ROUTINE.`",
+        "date": "2023-10-07 02:00:05"
+    },
+    {
+        "quote": "`IT\u2019S NOT LENGTH OF LIFE BUT DEPTH OF LIFE THAT TRULY MATTERS.`",
+        "date": "2023-10-08 02:00:05"
+    },
+    {
+        "quote": "`IN THE MIDDLE OF EVERY DIFFICULTY LIES OPPORTUNITY.`",
+        "date": "2023-10-09 02:00:05"
+    },
+    {
+        "quote": "`GOOD LUCK IS ANOTHER NAME FOR TENACITY OF PURPOSE.`",
+        "date": "2023-10-10 02:00:04"
+    },
+    {
+        "quote": "`THE THINGS THAT ONE MOST WANTS TO DO ARE THE THINGS THAT ARE PROBABLY MOST WORTH DOING.`",
+        "date": "2023-10-11 02:00:05"
+    },
+    {
+        "quote": "`SOMETIMES NOT GETTING WHAT YOU WANT IS A WONDERFUL STROKE OF LUCK.`",
+        "date": "2023-10-12 02:00:05"
+    },
+    {
+        "quote": "`WASTE NO MORE TIME ARGUING ABOUT WHAT A GOOD MAN SHOULD BE. BE ONE.`",
+        "date": "2023-10-13 02:00:05"
+    },
+    {
+        "quote": "`THINK LIKE A MAN OF ACTION; ACT LIKE A MAN OF THOUGHT.`",
+        "date": "2023-10-14 02:00:05"
+    },
+    {
+        "quote": "`THE GRAND ESSENTIALS OF HAPPINESS ARE: SOMETHING TO DO, SOMETHING TO LOVE, AND SOMETHING TO HOPE FOR.`",
+        "date": "2023-10-15 02:00:05"
+    },
+    {
+        "quote": "`ALWAYS DO YOUR BEST. WHAT YOU PLANT NOW, YOU WILL HARVEST LATER.`",
+        "date": "2023-10-16 02:00:05"
+    },
+    {
+        "quote": "`IF YOU LIVE OFF A MAN\u2019S COMPLIMENTS, YOU\u2019LL DIE OFF HIS CRITICISM.`",
+        "date": "2023-10-17 02:00:05"
+    },
+    {
+        "quote": "`LIFE\u2019S CHALLENGES AREN\u2019T SUPPOSED TO PARALYZE YOU; THEY\u2019RE SUPPOSED TO HELP YOU DISCOVER WHO YOU ARE.`",
+        "date": "2023-10-18 02:00:05"
+    },
+    {
+        "quote": "`THE ACTIONS OF MEN ARE THE BEST INTERPRETERS OF THEIR THOUGHTS.`",
+        "date": "2023-10-19 02:00:06"
+    },
+    {
+        "quote": "`DO MORE THAN DREAM: WORK.`",
+        "date": "2023-10-20 02:00:04"
+    },
+    {
+        "quote": "`CHANGE BEFORE YOU HAVE TO.`",
+        "date": "2023-10-21 02:00:06"
+    },
+    {
+        "quote": "`WORDS ARE THE MOST POWERFUL DRUG USED BY MANKIND.`",
+        "date": "2023-10-22 02:00:06"
+    },
+    {
+        "quote": "`THE GREATEST PLEASURE IN LIFE IS DOING WHAT PEOPLE SAY YOU CANNOT DO.`",
+        "date": "2023-10-23 02:00:05"
+    },
+    {
+        "quote": "`FACTS DO NOT CEASE TO EXIST WHEN THEY ARE IGNORED.`",
+        "date": "2023-10-24 02:00:05"
+    },
+    {
+        "quote": "`WHEN YOU LEARN, TEACH. WHEN YOU GET, GIVE.`",
+        "date": "2023-10-25 02:00:05"
+    },
+    {
+        "quote": "`THINK BIG THOUGHTS BUT RELISH SMALL PLEASURES.`",
+        "date": "2023-10-26 02:00:06"
+    },
+    {
+        "quote": "`ACTION MAY NOT ALWAYS BRING HAPPINESS, BUT THERE IS NO HAPPINESS WITHOUT ACTION.`",
+        "date": "2023-10-27 02:00:05"
+    },
+    {
+        "quote": "`IF YOU DON\u2019T LIKE SOMETHING, CHANGE IT. IF YOU CAN\u2019T CHANGE IT, CHANGE YOUR ATTITUDE.`",
+        "date": "2023-10-28 02:00:05"
+    },
+    {
+        "quote": "`BEWARE LEST YOU LOSE THE SUBSTANCE BY GRASPING AT THE SHADOW.`",
+        "date": "2023-10-29 02:00:05"
+    },
+    {
+        "quote": "`EDUCATION IS THE MOST POWERFUL WEAPON WITH WHICH YOU CAN USE TO CHANGE THE WORLD.`",
+        "date": "2023-10-30 02:00:05"
+    },
+    {
+        "quote": "`ANYTHING YOU REALLY WANT YOU CAN ATTAIN, IF YOU REALLY GO AFTER IT.`",
+        "date": "2023-10-31 02:06:04"
+    },
+    {
+        "quote": "`WE SHALL NEVER KNOW ALL THE GOOD THAT A SIMPLE SMILE CAN DO.`",
+        "date": "2023-11-01 02:00:06"
+    },
+    {
+        "quote": "`OUR LIVES ARE A SUM TOTAL OF THE CHOICES WE HAVE MADE.`",
+        "date": "2023-11-02 02:00:05"
+    },
+    {
+        "quote": "`FRIENDS SHOW THEIR LOVE IN TIMES OF TROUBLE, NOT IN HAPPINESS.`",
+        "date": "2023-11-03 02:00:05"
+    },
+    {
+        "quote": "`IT IS FAR BETTER TO BE ALONE THAN IN BAD COMPANY.`",
+        "date": "2023-11-04 02:00:05"
+    },
+    {
+        "quote": "`ROCK BOTTOM WILL TEACH YOU MORE THAN MOUNTAIN TOPS EVER DID.`",
+        "date": "2023-11-05 02:00:05"
+    },
+    {
+        "quote": "`TAKE REST; A FIELD THAT HAS RESTED GIVES A BOUNTIFUL CROP.`",
+        "date": "2023-11-06 02:00:05"
+    },
+    {
+        "quote": "`YOU DON\u2019T EVEN HAVE TO BE CONFIDENT. JUST DO IT, AND THE CONFIDENCE WILL FOLLOW.`",
+        "date": "2023-11-07 02:00:05"
+    },
+    {
+        "quote": "`IF YOU DO NOT CHANGE DIRECTION, YOU MAY END UP WHERE YOU ARE HEADING.`",
+        "date": "2023-11-08 02:00:06"
+    },
+    {
+        "quote": "`NO MAN WAS EVER WISE BY CHANCE.`",
+        "date": "2023-11-09 02:00:06"
+    },
+    {
+        "quote": "`THE TIME TO REPAIR THE ROOF IS WHEN THE SUN IS SHINING.`",
+        "date": "2023-11-10 02:00:05"
+    },
+    {
+        "quote": "`NOTHING DIMINISHES ANXIETY FASTER THAN ACTIONS.`",
+        "date": "2023-11-11 02:00:05"
+    },
+    {
+        "quote": "`REJECT YOUR SENSE OF INJURY AND THE INJURY ITSELF DISAPPEARS.`",
+        "date": "2023-11-12 02:00:05"
+    },
+    {
+        "quote": "`COMMITMENT IS AN ACT, NOT A WORD.`",
+        "date": "2023-11-13 02:00:05"
+    },
+    {
+        "quote": "`SILENT GRATITUDE ISN\u2019T MUCH USE TO ANYONE.`",
+        "date": "2023-11-14 02:00:06"
+    },
+    {
+        "quote": "`THE ONLY COURAGE THAT MATTERS IS THE KIND THAT GETS YOU FROM ONE MOMENT TO THE NEXT.`",
+        "date": "2023-11-15 02:00:05"
+    },
+    {
+        "quote": "`IT IS NOT ENOUGH TO HAVE A GOOD MIND; THE MAIN THING IS TO USE IT WELL.`",
+        "date": "2023-11-16 02:00:05"
+    },
+    {
+        "quote": "`IGNORANT MEN RAISE QUESTIONS THAT WISE MEN ANSWERED A THOUSAND YEARS AGO.`",
+        "date": "2023-11-17 02:00:07"
+    },
+    {
+        "quote": "`WHAT DO WE LIVE FOR, IF IT IS NOT TO MAKE LIFE LESS DIFFICULT FOR EACH OTHER?`",
+        "date": "2023-11-18 02:00:05"
+    },
+    {
+        "quote": "`WHEN WE ARE NO LONGER ABLE TO CHANGE A SITUATION, WE ARE CHALLENGED TO CHANGE OURSELVES.`",
+        "date": "2023-11-19 02:00:05"
+    },
+    {
+        "quote": "`NOBODY CARES ABOUT YOUR STORY UNTIL YOU WIN, SO WIN.`",
+        "date": "2023-11-20 02:00:05"
+    },
+    {
+        "quote": "`THERE IS NEVER ENOUGH TIME TO DO EVERYTHING, BUT THERE IS ALWAYS ENOUGH TIME TO DO THE MOST IMPORTANT THING.`",
+        "date": "2023-11-21 02:00:05"
+    },
+    {
+        "quote": "`IN ORDER TO LIVE FREE AND HAPPILY YOU MUST SACRIFICE BOREDOM. IT IS NOT ALWAYS AN EASY SACRIFICE.`",
+        "date": "2023-11-22 02:00:08"
+    },
+    {
+        "quote": "`FOLLOW EFFECTIVE ACTION WITH QUIET REFLECTION. FROM THE QUIET REFLECTION WILL COME EVEN MORE EFFECTIVE ACTION.`",
+        "date": "2023-11-23 02:00:05"
+    },
+    {
+        "quote": "`THE ESSENCE OF TRUE FRIENDSHIP IS TO MAKE ALLOWANCE FOR ANOTHER\u2019S LITTLE LAPSES.`",
+        "date": "2023-11-24 02:00:05"
+    },
+    {
+        "quote": "`TO EXIST IS TO CHANGE, TO CHANGE IS TO MATURE, TO MATURE IS TO GO ON CREATING ONESELF ENDLESSLY.`",
+        "date": "2023-11-25 02:00:05"
+    },
+    {
+        "quote": "`BE SURE YOU PUT YOUR FEET IN THE RIGHT PLACE, THEN STAND FIRM.`",
+        "date": "2023-11-26 02:00:05"
+    },
+    {
+        "quote": "`PROBLEMS ARE NOT STOP SIGNS, THEY ARE GUIDELINES.`",
+        "date": "2023-11-27 02:00:05"
+    },
+    {
+        "quote": "`WHAT IS NOT STARTED TODAY IS NEVER FINISHED TOMORROW.`",
+        "date": "2023-11-28 02:00:06"
+    },
+    {
+        "quote": "`WE MUST ACCEPT FINITE DISAPPOINTMENT, BUT NEVER LOSE INFINITE HOPE.`",
+        "date": "2023-11-29 02:00:06"
+    },
+    {
+        "quote": "`TRY NOT TO BECOME A MAN OF SUCCESS, BUT RATHER TRY TO BECOME A MAN OF VALUE.`",
+        "date": "2023-11-30 02:00:05"
+    },
+    {
+        "quote": "`WATCH THE LITTLE THINGS; A SMALL LEAK WILL SINK A GREAT SHIP.`",
+        "date": "2023-12-01 02:00:05"
+    },
+    {
+        "quote": "`ALL OF OUR TECHNOLOGY IS COMPLETELY UNNECESSARY TO A HAPPY LIFE.`",
+        "date": "2023-12-02 02:00:06"
+    },
+    {
+        "quote": "`BEWARE OF FALSE KNOWLEDGE; IT IS MORE DANGEROUS THAN IGNORANCE.`",
+        "date": "2023-12-03 02:00:05"
+    },
+    {
+        "quote": "`CONFLICT CANNOT SURVIVE WITHOUT YOUR PERMISSION.`",
+        "date": "2023-12-04 02:00:05"
+    },
+    {
+        "quote": "`NEVER MISTAKE ACTIVITY FOR ACHIEVEMENT.`",
+        "date": "2023-12-05 02:00:05"
+    },
+    {
+        "quote": "`FROM ERROR TO ERROR ONE DISCOVERS THE TRUTH.`",
+        "date": "2023-12-06 02:00:06"
+    },
+    {
+        "quote": "`WHEN A THING IS DONE, IT\u2019S DONE. DON\u2019T LOOK BACK. LOOK FORWARD TO YOUR NEXT OBJECTIVE.`",
+        "date": "2023-12-07 02:00:07"
+    },
+    {
+        "quote": "`YOU ARE THE ONLY PERSON ON EARTH WHO CAN USE YOUR ABILITY.`",
+        "date": "2023-12-08 02:00:05"
+    },
+    {
+        "quote": "`YOU CANNOT MAKE YOUR DAYS LONGER, SO STRIVE TO MAKE THEM BETTER.`",
+        "date": "2023-12-09 02:00:05"
+    },
+    {
+        "quote": "`EMPATHY IS NOT A SIGN OF WEAKNESS BUT OF STRENGTH.`",
+        "date": "2023-12-10 02:00:05"
+    },
+    {
+        "quote": "`THE WORLD CARES LITTLE ABOUT WHAT YOU KNOW; IT\u2019S WHAT YOU DO THAT COUNTS.`",
+        "date": "2023-12-11 02:01:23"
+    },
+    {
+        "quote": "`LEARN TO LISTEN, AND YOU WILL GROW WISE.`",
+        "date": "2023-12-12 02:00:44"
+    },
+    {
+        "quote": "`NEVER DECIDE YOU ARE SMART ENOUGH. BE WISE ENOUGH TO RECOGNIZE THAT THERE IS ALWAYS MORE TO LEARN.`",
+        "date": "2023-12-13 02:02:05"
+    },
+    {
+        "quote": "`COUNT YOUR AGE BY FRIENDS, NOT YEARS. COUNT YOUR LIFE BY SMILES, NOT TEARS.`",
+        "date": "2023-12-14 02:01:01"
+    },
+    {
+        "quote": "`YOUR TASTE IN PEOPLE WILL CHANGE WHEN YOU LEARN TO LOVE YOURSELF.`",
+        "date": "2023-12-15 02:00:51"
+    },
+    {
+        "quote": "`DON'T WASTE YOUR TIME WITH EXPLANATIONS: PEOPLE ONLY HEAR WHAT THEY WANT TO HEAR.`",
+        "date": "2023-12-16 02:01:36"
+    },
+    {
+        "quote": "`WE LEARN FROM FAILURE, NOT FROM SUCCESS.`",
+        "date": "2023-12-17 02:00:37"
+    },
+    {
+        "quote": "`THE PESSIMIST COMPLAINS ABOUT THE WIND; THE OPTIMIST EXPECTS IT TO CHANGE; THE REALIST ADJUSTS THE SAILS.`",
+        "date": "2023-12-18 02:01:19"
+    },
+    {
+        "quote": "`SUCCESS ISN'T ALWAYS ABOUT GREATNESS. IT'S ABOUT CONSISTENCY. CONSISTENT HARD WORK LEADS TO SUCCESS. GREATNESS WILL COME.`",
+        "date": "2023-12-19 02:02:05"
+    },
+    {
+        "quote": "`WIN THROUGH ACTIONS, NEVER THROUGH ARGUMENTS.`",
+        "date": "2023-12-20 02:02:31"
+    },
+    {
+        "quote": "`SOMETIMES YOU GET YOUR ANSWERS, WHEN YOU STOP LOOKING FOR THEM.`",
+        "date": "2023-12-21 02:02:34"
+    },
+    {
+        "quote": "`A HUNDRED DAYS OF ONE PERCENT IS ONE HUNDRED PERCENT.`",
+        "date": "2023-12-22 02:01:53"
+    },
+    {
+        "quote": "`MISTAKE IS THE BEST TEACHER.`",
+        "date": "2023-12-23 02:00:47"
+    },
+    {
+        "quote": "`THE FOOL DOTH THINK HE IS WISE, BUT THE WISE MAN KNOWS HIMSELF TO BE A FOOL.`",
+        "date": "2023-12-24 02:01:28"
+    },
+    {
+        "quote": "`NEVER GIVE UP, FOR THAT IS JUST THE PLACE AND TIME THAT THE TIDE WILL TURN.`",
+        "date": "2023-12-25 02:01:09"
+    },
+    {
+        "quote": "`WHEN IN DOUBT, DON\u2019T.`",
+        "date": "2023-12-26 02:02:15"
+    },
+    {
+        "quote": "`DARKNESS CANNOT DRIVE OUT DARKNESS, ONLY LIGHT CAN DO THAT. HATE CANNOT DRIVE OUT HATE, ONLY LOVE CAN DO THAT.`",
+        "date": "2023-12-27 02:01:56"
+    },
+    {
+        "quote": "`NATURE DOES NOT HURRY, YET EVERYTHING IS ACCOMPLISHED.`",
+        "date": "2023-12-28 02:02:27"
+    },
+    {
+        "quote": "`BE THANKFUL FOR WHAT YOU HAVE; YOU\u2019LL END UP HAVING MORE. IF YOU CONCENTRATE ON WHAT YOU DON\u2019T HAVE, YOU WILL NEVER, EVER HAVE ENOUGH.`",
+        "date": "2023-12-29 02:01:51"
+    },
+    {
+        "quote": "`AS WE EXPRESS OUR GRATITUDE, WE MUST NEVER FORGET THAT THE HIGHEST APPRECIATION IS NOT TO UTTER WORDS, BUT TO LIVE BY THEM.`",
+        "date": "2023-12-30 02:01:51"
+    },
+    {
+        "quote": "`THE POOR MAN IS NOT HE WHO IS WITHOUT A CENT, BUT HE WHO IS WITHOUT A DREAM.`",
+        "date": "2023-12-31 02:01:30"
+    },
+    {
+        "quote": "`THOUGH NO ONE CAN GO BACK AND MAKE A BRAND NEW START, ANYONE CAN START FROM NOW AND MAKE A BRAND NEW ENDING.`",
+        "date": "2024-01-01 02:02:01"
+    },
+    {
+        "quote": "`IF YOU WANT TO OVERCOME THE WHOLE WORLD, OVERCOME YOURSELF.`",
+        "date": "2024-01-02 02:02:07"
+    },
+    {
+        "quote": "`COURAGE DOESN'T ALWAYS ROAR, SOMETIMES IT'S THE QUIET VOICE AT THE END OF THE DAY WHISPERING 'I WILL TRY AGAIN ``TOMORROW``'.`",
+        "date": "2024-01-03 02:01:47"
+    },
+    {
+        "quote": "`SUCCESS IS THE SUM OF SMALL EFFORTS, REPEATED DAY IN AND DAY OUT.`",
+        "date": "2024-01-04 02:00:44"
+    },
+    {
+        "quote": "`DON\u2019T BE DISCOURAGED. IT\u2019S OFTEN THE LAST KEY IN THE BUNCH THAT OPENS THE LOCK.`",
+        "date": "2024-01-05 02:01:54"
+    },
+    {
+        "quote": "`I HAVE NOT FAILED. I'VE JUST FOUND 10,000 WAYS THAT WON'T WORK.`",
+        "date": "2024-01-06 02:02:07"
+    },
+    {
+        "quote": "`IF YOU FOCUS ON RESULTS, YOU WILL NEVER CHANGE. IF YOU FOCUS ON CHANGE, YOU WILL GET RESULTS.`",
+        "date": "2024-01-07 02:00:56"
+    },
+    {
+        "quote": "`MATURITY IS WHEN YOU DON\u2019T FORCE PEOPLE TO CHOOSE YOU.`",
+        "date": "2024-01-08 02:01:36"
+    },
+    {
+        "quote": "`IMPATIENT FOR VICTORY, WILL GUARANTEE DEFEAT.`",
+        "date": "2024-01-09 02:02:56"
+    },
+    {
+        "quote": "`ONE\u2019S LIFE HAS VALUE SO LONG AS ONE CONTRIBUTES VALUE TO THE LIVES OF OTHERS.`",
+        "date": "2024-01-10 02:02:15"
+    },
+    {
+        "quote": "`SETTING GOALS IS THE FIRST STEP IN TURNING THE INVISIBLE INTO THE VISIBLE.`",
+        "date": "2024-01-11 02:01:35"
+    },
+    {
+        "quote": "`REAL SUCCESS IS FINDING YOUR LIFEWORK IN THE WORK THAT YOU LOVE.`",
+        "date": "2024-01-12 02:01:37"
+    },
+    {
+        "quote": "`IF YOU FOCUS ON RESULTS, YOU WILL NEVER CHANGE. IF YOU FOCUS ON CHANGE, YOU WILL GET RESULTS.`",
+        "date": "2024-01-13 02:02:12"
+    },
+    {
+        "quote": "`THE MORE MAN MEDITATES UPON GOOD THOUGHTS, THE BETTER WILL BE HIS WORLD AND THE WORLD AT LARGE.`",
+        "date": "2024-01-14 02:01:46"
+    },
+    {
+        "quote": "`EVERYTHING WE HEAR IS AN OPINION, NOT A FACT. EVERYTHING WE SEE IS A PERSPECTIVE, NOT A TRUTH.`",
+        "date": "2024-01-15 02:00:56"
+    },
+    {
+        "quote": "`YOU CAN LEARN A LOT ABOUT A PERSON BY HOW THEY TREAT PEOPLE THEY DON\u2019T HAVE TO BE NICE TO.`",
+        "date": "2024-01-16 02:02:27"
+    },
+    {
+        "quote": "`NEW GOALS REQUIRE DIFFERENT HABITS.`",
+        "date": "2024-01-17 02:01:16"
+    },
+    {
+        "quote": "`ALWAYS PASS ON WHAT YOU HAVE LEARNED.`",
+        "date": "2024-01-18 02:02:18"
+    },
+    {
+        "quote": "`THE ABILITY TO SPEAK DOES NOT MAKE YOU INTELLIGENT.`",
+        "date": "2024-01-19 02:00:59"
+    },
+    {
+        "quote": "`REMEMBER, THERE'S ALWAYS A BIGGER FISH.`",
+        "date": "2024-01-20 02:02:01"
+    },
+    {
+        "quote": "`EVERYONE IS A GENIUS AT LEAST ONCE A YEAR. THE REAL GENIUSES SIMPLY HAVE THEIR IDEAS CLOSER TOGETHER.`",
+        "date": "2024-01-21 02:00:36"
+    },
+    {
+        "quote": "`YOU CAN\u2019T CROSS THE SEA MERELY BY STANDING AND STARING AT THE WATER.`",
+        "date": "2024-01-22 02:01:04"
+    },
+    {
+        "quote": "`TALENT IS NOTHING WITHOUT PERSISTENCE.`",
+        "date": "2024-01-23 02:01:55"
+    },
+    {
+        "quote": "`YOU MISS 100% OF THE SHOTS YOU DON'T TAKE.`",
+        "date": "2024-01-24 02:02:36"
+    },
+    {
+        "quote": "`DO NOT WHINE. DO NOT COMPLAIN. WORK HARDER.`",
+        "date": "2024-01-25 02:01:11"
+    },
+    {
+        "quote": "`BEING LAZY ENDS UP MAKING YOU MORE TIRED.`",
+        "date": "2024-01-26 02:02:24"
+    },
+    {
+        "quote": "`DON\u2019T GOSSIP. YOU GAIN NOTHING. IT WASTES TIME. YOU LOSE RESPECT.`",
+        "date": "2024-01-27 02:02:14"
+    },
+    {
+        "quote": "`READING GOOD BOOKS, EXERCISING, AND FORGIVING ARE THE BEST FORMS OF SELF-CARE.`",
+        "date": "2024-01-28 02:02:12"
+    },
+    {
+        "quote": "`NO MATTER HOW SLOW YOU GO, YOU ARE STILL LAPPING EVERYBODY ON THE COUCH.`",
+        "date": "2024-01-29 02:01:41"
+    },
+    {
+        "quote": "`FAMILY IS NOT AN IMPORTANT THING. IT\u2019S EVERYTHING.`",
+        "date": "2024-01-30 02:01:11"
+    },
+    {
+        "quote": "`STUDY THE PAST IF YOU WOULD DEFINE THE FUTURE.`",
+        "date": "2024-01-31 02:02:19"
+    },
+    {
+        "quote": "`EVERYTHING YOU EAT EITHER FIGHTS DISEASE OR FEEDS IT.`",
+        "date": "2024-02-01 02:01:21"
+    },
+    {
+        "quote": "`NOBODY CARES ABOUT YOUR STORY, UNTIL YOU WIN.`",
+        "date": "2024-02-02 02:00:55"
+    },
+    {
+        "quote": "`FORGIVENESS IS NOT SAYING WHAT THE OTHER PERSON DID IS OK. IT\u2019S LETTING IT GO SO YOU DON\u2019T HAVE TO CARRY THAT WEIGHT AROUND ANYMORE.`",
+        "date": "2024-02-03 02:01:08"
+    },
+    {
+        "quote": "`THE GREATEST FINE ART OF THE FUTURE WILL BE THE MAKING OF A COMFORTABLE LIVING FROM A SMALL PIECE OF LAND.`",
+        "date": "2024-02-04 02:01:44"
+    },
+    {
+        "quote": "`THE BEST THING ABOUT THE FUTURE IS THAT IT COMES ONE DAY AT A TIME.`",
+        "date": "2024-02-05 02:02:23"
+    },
+    {
+        "quote": "`THE PLACE TO IMPROVE THE WORLD IS FIRST IN ONE\u2019S OWN HEART AND HEAD AND HANDS.`",
+        "date": "2024-02-06 02:01:46"
+    },
+    {
+        "quote": "`YOU MUST DO THE THINGS YOU THINK YOU CANNOT DO.`",
+        "date": "2024-02-07 02:01:05"
+    },
+    {
+        "quote": "`YOU ARE NEVER TOO OLD TO SET ANOTHER GOAL OR TO DREAM A NEW DREAM.`",
+        "date": "2024-02-08 02:01:48"
+    },
+    {
+        "quote": "`IF SWEEPING FLOORS MAKES YOU HAPPY, DO IT. IF IT BRINGS YOU HAPPINESS, YOU WILL BE THE BEST IN IT.`",
+        "date": "2024-02-09 02:00:56"
+    },
+    {
+        "quote": "`ASK A STUPID QUESTION, YOU'RE A FOOL FOR A WHILE. DON'T ASK IT AND YOU'RE A FOOL FOREVER.`",
+        "date": "2024-02-10 02:01:43"
+    },
+    {
+        "quote": "`DON'T CRITICIZE WHAT YOU CAN'T UNDERSTAND.`",
+        "date": "2024-02-11 02:01:01"
+    },
+    {
+        "quote": "`SOMETIMES IT MAY SEEM DARK, BUT THE ABSENCE OF THE LIGHT IS A NECESSARY PART.`",
+        "date": "2024-02-12 02:01:28"
+    },
+    {
+        "quote": "`THE STRUGGLES YOU'RE FACING, THE CHANCES YOU'RE NOT TAKING. SOMETIMES MIGHT KNOCK YOU DOWN, BUT YOU'RE NOT BREAKING.`",
+        "date": "2024-02-13 02:01:10"
+    },
+    {
+        "quote": "`I CAN\u2019T TELL YOU WHERE THE JOURNEY WILL END. BUT I KNOW WHERE TO START.`",
+        "date": "2024-02-14 02:00:44"
+    },
+    {
+        "quote": "`NOBODY BUILT LIKE YOU, YOU DESIGN YOURSELF.`",
+        "date": "2024-02-15 02:01:18"
+    },
+    {
+        "quote": "`BEING VULNERABLE IS A STRENGTH, NOT A WEAKNESS.`",
+        "date": "2024-02-16 02:02:36"
+    },
+    {
+        "quote": "`YOU DO NOT FIND THE HAPPY LIFE. YOU MAKE IT.`",
+        "date": "2024-02-17 02:01:37"
+    },
+    {
+        "quote": "`HE WHO ANGERS YOU CONQUERS YOU.`",
+        "date": "2024-02-18 02:02:10"
+    },
+    {
+        "quote": "`FRIENDS SHOW THEIR LOVE IN TIMES OF TROUBLE, NOT IN HAPPINESS.`",
+        "date": "2024-02-19 02:00:00"
+    },
+    {
+        "quote": "`THE LONGER WE DWELL ON OUR MISFORTUNES, THE GREATER IS THEIR POWER TO HARM US.`",
+        "date": "2024-02-20 02:00:54"
+    },
+    {
+        "quote": "`WE MUST LEARN OUR LIMITS. WE ARE ALL SOMETHING, BUT NONE OF US ARE EVERYTHING.`",
+        "date": "2024-02-21 02:00:00"
+    },
+    {
+        "quote": "`IF YOU ENHANCE YOURSELF SUFFICIENTLY, WHATEVER ACTIVITY COMES YOUR WAY WILL BE CHILD\u2019S PLAY FOR YOU.`",
+        "date": "2024-02-22 02:00:00"
+    },
+    {
+        "quote": "`ONE DAY, THE EARTH WILL CONSUME YOU. WHAT YOU CONSUME DECIDES WHEN YOU WILL BE CONSUMED.`",
+        "date": "2024-02-23 02:00:00"
+    },
+    {
+        "quote": "`SUCCESS IN LIFE IS NOT FOR THOSE WHO RUN FAST, BUT FOR THOSE WHO KEEP RUNNING AND ALWAYS ON THE MOVE.`",
+        "date": "2024-02-24 02:00:00"
+    },
+    {
+        "quote": "`TAKE CARE OF YOUR WORDS AND THE WORDS WILL TAKE CARE OF YOU.`",
+        "date": "2024-02-25 02:00:00"
+    },
+    {
+        "quote": "`IN EVERY LIFE WE HAVE SOME TROUBLE. BUT WHEN YOU WORRY, YOU MAKE IT DOUBLE.`",
+        "date": "2024-02-26 02:01:57"
+    },
+    {
+        "quote": "`DON\u2019T MEASURE YOUR LIFE WITH SOMEONE ELSE\u2019S RULER.`",
+        "date": "2024-02-27 02:01:03"
+    },
+    {
+        "quote": "`BE CAREFUL WHO YOU TRUST. SUGAR AND SALT LOOK THE SAME.`",
+        "date": "2024-02-28 02:01:42"
+    },
+    {
+        "quote": "`PEOPLE MAY DOUBT WHAT YOU SAY, BUT THEY WILL BELIEVE WHAT YOU DO`.",
+        "date": "2024-02-29 02:00:42"
+    },
+    {
+        "quote": "`WE SUFFER MORE IN IMAGINATION THAN IN REALITY.`",
+        "date": "2024-03-01 02:02:17"
+    },
+    {
+        "quote": "`ALL TRUTHS ARE EASY TO UNDERSTAND ONCE THEY ARE DISCOVERED; THE POINT IS TO DISCOVER THEM.`",
+        "date": "2024-03-02 02:02:38"
+    },
+    {
+        "quote": "`NOTHING CAN KILL IRON BESIDES ITS OWN RUST.`",
+        "date": "2024-03-03 02:02:37"
+    },
+    {
+        "quote": "`D``ON'T LET YOUR MIND CAUSE YOUR OWN DESTRUCTION.`",
+        "date": "2024-03-04 02:01:55"
+    },
+    {
+        "quote": "`WHEN WAS THE LAST TIME YOU DID SOMETHING FOR THE FIRST TIME?`",
+        "date": "2024-03-05 02:01:17"
+    },
+    {
+        "quote": "`PAIN IS NECESSARY FOR SELF GROWTH. YOU HAVE TO LOVE IT, NOT HATING IT.`` EMBRACE PAIN.`",
+        "date": "2024-03-06 02:02:29"
+    },
+    {
+        "quote": "`IT IS NOT US WHO ARE GREAT, BUT ALLAH SWT WHO ALWAYS MAKES THINGS EASIER FOR US.`",
+        "date": "2024-03-07 02:01:30"
+    },
+    {
+        "quote": "`ONLY THOSE WHO CARE ABOUT YOU, CAN HEAR YOU WHEN YOU'RE QUIET.`",
+        "date": "2024-03-08 02:01:28"
+    },
+    {
+        "quote": "`A FIT BODY, A CALM MIND, A HOUSE FULL OF LOVE CANNOT BE BOUGHT, THEY MUST BE EARNED.`",
+        "date": "2024-03-09 02:02:19"
+    },
+    {
+        "quote": "`ALL THINGS ARE DIFFICULT BEFORE THEY COME EASY.`",
+        "date": "2024-03-10 02:01:58"
+    },
+    {
+        "quote": "`IF THEY DO ONE, YOU DO TWO.` `ALWAYS DO MORE.`",
+        "date": "2024-03-11 02:02:18"
+    },
+    {
+        "quote": "`CHAMPIONS KEEP PLAYING UNTIL THEY GET IT RIGHT.`",
+        "date": "2024-03-12 02:01:13"
+    },
+    {
+        "quote": "`CHANGING YOUR MIND IS ONE OF THE BEST WAYS OF FINDING OUT YOU STILL HAVE ONE.`",
+        "date": "2024-03-13 02:01:28"
+    },
+    {
+        "quote": "`YOU HEAR AND YOU FORGET. YOU SEE AND YOU REMEMBER. YOU DO AND YOU UNDERSTAND.`",
+        "date": "2024-03-14 02:02:35"
+    },
+    {
+        "quote": "`EVERYTHING HAS ITS BEAUTY BUT NOT EVERYONE SEES IT.`",
+        "date": "2024-03-15 02:02:11"
+    },
+    {
+        "quote": "`YOU CAN GET MORE MONEY BUT YOU CANNOT GET MORE TIME.`",
+        "date": "2024-03-16 02:02:07"
+    },
+    {
+        "quote": "`HE WHO DOES NOTHING NEVER MAKES A MISTAKE.`",
+        "date": "2024-03-17 02:02:05"
+    },
+    {
+        "quote": "`HAPPINESS IS NOT SOMETHING READY-MADE. IT COMES FROM YOUR OWN ACTIONS.`",
+        "date": "2024-03-18 02:01:58"
+    },
+    {
+        "quote": "`LETTING GO IS THE ONLY WAY TO A RELIEF.`",
+        "date": "2024-03-19 02:03:33"
+    },
+    {
+        "quote": "`NOTHING DIMINISHES ANXIETY FASTER THAN ACTIONS.`",
+        "date": "2024-03-20 02:01:43"
+    },
+    {
+        "quote": "`ASPIRE TO BE THE PERSON YOU WANT TO BE. THE WORLD DEPENDS ON IT.`",
+        "date": "2024-03-21 02:02:51"
+    },
+    {
+        "quote": "`MISTAKES ARE PROOF THAT YOU ARE TRYING.`",
+        "date": "2024-03-22 02:03:11"
+    },
+    {
+        "quote": "`FALLING DOWN IS NOT A FAILURE. FAILURE COMES WHEN YOU STAY WHERE YOU HAVE FALLEN.`",
+        "date": "2024-03-23 02:02:52"
+    },
+    {
+        "quote": "`THE SMARTER YOU ARE THE MORE SELECTIVE YOU BECOME`` WHEN CHOOSING FRIENDS.`",
+        "date": "2024-03-24 02:01:08"
+    },
+    {
+        "quote": "`YOUR FRIENDS ARE A REFLECTION OF YOUR OWN PERSONALITY.`",
+        "date": "2024-03-25 02:02:44"
+    },
+    {
+        "quote": "`BE THE PERSON WHO STILL TRIES AFTER FAILURE, AFTER FRUSTRATION, AFTER DISAPPOINTMENT, AFTER EXHAUSTION, AFTER HEARTACHE.`",
+        "date": "2024-03-26 02:04:19"
+    },
+    {
+        "quote": "`BE THE PERSON WHO MUSTERS UP THE COURAGE TO BELIEVE THAT A NEW ATTEMPT CAN MANIFEST A NEW OUTCOME.`",
+        "date": "2024-03-27 02:04:18"
+    },
+    {
+        "quote": "`LIFE IS LIKE RIDING A BICYCLE. TO KEEP YOUR BALANCE YOU MUST KEEP GOING.`",
+        "date": "2024-03-28 02:01:54"
+    },
+    {
+        "quote": "`MATURITY IS WHEN YOU BARELY THINK ABOUT WHAT PEOPLE THINK OF YOU.`",
+        "date": "2024-03-29 02:02:33"
+    },
+    {
+        "quote": "`MAKE FRIENDS WHO FORCE YOU TO LEVEL UP.`",
+        "date": "2024-03-30 02:02:16"
+    },
+    {
+        "quote": "`HE WHO IS CONTENTED IS RICH.`",
+        "date": "2024-03-31 02:02:49"
+    },
+    {
+        "quote": "`LEARNING WITHOUT REFLECTION IS A WASTE; REFLECTION WITHOUT LEARNING IS DANGEROUS.`",
+        "date": "2024-04-01 02:01:39"
+    },
+    {
+        "quote": "`OUR GREATEST GLORY IS NOT IN NEVER FALLING, BUT IN RISING EVERY TIME WE FALL.`",
+        "date": "2024-04-02 02:02:36"
+    },
+    {
+        "quote": "`NONE KNOWS THE WEIGHT OF ANOTHER\u2019S BURDEN.`",
+        "date": "2024-04-03 02:03:36"
+    },
+    {
+        "quote": "`A FAILURE IS A MAN WHO HAS BLUNDERED BUT IS NOT CAPABLE OF CASHING IN ON THE EXPERIENCE.`",
+        "date": "2024-04-04 02:03:33"
+    },
+    {
+        "quote": "`THE TRUEST GREATNESS LIES IN BEING KIND, THE TRUEST WISDOM IN A HAPPY MIND.`",
+        "date": "2024-04-05 02:02:55"
+    },
+    {
+        "quote": "`BEING KIND IS NOT ENOUGH IF THERE IS NO SINCERITY IN IT.`",
+        "date": "2024-04-06 02:02:02"
+    },
+    {
+        "quote": "`PEOPLE WHO SAY IT CANNOT BE DONE SHOULD NOT INTERRUPT THOSE WHO ARE DOING IT.`",
+        "date": "2024-04-07 02:02:03"
+    },
+    {
+        "quote": "`WINNING IS ABOUT HOW HARD YOU CAN GET HIT AND KEEP MOVING FORWARD.`",
+        "date": "2024-04-08 02:02:08"
+    },
+    {
+        "quote": "`GREAT IDEAS OFTEN RECEIVE VIOLENT OPPOSITION FROM MEDIOCRE MINDS.`",
+        "date": "2024-04-09 02:03:04"
+    },
+    {
+        "quote": "`YOU SHOULDN'T LIKE THINGS BECAUSE PEOPLE TELL YOU YOU'RE SUPPOSED TO.`",
+        "date": "2024-04-10 02:01:48"
+    },
+    {
+        "quote": "`THE GREATEST PLEASURE IN LIFE IS DOING WHAT PEOPLE SAY YOU CANNOT DO.`",
+        "date": "2024-04-11 02:03:34"
+    },
+    {
+        "quote": "`HUSTLE BEATS TALENT WHEN TALENT DOESN\u2019T HUSTLE.`",
+        "date": "2024-04-12 02:03:19"
+    },
+    {
+        "quote": "`DON'T BE THE ONE WHO FOLLOWS TREND. BE THE ONE WHO SETS THEM.`",
+        "date": "2024-04-13 02:03:05"
+    },
+    {
+        "quote": "`IN ORDER TO LIVE FREE AND HAPPILY YOU MUST SACRIFICE BOREDOM.`",
+        "date": "2024-04-14 02:03:22"
+    },
+    {
+        "quote": "`YOU DON'T GROW WHEN YOU'RE COMFORTABLE.`",
+        "date": "2024-04-15 02:02:24"
+    },
+    {
+        "quote": "`IT TAKES NOTHING TO JOIN THE CROWD. IT TAKES EVERYTHING TO STAND ALONE.`",
+        "date": "2024-04-16 02:02:14"
+    },
+    {
+        "quote": "`THE MOST SUCCESSFUL PEOPLE ARE THOSE WHO ARE GOOD AT PLAN B.`",
+        "date": "2024-04-17 02:03:39"
+    },
+    {
+        "quote": "`A PERSON CAN BECOME SO DETERMINED TO DESTROY ANOTHER PERSON THAT THEY BECOME BLIND AND END UP DESTROYING THEMSELVES.`",
+        "date": "2024-04-18 02:03:06"
+    },
+    {
+        "quote": "`THINK PROGRESS, NOT PERFECTION.`",
+        "date": "2024-04-19 02:01:17"
+    },
+    {
+        "quote": "`EVERYONE THINKS OF CHANGING THE WORLD, BUT NO ONE THINKS OF CHANGING HIMSELF.`",
+        "date": "2024-04-20 02:02:54"
+    },
+    {
+        "quote": "`ATTITUDE IS A LITTLE THING THAT MAKES A BIG DIFFERENCE.`",
+        "date": "2024-04-21 02:02:13"
+    },
+    {
+        "quote": "`WEALTH ISN\u2019T ABOUT HAVING A LOT OF MONEY, IT\u2019S ABOUT HAVING A LOT OF OPTIONS.`",
+        "date": "2024-04-22 02:02:15"
+    },
+    {
+        "quote": "`WORRY NEVER ROBS TOMORROW OF ITS SORROW, IT ONLY SAPS TODAY OF ITS JOY.`",
+        "date": "2024-04-23 02:01:44"
+    },
+    {
+        "quote": "`EVERYTHING'S GOT A MORAL, IF ONLY YOU CAN FIND IT.`",
+        "date": "2024-04-24 02:03:01"
+    },
+    {
+        "quote": "`KEEP TAKING TIME FOR YOURSELF UNTIL YOU'RE YOU AGAIN.`",
+        "date": "2024-04-25 02:02:58"
+    },
+    {
+        "quote": "`HURT ME WITH THE TRUTH. BUT NEVER COMFORT ME WITH A LIE.`",
+        "date": "2024-04-26 02:01:24"
+    },
+    {
+        "quote": "`THE GAP BETWEEN WHERE YOU ARE AND WHERE YOU WANT TO BE IS CALLED DISCIPLINE, FOCUS, AND CONSISTENCY.`",
+        "date": "2024-04-27 02:01:46"
+    },
+    {
+        "quote": "`DON'T SIT DOWN AND WAIT FOR THE OPPORTUNITIES TO COME. GET UP AND MAKE THEM.`",
+        "date": "2024-04-28 02:01:15"
+    },
+    {
+        "quote": "`MUCH WISDOM OFTEN GOES WITH FEWER WORDS.`",
+        "date": "2024-04-29 02:02:52"
+    },
+    {
+        "quote": "`KIND WORDS CAN BE SHORT AND EASY TO SPEAK, BUT THEIR ECHOES ARE ENDLESS.`",
+        "date": "2024-04-30 02:00:39"
+    },
+    {
+        "quote": "`IF YOU CANNOT DO GREAT THINGS, DO SMALL THINGS IN A GREAT WAY.`",
+        "date": "2024-05-01 02:01:34"
+    },
+    {
+        "quote": "`BE LESS CURIOUS ABOUT PEOPLE AND MORE CURIOUS ABOUT IDEAS.`",
+        "date": "2024-05-02 02:01:41"
+    },
+    {
+        "quote": "`IMAGINATION AND FICTION MAKE UP MORE THAN THREE QUARTERS OF OUR REAL LIFE.`",
+        "date": "2024-05-03 02:02:39"
+    },
+    {
+        "quote": "`THEY ALWAYS SAY TIME CHANGES THINGS, BUT YOU ACTUALLY HAVE TO CHANGE THEM YOURSELF.`",
+        "date": "2024-05-04 02:02:07"
+    },
+    {
+        "quote": "`THE JOURNEY OF A THOUSAND MILES BEGINS WITH A SINGLE STEP.`",
+        "date": "2024-05-05 02:00:57"
+    },
+    {
+        "quote": "`THE TREND THAT SHOULD DEFINITELY DIE IS FOLLOWING TRENDS.`",
+        "date": "2024-05-06 02:02:34"
+    },
+    {
+        "quote": "`IT IS FATAL TO ENTER ANY WAR WITHOUT THE WILL TO WIN IT.`",
+        "date": "2024-05-07 02:01:37"
+    },
+    {
+        "quote": "`DON'T WORRY ABOUT FAILURES,`` WORRY ABOUT THE CHANCES YOU ``MISS WHEN YOU DON'T EVEN TRY.`",
+        "date": "2024-05-08 02:02:51"
+    },
+    {
+        "quote": "`TOO MANY OF US ARE NOT LIVING OUR DREAMS BECAUSE WE ARE LIVING OUR FEARS.`",
+        "date": "2024-05-09 02:01:11"
+    },
+    {
+        "quote": "`A FOCUSED FOOL CAN ACCOMPLISH MORE THAN A DISTRACTED GENIUS.`",
+        "date": "2024-05-10 02:01:25"
+    },
+    {
+        "quote": "`DON\u2019T BASE YOUR HAPPINESS ON OTHERS. LEARN TO FIND HAPPINESS WITH YOURSELF.`",
+        "date": "2024-05-11 02:01:06"
+    },
+    {
+        "quote": "`CUTTING PEOPLE OUT OF YOUR LIFE DOESN\u2019T MEAN YOU HATE THEM. IT SIMPLY MEANS YOU RESPECT YOURSELF.`",
+        "date": "2024-05-12 02:02:44"
+    },
+    {
+        "quote": "`GREATNESS ISN\u2019T ALWAYS HOW HIGH YOU CLIMB. SOMETIMES, IT\u2019S THE DISTANCE YOU TRAVEL FROM WHERE YOU STARTED TO WHERE YOU END UP.`",
+        "date": "2024-05-13 02:01:25"
+    },
+    {
+        "quote": "`YOU CANNOT CHANGE ANYONE, BUT YOU CAN BE THE REASON SOMEONE CHANGES.`",
+        "date": "2024-05-14 02:02:22"
+    },
+    {
+        "quote": "`BLESSED IS THE PERSON WHO IS TOO BUSY TO WORRY IN THE DAYTIME, AND TOO SLEEPY TO WORRY AT NIGHT.`",
+        "date": "2024-05-15 02:01:38"
+    },
+    {
+        "quote": "`IMAGINATION AND FICTION MAKE UP MORE THAN THREE QUARTERS OF OUR REAL LIFE.`",
+        "date": "2024-05-16 02:00:59"
+    },
+    {
+        "quote": "`IF YOU RISK NOTHING, THEN YOU RISK EVERYTHING.`",
+        "date": "2024-05-17 02:01:42"
+    },
+    {
+        "quote": "`SUCCESS IS ACCEPTING FAILURE.`",
+        "date": "2024-05-18 02:02:23"
+    },
+    {
+        "quote": "`YOU WILL ALWAYS BE LESS PRODUCTIVE WHEN YOU DON\u2019T HAVE A PLAN.`",
+        "date": "2024-05-19 02:02:55"
+    },
+    {
+        "quote": "`BUILD A LIFE YOU DON\u2019T NEED A VACATION FROM.`",
+        "date": "2024-05-20 02:01:08"
+    },
+    {
+        "quote": "`YOUR FEAR OF LOOKING STUPID IS HOLDING YOU BACK.`",
+        "date": "2024-05-21 02:02:56"
+    },
+    {
+        "quote": "`NEVER FORGET THAT AS LONG AS YOU ARE ALIVE AND HEALTHY, YOU GET AS MANY SECOND CHANCES AS YOU WANT.`",
+        "date": "2024-05-22 02:02:28"
+    },
+    {
+        "quote": "`THINK IN TERMS OF THE DAY\u2019S RESOLUTIONS, NOT THE YEAR\u2019S.`",
+        "date": "2024-05-23 02:03:13"
+    },
+    {
+        "quote": "`ONLY THROUGH EXPERIENCE OF TRIAL AND SUFFERING CAN CHARACTERS BE DEVELOPED AND THE SOUL BE STRENGTHENED.`",
+        "date": "2024-05-24 02:01:44"
+    },
+    {
+        "quote": "`GETTING CRITICIZED IS A SIGN OF GROWTH AND PROGRESS.`",
+        "date": "2024-05-25 02:01:30"
+    },
+    {
+        "quote": "`IF YOU DON\u2019T LIKE THE ROAD YOU\u2019RE WALKING, PAVE ANOTHER ONE.`",
+        "date": "2024-05-26 02:01:23"
+    },
+    {
+        "quote": "`HARD TIMES ARE OFTEN BLESSINGS IN DISGUISE. LET GO AND LET LIFE STRENGTHEN.`",
+        "date": "2024-05-27 02:02:19"
+    },
+    {
+        "quote": "`THE HARDEST LESSONS TO LEARN ARE THE ONES YOUR SPIRIT NEEDS MOST.`",
+        "date": "2024-05-28 02:02:00"
+    },
+    {
+        "quote": "`TO BE OLD AND WISE, YOU MUST FIRST BE YOUNG AND STUPID.`",
+        "date": "2024-05-29 02:03:03"
+    },
+    {
+        "quote": "`THE REAL FLEX IS KEEPING YOUR HEART SOFT AND YOUR BOUNDARIES STRONG.`",
+        "date": "2024-05-30 02:02:14"
+    },
+    {
+        "quote": "`LIVING WITH REGRETS IS LIKE DRIVING A CAR THAT ONLY MOVES IN REVERSE.`",
+        "date": "2024-05-31 02:01:21"
+    },
+    {
+        "quote": "`FREE EDUCATION IS ABUNDANT ALL OVER THE INTERNET. IT\u2019S THE DESIRE TO LEARN THAT\u2019S SCARCE.`",
+        "date": "2024-06-01 02:02:38"
+    },
+    {
+        "quote": "`HAVE MORE THAN YOU SHOW, SPEAK LESS THAN YOU KNOW.`",
+        "date": "2024-06-02 02:02:28"
+    },
+    {
+        "quote": "`NEVER ARGUE WITH STUPID PEOPLE, THEY WILL DRAG YOU DOWN TO THEIR LEVEL AND THEN BEAT YOU WITH EXPERIENCE.`",
+        "date": "2024-06-03 02:03:07"
+    },
+    {
+        "quote": "`IF YOU ARE STILL BREATHING, YOU HAVE A PURPOSE.`",
+        "date": "2024-06-04 02:01:50"
+    },
+    {
+        "quote": "`FIND A PURPOSE IN LIFE SO BIG IT WILL CHALLENGE EVERY CAPACITY TO BE AT YOUR BEST.`",
+        "date": "2024-06-05 02:02:46"
+    },
+    {
+        "quote": "`IF YOU HANG OUT WITH CHICKENS, YOU'RE GOING TO CLUCK AND IF YOU HANG OUT WITH EAGLES, YOU'RE GOING TO FLY.`",
+        "date": "2024-06-06 02:03:03"
+    },
+    {
+        "quote": "`THE MOST COMMON WAY PEOPLE GIVE UP THEIR POWER IS BY THINKING THEY DON\u2019T HAVE ANY.`",
+        "date": "2024-06-07 02:00:49"
+    },
+    {
+        "quote": "`THE MOMENT YOU GIVE UP, IS THE MOMENT YOU LET SOMEONE ELSE WIN.`",
+        "date": "2024-06-08 02:01:43"
+    },
+    {
+        "quote": "`DOING GAINS EXPERIENCE. THINKING GAINS NOTHING.`",
+        "date": "2024-06-09 02:02:14"
+    },
+    {
+        "quote": "`SCARS ARE NOT BAD. SCARS ARE NOT UGLY. SCARS ARE JUST SHOWING THAT YOU\u2019VE LIVED LIFE, AND EXPERIENCED A LOT MORE THAN OTHER PEOPLE.`",
+        "date": "2024-06-10 02:02:57"
+    },
+    {
+        "quote": "`TO MAKE DIFFERENCES, YOU HAVE TO BE DIFFERENT.`",
+        "date": "2024-06-11 02:03:13"
+    },
+    {
+        "quote": "`THE HARDEST PART IS THE FIRST STEP.`",
+        "date": "2024-06-12 02:03:12"
+    },
+    {
+        "quote": "`IF SOMEONE IS TRYING TO BRING YOU DOWN, IT ONLY MEANS YOU ARE ABOVE THEM.`",
+        "date": "2024-06-13 02:02:10"
+    },
+    {
+        "quote": "`MOTIVATION IS WHAT GETS YOU STARTED. HABIT IS WHAT KEEPS YOU GOING.`",
+        "date": "2024-06-14 02:02:47"
+    },
+    {
+        "quote": "`LONELINESS IS THE PRICE YOU PAY WHEN YOU START IMPROVING YOURSELF.`",
+        "date": "2024-06-15 02:02:20"
+    },
+    {
+        "quote": "`YOU DON'T HAVE TO POST IT TO PROVE IT.`",
+        "date": "2024-06-16 02:02:07"
+    },
+    {
+        "quote": "`THE MOST IMPORTANT STEP A MAN CAN TAKE IS THE NEXT ONE.`",
+        "date": "2024-06-17 02:02:28"
+    },
+    {
+        "quote": "`IF YOU\u2019RE RIGHT, BUT A DICK ABOUT IT, PEOPLE WON\u2019T SEE YOU AS THE GOOD GUY.`",
+        "date": "2024-06-18 02:01:50"
+    },
+    {
+        "quote": "`IT IS EASY TO SIT UP AND TAKE NOTICE. WHAT IS DIFFICULT IS GETTING UP AND TAKING ACTION.`",
+        "date": "2024-06-19 02:01:50"
+    },
+    {
+        "quote": "`A ROOM WITHOUT BOOKS IS LIKE A BODY WITHOUT A SOUL.`",
+        "date": "2024-06-20 02:01:09"
+    },
+    {
+        "quote": "`STOP BEING SO BORED AND GO LEARN SOMETHING NEW.`",
+        "date": "2024-06-21 02:02:25"
+    },
+    {
+        "quote": "`DON\u2019T RUSH, BUT DON\u2019T WAIT. SUCCESS REQUIRES THOUGHTFUL ACTION.`",
+        "date": "2024-06-22 02:02:09"
+    },
+    {
+        "quote": "`BE CAREFUL, THE DEVIL COMES WHEN YOU'RE AT YOUR HIGHEST MOMENT.`",
+        "date": "2024-06-23 02:01:22"
+    },
+    {
+        "quote": "`THE SAME THINGS THAT MAKE US LAUGH, MAKE US CRY.`",
+        "date": "2024-06-24 02:01:26"
+    },
+    {
+        "quote": "`THE WORST PART OF SUCCESS IS TRYING TO FIND SOMEONE WHO IS HAPPY FOR YOU.`",
+        "date": "2024-06-26 02:03:27"
+    },
+    {
+        "quote": "`THE COMFORT ZONE IS WHERE DREAMS GO TO DIE.`",
+        "date": "2024-06-27 02:02:35"
+    },
+    {
+        "quote": "`WHEN SOMETHING IS IMPORTANT ENOUGH, YOU DO IT EVEN IF THE ODDS AREN'T IN YOUR FAVOR.`",
+        "date": "2024-06-28 02:03:02"
+    },
+    {
+        "quote": "`LIFE IS TOO SHORT FOR LONG-TERM GRUDGES.`",
+        "date": "2024-06-29 02:01:40"
+    },
+    {
+        "quote": "`WE ARE ALL INVESTORS; THE CURRENCY AT OUR DISPOSAL IS TIME AND ENERGY.`",
+        "date": "2024-06-30 02:02:40"
+    },
+    {
+        "quote": "`ADMIT WHEN YOU'RE WRONG, SHUT UP WHEN YOU'RE RIGHT.`",
+        "date": "2024-07-01 02:01:16"
+    },
+    {
+        "quote": "`LET YOUR HOPES, NOT YOUR HURTS, DEFINE YOU.`",
+        "date": "2024-07-02 02:01:02"
+    },
+    {
+        "quote": "`IF YOUR DREAMS DON'T SCARE YOU, THEN THEY'RE NOT BIG ENOUGH.`",
+        "date": "2024-07-03 02:01:52"
+    },
+    {
+        "quote": "`EXIST TO BE HAPPY, NOT TO IMPRESS OTHERS.`",
+        "date": "2024-07-04 02:01:58"
+    },
+    {
+        "quote": "`EXPERIENCE IS THE TEACHER OF ALL THINGS.`",
+        "date": "2024-07-05 02:01:43"
+    },
+    {
+        "quote": "`DON'T SAY 'MAYBE' IF YOU WANT TO SAY 'NO.'`",
+        "date": "2024-07-06 02:02:26"
+    },
+    {
+        "quote": "`DON'T MAKE THE MISTAKE OF BEING AFRAID TO MAKE MISTAKES.`",
+        "date": "2024-07-07 02:01:12"
+    },
+    {
+        "quote": "`IT IS NECESSARY TO ANALYZE THE CAUSE OF OUR MISTAKES MUCH MORE CAREFULLY THAN OUR SUCCESSES.`",
+        "date": "2024-07-08 02:02:55"
+    },
+    {
+        "quote": "`THE HEIGHTS BY GREAT MEN REACHED AND KEPT WERE NOT ATTAINED BY SINGLE FLIGHT.`",
+        "date": "2024-07-09 02:02:16"
+    },
+    {
+        "quote": "`IF YOU DON'T HEAL WHAT HURT YOU, YOU'LL BLEED ON THOSE WHO DIDN'T CUT YOU.`",
+        "date": "2024-07-10 02:01:52"
+    },
+    {
+        "quote": "`IF YOU DON'T STAND FOR SOMETHING, YOU WILL FALL FOR ANYTHING.`",
+        "date": "2024-07-11 02:02:53"
+    },
+    {
+        "quote": "`UNTIL YOU MAKE THE EFFORT TO GET TO KNOW SOMEONE OR SOMETHING, YOU DON\u2019T KNOW ANYTHING.`",
+        "date": "2024-07-12 02:00:57"
+    },
+    {
+        "quote": "`THERE ARE NO SHORTCUTS TO KNOWLEDGE, ESPECIALLY KNOWLEDGE GAINED FROM PERSONAL EXPERIENCE.`",
+        "date": "2024-07-13 02:01:22"
+    },
+    {
+        "quote": "`SMALL, INCREMENTAL STEPS ARE THE ONLY SAFE PATH FORWARD.`",
+        "date": "2024-07-14 02:01:06"
+    },
+    {
+        "quote": "`A WISE MAN CHANGES HIS MIND, AND A FOOL NEVER.`",
+        "date": "2024-07-15 02:00:51"
+    },
+    {
+        "quote": "A `WISE MAN ALSO INVESTIGATES AND THEN DECIDES; A FOOL JUST DECIDES.`",
+        "date": "2024-07-16 02:03:06"
+    },
+    {
+        "quote": "`THE WEALTHY IS QUIET, THE RICH IS LOUD, AND THE POOR IS FLASHY.`",
+        "date": "2024-07-17 02:01:27"
+    },
+    {
+        "quote": "`TO BECOME WHO YOU WANT TO BE, YOU MUST SACRIFICE WHO YOU ARE.`",
+        "date": "2024-07-18 02:02:02"
+    },
+    {
+        "quote": "`THE BEST WAY TO GAIN SELF-CONFIDENCE IS TO DO WHAT YOU ARE AFRAID TO DO.`",
+        "date": "2024-07-19 02:01:33"
+    },
+    {
+        "quote": "`IF YOU REST, YOU RUST.`",
+        "date": "2024-07-20 02:01:54"
+    },
+    {
+        "quote": "`'I WAS WRONG' BUILDS MORE RESPECT THAN 'I TOLD YOU SO.'`",
+        "date": "2024-07-21 01:59:58"
+    },
+    {
+        "quote": "`MOST PEOPLE WILL NEVER ACCOMPLISH THE LONG TERM GREAT BECAUSE THEY SETTLE FOR THE SHORT TERM GOOD.`",
+        "date": "2024-07-22 01:59:58"
+    },
+    {
+        "quote": "`THE IMPOSSIBLE IS OFTEN THE UNTRIED.`",
+        "date": "2024-07-23 01:59:58"
+    },
+    {
+        "quote": "`THE BEST PREPARATION FOR TOMORROW IS DOING YOUR BEST TODAY.`",
+        "date": "2024-07-24 01:59:58"
+    },
+    {
+        "quote": "`WHEN YOU CHANGE YOUR HABITUAL THOUGHTS, IT'S LIKE CHANGING THE DIRECTION OF A TRAIN.`",
+        "date": "2024-07-25 01:59:58"
+    },
+    {
+        "quote": "`SILENCE IS GOLDEN WHEN YOU CAN'T THINK OF A GOOD ANSWER.`",
+        "date": "2024-07-26 01:59:58"
+    },
+    {
+        "quote": "`MONEY DOESN'T KILL YOU. WORRYING ABOUT IT DOES.`",
+        "date": "2024-07-27 01:59:58"
+    },
+    {
+        "quote": "`DON'T EXERCISE YOUR FREEDOM OF SPEECH UNTIL YOU HAVE EXERCISED YOUR FREEDOM OF THOUGHT.`",
+        "date": "2024-07-28 01:59:58"
+    },
+    {
+        "quote": "`LOTS OF PEOPLE WORK HARD, BUT SUCCESSFUL PEOPLE WORK HARD AT THE RIGHT THINGS.`",
+        "date": "2024-07-29 01:59:58"
+    },
+    {
+        "quote": "`LEARN TO USE CRITICISM AS FUEL AND YOU WILL NEVER RUN OUT OF MOTIVATION.`",
+        "date": "2024-07-30 01:59:58"
+    },
+    {
+        "quote": "`THERE IS ONLY ONE THING THAT MAKES A DREAM IMPOSSIBLE TO ACHIEVE: THE FEAR OF FAILURE.`",
+        "date": "2024-07-31 01:59:58"
+    },
+    {
+        "quote": "`SHOWING OFF IS THE FOOL'S IDEA OF GLORY.`",
+        "date": "2024-08-01 02:02:24"
+    },
+    {
+        "quote": "`ONE WAY TO KEEP MOMENTUM GOING IS TO HAVE CONSTANTLY GREATER GOALS.`",
+        "date": "2024-08-02 02:02:29"
+    },
+    {
+        "quote": "`LIVING BASED IN SECURITY IS LIVING BASED IN FEAR.`",
+        "date": "2024-08-03 02:02:02"
+    },
+    {
+        "quote": "`THE ONLY TRUE MISTAKES ARE THE ONES YOU REPEAT.`",
+        "date": "2024-08-04 02:01:31"
+    },
+    {
+        "quote": "`DON'T LIVE TO PLEASE.` `NOT EVERYONE IS GONNA LIKE YOU. YOU CAN'T PLEASE THEM ALL.`",
+        "date": "2024-08-05 02:01:40"
+    },
+    {
+        "quote": "`CHAMPIONS KEEP PLAYING UNTIL THEY GET IT RIGHT.`",
+        "date": "2024-08-06 02:02:27"
+    },
+    {
+        "quote": "`IF YOU SPEND YOUR LIFE TRYING TO BE GOOD AT EVERYTHING, YOU'LL NEVER BE GREAT AT ANYTHING.`",
+        "date": "2024-08-07 02:01:11"
+    },
+    {
+        "quote": "`IF YOU'VE NEVER PUT IN THE EFFORT THEN YOU HAVE NO IDEA WHAT EFFORT CAN TRULY ACCOMPLISH.`",
+        "date": "2024-08-08 02:01:16"
+    },
+    {
+        "quote": "`PEOPLE HAVE A RIGHT TO THEIR OPINION. AND YOU HAVE A RIGHT TO IGNORE IT.`",
+        "date": "2024-08-09 02:02:08"
+    },
+    {
+        "quote": "`TAKE A DEEP BREATH AND ENJOY YOUR LIFE.`",
+        "date": "2024-08-10 02:02:00"
+    },
+    {
+        "quote": "`ACTION ALWAYS BEATS INTENTION.`",
+        "date": "2024-08-11 02:02:36"
+    },
+    {
+        "quote": "`ADDICTION IS GIVING UP EVERYTHING FOR ONE THING. RECOVERY IS GIVING UP ONE THING FOR EVERYTHING.`",
+        "date": "2024-08-12 02:01:17"
+    },
+    {
+        "quote": "`SOME THINGS HAVE TO END FOR BETTER THINGS TO BEGIN.`",
+        "date": "2024-08-13 02:02:17"
+    },
+    {
+        "quote": "`TO BE UNKNOWN, IS TO BE UNCONQUERABLE.`",
+        "date": "2024-08-14 02:02:52"
+    },
+    {
+        "quote": "`SLOWLY IS THE FASTEST WAY TO GET TO WHERE YOU WANT TO BE.`",
+        "date": "2024-08-15 02:02:38"
+    },
+    {
+        "quote": "`SURROUND YOURSELF WITH PEOPLE WHOSE EYES LIGHT UP WHEN THEY SEE YOU COMING.`",
+        "date": "2024-08-16 02:01:37"
+    },
+    {
+        "quote": "`DON'T WAIT UNTIL YOU ARE OLD TO REALIZE YOU LIVED THE LIFE OTHER PEOPLE WANTED YOU TO LIVE.`",
+        "date": "2024-08-17 02:02:09"
+    },
+    {
+        "quote": "`OPPORTUNITIES MULTIPLY AS THEY ARE SEIZED.`",
+        "date": "2024-08-18 02:02:27"
+    },
+    {
+        "quote": "`LOVE ALL, TRUST A FEW, DO WRONG TO NONE.`",
+        "date": "2024-08-19 02:01:42"
+    },
+    {
+        "quote": "`IDEAS WITHOUT ACTION ARE WORTHLESS.`",
+        "date": "2024-08-20 02:02:09"
+    },
+    {
+        "quote": "`LOSERS BLAME OTHERS, WINNERS TAKE RESPONSIBILITY.`",
+        "date": "2024-08-21 02:01:38"
+    },
+    {
+        "quote": "`DON'T SHY AWAY FROM UNCOMFORTABLE CONVERSATIONS. THEY MAKE YOU GROW.`",
+        "date": "2024-08-22 02:01:36"
+    },
+    {
+        "quote": "`WHENEVER YOU GET STUCK SEARCHING FOR THE OPTIMAL PLAN, REMEMBER: GETTING STARTED CHANGES EVERYTHING.`",
+        "date": "2024-08-23 02:02:10"
+    },
+    {
+        "quote": "`SMALL, CONSISTENT STEPS YIELD BIG RESULTS.`",
+        "date": "2024-08-24 02:03:15"
+    },
+    {
+        "quote": "`SUCCESS IS LIKING YOURSELF, LIKING WHAT YOU DO, AND LIKING HOW YOU DO IT.`",
+        "date": "2024-08-25 02:02:51"
+    },
+    {
+        "quote": "`CHANCE FAVORS THE PREPARED MIND.`",
+        "date": "2024-08-26 02:01:13"
+    },
+    {
+        "quote": "`YOU DON'T NEED INSPIRATION; YOU NEED DISCIPLINE.`",
+        "date": "2024-08-27 02:02:07"
+    },
+    {
+        "quote": "`DISTANCE YOURSELF FROM PEOPLE WHO MAKE YOU A WORSE PERSON OF YOURSELF.`",
+        "date": "2024-08-28 02:02:58"
+    },
+    {
+        "quote": "`DON'T BE SORRY, BE BETTER.`",
+        "date": "2024-08-29 02:01:12"
+    },
+    {
+        "quote": "`TAKE CARE OF YOUR THOUGHTS WHEN YOU ARE ALONE. TAKE CARE OF YOUR WORDS WHEN YOU ARE WITH PEOPLE.`",
+        "date": "2024-08-30 02:03:08"
+    },
+    {
+        "quote": "`A MISTAKE REPEATED MORE THAN ONCE IS A DECISION.`",
+        "date": "2024-08-31 02:01:27"
+    },
+    {
+        "quote": "`SUCCESSFUL PEOPLE ASK BETTER QUESTIONS, AND AS A RESULT, GET BETTER ANSWERS.`",
+        "date": "2024-09-01 02:03:00"
+    },
+    {
+        "quote": "`SOME PURSUE HAPPINESS, OTHERS CREATE IT.`",
+        "date": "2024-09-02 02:02:08"
+    },
+    {
+        "quote": "`DEADLINES ARE FRIENDS. THEY HELP YOU GET SHIT DONE.`",
+        "date": "2024-09-03 02:01:56"
+    },
+    {
+        "quote": "`IT'S OKAY TO BE BAD AT SOMETHING AND STILL ENJOY IT.`",
+        "date": "2024-09-04 02:01:45"
+    },
+    {
+        "quote": "`YOU ARE WHAT YOU DO, NOT WHAT YOU SAY YOU'LL DO.`",
+        "date": "2024-09-05 01:59:58"
+    },
+    {
+        "quote": "`HAPPINESS AND CONFIDENCE ARE THE PRETTIEST THINGS YOU CAN WEAR.`",
+        "date": "2024-09-06 01:59:58"
+    },
+    {
+        "quote": "`IT DOESN'T TAKE TALENT TO PRACTICE.`",
+        "date": "2024-09-07 01:59:58"
+    },
+    {
+        "quote": "`A GOAL WITHOUT A PLAN IS NOTHING MORE THAN A FANTASY.`",
+        "date": "2024-09-08 01:59:58"
+    },
+    {
+        "quote": "`DO NOT RUN AFTER THE WORLD; LET THE WORLD RUN AFTER YOU.`",
+        "date": "2024-09-09 02:02:46"
+    },
+    {
+        "quote": "`USE FEAR AS YOUR FUEL TO THRUST FURTHER.`",
+        "date": "2024-09-10 02:03:06"
+    },
+    {
+        "quote": "`MISTAKES ARE NOT A BAD THING, IT MAKES YOU SUCCEED.`",
+        "date": "2024-09-11 02:02:31"
+    },
+    {
+        "quote": "`AUTHORITY, POWER, AND WEALTH DO NOT CHANGE A MAN; THEY ONLY REVEAL HIM.`",
+        "date": "2024-09-12 02:03:28"
+    },
+    {
+        "quote": "`WORK HARD, WORK QUIETLY. LET YOUR SUCCESS BE THE NOISE.`",
+        "date": "2024-09-13 02:03:04"
+    },
+    {
+        "quote": "`ALL CHANGE IS HARD AT FIRST, MESSY IN THE MIDDLE AND GORGEOUS AT THE END.`",
+        "date": "2024-09-14 02:02:02"
+    },
+    {
+        "quote": "`THE ONLY DIFFERENCE BETWEEN ORDINARY AND EXTRAORDINARY IS THAT LITTLE EXTRA.`",
+        "date": "2024-09-15 02:03:17"
+    },
+    {
+        "quote": "`DON'T JUST ASPIRE TO MAKE A LIVING, ASPIRE TO MAKE A DIFFERENCE.`",
+        "date": "2024-09-16 02:02:39"
+    },
+    {
+        "quote": "`THE BAD NEWS ABOUT GROWING IS BEING UNCOMFORTABLE. THE GOOD NEWS ABOUT BEING UNCOMFORTABLE IS YOU'RE GROWING.`",
+        "date": "2024-09-17 01:59:58"
+    },
+    {
+        "quote": "`COMFORT ZONE IS A BEAUTIFUL PLACE, BUT NOTHING EVER GROWS THERE.`",
+        "date": "2024-09-18 02:02:49"
+    },
+    {
+        "quote": "`YOU'LL NEVER CHANGE YOUR LIFE UNTIL YOU CHANGE SOMETHING YOU DO DAILY. THE SECRET OF SUCCESS IS FOUND IN YOUR DAILY ROUTINE.`",
+        "date": "2024-09-19 02:03:06"
+    },
+    {
+        "quote": "`DON'T LOOK BACK, YOU'RE NOT GOING THAT WAY.`",
+        "date": "2024-09-20 02:02:06"
+    },
+    {
+        "quote": "`OBSTACLES ARE THINGS A PERSON SEES WHEN HE TAKES HIS EYES OFF HIS GOAL.`",
+        "date": "2024-09-21 02:02:48"
+    },
+    {
+        "quote": "`EAT LESS, MOVE MORE.`",
+        "date": "2024-09-22 02:02:01"
+    },
+    {
+        "quote": "`NO ONE IS BUSY IN THIS WORLD. IT'S ALL ABOUT PRIORITIES.`",
+        "date": "2024-09-23 02:02:52"
+    },
+    {
+        "quote": "`WORRY IS A MISUSE OF IMAGINATION.`",
+        "date": "2024-09-24 02:01:43"
+    },
+    {
+        "quote": "`YOU CAN FAIL IN LIFE DOING THINGS YOU HATE, SO YOU MIGHT AS WELL TAKE A CHANCE DOING WHAT YOU LOVE.`",
+        "date": "2024-09-25 02:02:14"
+    },
+    {
+        "quote": "`STOP BEING AFRAID OF WHAT COULD GO WRONG. START FOCUSING ON WHAT COULD GO RIGHT.`",
+        "date": "2024-09-26 02:03:07"
+    },
+    {
+        "quote": "`OPEN YOUR MIND BEFORE YOU OPEN YOUR MOUTH.`",
+        "date": "2024-09-27 02:02:23"
+    },
+    {
+        "quote": "`DON'T LOOK AT WHAT PEOPLE SAY, LOOK AT WHAT THEY DO.`",
+        "date": "2024-09-28 02:03:03"
+    },
+    {
+        "quote": "`FEEL THE FEAR AND DO IT ANYWAY.`",
+        "date": "2024-09-29 02:02:59"
+    },
+    {
+        "quote": "`KEEP SECRETS, BUT DON'T EXPECT ANYONE TO KEEP YOURS.`",
+        "date": "2024-09-30 02:01:08"
+    },
+    {
+        "quote": "`A PROBLEM IS A CHANCE FOR YOU TO LEARN.`",
+        "date": "2024-10-01 02:02:36"
+    },
+    {
+        "quote": "`BE SOMEONE WHO MAKES EVERYONE FEEL LIKE A SOMEBODY.`",
+        "date": "2024-10-02 02:02:35"
+    },
+    {
+        "quote": "`SEEK RESPECT, NOT ATTENTION. IT LASTS LONGER.`",
+        "date": "2024-10-03 02:02:05"
+    },
+    {
+        "quote": "`HARD WORK NOW MEANS LESS WORK LATER.`",
+        "date": "2024-10-04 02:03:32"
+    },
+    {
+        "quote": "`SPEAK ONLY WHEN IT IMPROVES SILENCE.`",
+        "date": "2024-10-05 02:02:38"
+    },
+    {
+        "quote": "`THE ONLY THING THAT GUARANTEES A 100% FAIL RATE IS NOT TRYING.`",
+        "date": "2024-10-06 02:02:21"
+    },
+    {
+        "quote": "`YOU'LL BE MUCH HAPPIER IF YOU STOP NEEDLESSLY JUDGING PEOPLE.`",
+        "date": "2024-10-07 02:02:36"
+    },
+    {
+        "quote": "`DON'T BELIEVE EVERYTHING YOU THINK.`",
+        "date": "2024-10-08 02:02:25"
+    },
+    {
+        "quote": "`FAILURE IS NOT THE OPPOSITE OF SUCCESS, IT'S PART OF IT.`",
+        "date": "2024-10-09 02:02:18"
+    },
+    {
+        "quote": "`CONSISTENT ACTION CREATES CONSISTENT RESULTS.`",
+        "date": "2024-10-10 02:03:14"
+    },
+    {
+        "quote": "`BIG PROBLEMS ARE BEST SOLVED IN SMALL PIECES.`",
+        "date": "2024-10-11 02:02:35"
+    },
+    {
+        "quote": "`IF YOU HAVE THE COURAGE TO BEGIN, YOU HAVE THE COURAGE TO SUCCEED.`",
+        "date": "2024-10-12 02:03:30"
+    },
+    {
+        "quote": "`ABSORB WHAT IS USEFUL, DISCARD WHAT IS NOT, ADD WHAT IS UNIQUELY YOUR OWN.`",
+        "date": "2024-10-13 02:01:59"
+    },
+    {
+        "quote": "`YOU DON'T NEED TO BE PERFECT. YOU JUST NEED TO BE BETTER THAN YOU WERE YESTERDAY.`",
+        "date": "2024-10-14 02:03:19"
+    },
+    {
+        "quote": "`JEALOUSY IS A GOOD INDICATION YOU ARE DOING THINGS THE RIGHT WAY. PEOPLE NEVER GET JEALOUS OF LOSERS.`",
+        "date": "2024-10-15 02:02:10"
+    },
+    {
+        "quote": "`IT IS IMPOSSIBLE TO DEFEAT AN IGNORANT MAN IN AN ARGUMENT.`",
+        "date": "2024-10-16 02:01:44"
+    },
+    {
+        "quote": "`DON'T SAY MAYBE IF YOU WANT TO SAY NO.`",
+        "date": "2024-10-17 02:02:52"
+    },
+    {
+        "quote": "`TAKE THE RISK OR LIVE WITH THE REGRET.`",
+        "date": "2024-10-18 02:01:58"
+    },
+    {
+        "quote": "`IF YOU ARE SAD, DO SOMETHING FOR SOMEONE ELSE, AND YOUR MOOD WILL CHANGE IMMEDIATELY.`",
+        "date": "2024-10-19 02:02:57"
+    },
+    {
+        "quote": "`BE SO BUSY BUILDING AND LOVING YOUR LIFE THAT YOU HAVE NO TIME FOR HATE, REGRET, WORRY, OR FEAR.`",
+        "date": "2024-10-20 02:01:30"
+    },
+    {
+        "quote": "`YOU CAN GO AS FAR AS YOUR MIND LETS YOU. WHAT YOU BELIEVE, YOU CAN ACHIEVE.`",
+        "date": "2024-10-21 02:01:39"
+    },
+    {
+        "quote": "`ANXIETY IS WHAT HAPPENS WHEN YOU SPEND YOUR TIME IMAGINING THE LIFE YOU COULD BE LIVING WITHOUT PUTTING IN ANY EFFORT TO GET THERE.`",
+        "date": "2024-10-22 02:02:18"
+    },
+    {
+        "quote": "`INACTION BREEDS DOUBT AND FEAR. ACTION BREEDS CONFIDENCE AND COURAGE.`",
+        "date": "2024-10-23 02:02:59"
+    },
+    {
+        "quote": "`NO ONE EVER TELLS YOU THAT BRAVERY FEELS LIKE FEAR.`",
+        "date": "2024-10-24 02:03:13"
+    },
+    {
+        "quote": "`THE FAKER YOU ARE, THE BIGGER YOUR CIRCLE WILL BE. THE REALER YOU ARE, THE SMALLER YOUR CIRCLE WILL BE.`",
+        "date": "2024-10-25 02:03:20"
+    },
+    {
+        "quote": "`YOU CAN ONLY WIN WHEN YOUR MIND IS STRONGER THAN YOUR EMOTIONS.`",
+        "date": "2024-10-26 02:01:55"
+    },
+    {
+        "quote": "`THE PRICE OF PROGRESS IS PAIN.`",
+        "date": "2024-10-27 02:01:30"
+    },
+    {
+        "quote": "`DISCIPLINE CAN FIX 80% OF YOUR PROBLEMS.`",
+        "date": "2024-10-28 02:03:26"
+    },
+    {
+        "quote": "`IT'S A FULL TIME JOB BELIEVING IN YOURSELF. NO DAYS OFF.`",
+        "date": "2024-10-29 02:02:06"
+    },
+    {
+        "quote": "`WORK WHILE THEY SLEEP.`",
+        "date": "2024-10-30 02:01:51"
+    },
+    {
+        "quote": "`YOU EITHER QUIT OR KEEP GOING. THEY BOTH HURT. CHOOSE WISELY.`",
+        "date": "2024-10-31 02:02:27"
+    },
+    {
+        "quote": "`WHEN YOU BRING PEACE TO YOUR PAST, YOU CAN MOVE FORWARD TO YOUR FUTURE.`",
+        "date": "2024-11-01 02:01:19"
+    },
+    {
+        "quote": "`YOU STOP REVISITING MEMORIES WHEN YOU OUTGROW THE PEOPLE YOU MADE THEM WITH.`",
+        "date": "2024-11-02 02:01:41"
+    },
+    {
+        "quote": "`DON'T SAY IT IF YOU DON'T MEAN IT.`",
+        "date": "2024-11-03 02:01:10"
+    },
+    {
+        "quote": "`A GREAT RELATIONSHIP CONSISTS OF APPRECIATING SIMILARITIES AND RESPECTING DIFFERENCES.`",
+        "date": "2024-11-04 02:02:36"
+    },
+    {
+        "quote": "`HOW TO BE HAPPY: DON\u2019T EXPECT ANYTHING FROM ANYONE.`",
+        "date": "2024-11-05 02:02:01"
+    },
+    {
+        "quote": "`BE GOOD TO PEOPLE FOR NO REASON.`",
+        "date": "2024-11-06 02:01:39"
+    },
+    {
+        "quote": "`CHALLENGE YOURSELF TO IMPROVE DAILY, NO MATTER YOUR MOOD.`",
+        "date": "2024-11-07 02:01:24"
+    },
+    {
+        "quote": "`COMFORT IS THE WORST ADDICTION.`",
+        "date": "2024-11-08 02:01:53"
+    },
+    {
+        "quote": "`SUCCESS DOESN\u2019T COME FROM WHAT YOU DO OCCASIONALLY, IT COMES FROM WHAT YOU DO CONSISTENTLY.`",
+        "date": "2024-11-09 02:02:08"
+    },
+    {
+        "quote": "`IF YOU WANT TO FLY, YOU HAVE TO GIVE UP THE THINGS THAT WEIGH YOU DOWN.`",
+        "date": "2024-11-10 02:01:33"
+    },
+    {
+        "quote": "`DO NOT JUDGE OTHERS JUST BECAUSE THEY SIN DIFFERENTLY THAN YOU.`",
+        "date": "2024-11-11 02:02:55"
+    },
+    {
+        "quote": "`A SOMEBODY WAS ONCE A NOBODY WHO WANTED TO AND DID.`",
+        "date": "2024-11-12 02:03:04"
+    },
+    {
+        "quote": "`THE BEST PROOF OF LOVE IS TRUST.`",
+        "date": "2024-11-13 02:02:35"
+    },
+    {
+        "quote": "`YOU WILL NEVER KNOW CHANGE WITHOUT KNOWING CHALLENGE.`",
+        "date": "2024-11-14 02:02:15"
+    },
+    {
+        "quote": "`DON\u2019T GOSSIP. YOU GAIN NOTHING. YOU LOSE RESPECT.`",
+        "date": "2024-11-15 02:03:03"
+    },
+    {
+        "quote": "`WHERE PURPOSE IS NOT KNOWN, ABUSE IS INEVITABLE.`",
+        "date": "2024-11-16 02:02:38"
+    },
+    {
+        "quote": "`PERFECTION IS ACHIEVED NOT WHEN THERE IS NO MORE THAT CAN BE ADDED, BUT WHEN THERE IS NO MORE THAT CAN BE TAKEN AWAY.`",
+        "date": "2024-11-17 02:01:35"
+    },
+    {
+        "quote": "`THE MAGIC YOU ARE LOOKING FOR IS IN THE WORK YOU ARE AVOIDING.`",
+        "date": "2024-11-18 02:03:03"
+    },
+    {
+        "quote": "`MOST PEOPLE WILL CHOOSE UNHAPPINESS OVER UNCERTAINTY.`",
+        "date": "2024-11-19 02:01:33"
+    },
+    {
+        "quote": "`YOU CAN\u2019T ALWAYS BE THE BEST, BUT YOU CAN ALWAYS DO YOUR BEST.`",
+        "date": "2024-11-20 02:03:06"
+    },
+    {
+        "quote": "`BEING RUDE TO STRANGERS IS A COMMON WAY TO SCREAM UNHAPPINESS.`",
+        "date": "2024-11-21 02:01:24"
+    },
+    {
+        "quote": "`PEOPLE DON\u2019T GROW JUST BECAUSE THEY GET OLDER.`",
+        "date": "2024-11-22 02:03:11"
+    },
+    {
+        "quote": "`YOU CANNOT DO ALL THE GOOD THE WORLD NEEDS, BUT THE WORLD NEEDS ALL THE GOOD YOU CAN DO.`",
+        "date": "2024-11-23 02:03:03"
+    },
+    {
+        "quote": "`WHAT WE REALLY ARE MEANS MORE THAN WHAT PEOPLE THINK OF US.`",
+        "date": "2024-11-24 02:02:37"
+    },
+    {
+        "quote": "`YOUR CIRCLE IS SUPPOSED TO BE PROUD OF YOU, NOT JEALOUS.`",
+        "date": "2024-11-25 02:01:59"
+    },
+    {
+        "quote": "`REAL LUXURY IS TIME AND OPPORTUNITY TO READ FOR PLEASURE.`",
+        "date": "2024-11-26 02:01:09"
+    },
+    {
+        "quote": "`IT\u2019S OKAY TO BE BAD AT SOMETHING AND STILL ENJOY IT.`",
+        "date": "2024-11-27 02:02:25"
+    },
+    {
+        "quote": "`IF PEOPLE ARE NOT LAUGHING AT YOUR GOALS, YOUR GOALS ARE TOO SMALL.`",
+        "date": "2024-11-28 02:01:27"
+    },
+    {
+        "quote": "`WISE MEN TALK BECAUSE THEY HAVE SOMETHING TO SAY; FOOLS TALK BECAUSE THEY HAVE TO SAY SOMETHING.`",
+        "date": "2024-11-29 02:02:47"
+    },
+    {
+        "quote": "`PEOPLE BUY INTO THE LEADER BEFORE THEY BUY INTO THE VISION.`",
+        "date": "2024-11-30 02:01:11"
+    },
+    {
+        "quote": "`JUST MAKE IT EXIST FIRST. YOU CAN MAKE IT GOOD LATER.`",
+        "date": "2024-12-01 02:02:12"
+    },
+    {
+        "quote": "`TWO THINGS DEFINE YOU: YOUR PATIENCE WHEN YOU HAVE NOTHING AND YOUR ATTITUDE WHEN YOU HAVE EVERYTHING.`",
+        "date": "2024-12-02 02:01:37"
+    },
+    {
+        "quote": "`TO ACQUIRE KNOWLEDGE, ONE MUST STUDY; BUT TO ACQUIRE WISDOM, ONE MUST OBSERVE.`",
+        "date": "2024-12-03 02:02:25"
+    },
+    {
+        "quote": "`UNTIL IT'S DONE, TELL NONE.`",
+        "date": "2024-12-04 02:01:53"
+    },
+    {
+        "quote": "`PEOPLE TREATING YOU POORLY IS A REFLECTION OF THEM, NOT YOU.`",
+        "date": "2024-12-05 02:00:53"
+    },
+    {
+        "quote": "`JUST BECAUSE YOU ARE GOOD AT SOMETHING DOESN\u2019T MEAN IT HAS TO BE YOUR CAREER.`",
+        "date": "2024-12-06 02:01:29"
+    },
+    {
+        "quote": "`POSTURE AND APPEARANCE HAVE A SIGNIFICANT IMPACT ON HOW YOU FEEL ABOUT YOURSELF.`",
+        "date": "2024-12-07 02:03:13"
+    },
+    {
+        "quote": "`DON'T CONFUSE WEALTH WITH SUCCESS.`",
+        "date": "2024-12-08 02:02:59"
+    },
+    {
+        "quote": "`WORRYING IS LIKE PRAYING FOR STUFF YOU DON'T WANT TO HAPPEN.`",
+        "date": "2024-12-09 02:03:22"
+    },
+    {
+        "quote": "`FAKING CONFIDENCE IS JUST AS GOOD AS ACTUALLY HAVING IT.`",
+        "date": "2024-12-10 02:03:06"
+    },
+    {
+        "quote": "`TAKE THE ATTITUDE OF A STUDENT, NEVER BE TOO BIG TO ASK QUESTIONS, NEVER KNOW TOO MUCH TO LEARN SOMETHING NEW.`",
+        "date": "2024-12-11 02:01:07"
+    },
+    {
+        "quote": "`TRY TO FIND A HOBBY THAT KEEPS YOU IN SHAPE. IT PAYS OFF IN THE LONG RUN.`",
+        "date": "2024-12-12 02:03:35"
+    },
+    {
+        "quote": "`BEING PROVEN WRONG IS A GOOD THING. YOU'RE LEARNING SOMETHING NEW.`",
+        "date": "2024-12-13 02:03:05"
+    },
+    {
+        "quote": "`YOUR GOALS SHOULD SCARE YOU A LITTLE AND EXCITE YOU A LOT.`",
+        "date": "2024-12-14 02:02:18"
+    },
+    {
+        "quote": "`THEY WILL`` SAY YOU JUST GOT LUCKY, BUT I`` WOULD SAY IT'S CONSISTENCY.`",
+        "date": "2024-12-15 02:01:14"
+    },
+    {
+        "quote": "`YOUR LAZINESS IS DISRESPECTFUL FOR THE PEOPLE WHO BELIEVE IN YOU.`",
+        "date": "2024-12-16 02:03:07"
+    },
+    {
+        "quote": "`TEMPTATION TO GIVE UP IS GREATEST BEFORE YOU'RE ABOUT TO SUCCEED.`",
+        "date": "2024-12-17 02:01:09"
+    },
+    {
+        "quote": "`MAKING IT IS EASY, MAINTAINING IT IS HARD.`",
+        "date": "2024-12-18 02:01:30"
+    },
+    {
+        "quote": "`DON\u2019T BURN YOUR OPPORTUNITIES FOR A TEMPORARY COMFORT.`",
+        "date": "2024-12-20 02:02:33"
+    },
+    {
+        "quote": "`YOU LEARN NOTHING FROM LIFE IF YOU THINK YOU\u2019RE RIGHT ALL THE TIME.`",
+        "date": "2024-12-21 02:02:42"
     }
 ]
