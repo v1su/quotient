@@ -1,20 +1,22 @@
 name: Generate Quote Image
 
 on:
-  push:
-    branches:
-      - main
+  # Schedule the workflow to run at 7 AM IST every day
+  schedule:
+    - cron: '0 1 * * *'  # This translates to 7 AM IST (UTC+5:30) as GitHub Actions uses UTC
+
+  # Allow manual triggering
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
       # Checkout the code
       - name: Checkout code
         uses: actions/checkout@v2
-        
+
       # Set up Python environment
       - name: Set up Python
         uses: actions/setup-python@v2
