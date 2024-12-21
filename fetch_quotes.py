@@ -75,17 +75,27 @@ async def update_quotes_file():
     # Get the dates for the next week, starting from the previous Sunday
     next_week_dates = get_next_week_dates()
 
-    # Prepare the data to save
-    quotes_data = []
+    # Load existing data from the JSON file
+    if os.path.exists(QUOTES_FILE):
+        with open(QUOTES_FILE, "r") as f:
+            quotes_data = json.load(f)
+    else:
+        quotes_data = []
+
+    # Prepare the new data entries
+    new_quotes = []
     for idx, date in enumerate(next_week_dates):
         quote = (
             messages[idx]["quote"]
             if idx < len(messages)
             else PLACEHOLDER_QUOTE  # Use placeholder if there aren't enough messages
         )
-        quotes_data.append({"quote": quote, "date": date})
+        new_quotes.append({"quote": quote, "date": date})
 
-    # Save the quotes to a JSON file
+    # Append new entries to existing data
+    quotes_data.extend(new_quotes)
+
+    # Save the updated data back to the JSON file
     with open(QUOTES_FILE, "w") as f:
         json.dump(quotes_data, f, indent=4)
 
