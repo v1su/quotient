@@ -3,7 +3,7 @@ name: Generate Quote Image
 on:
   # Schedule the workflow to run at 7 AM IST every day
   schedule:
-    - cron: '*/10 * * * *'  # This translates to 7 AM IST (UTC+5:30) as GitHub Actions uses UTC
+    - cron: '*/16 * * * *'  # This translates to 7 AM IST (UTC+5:30) as GitHub Actions uses UTC
 
   # Allow manual triggering
   workflow_dispatch:
